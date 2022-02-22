@@ -43,10 +43,7 @@ jobs:
 
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          # Workaround for inability of sushi to generate snapshots: untar packages first (using script)
-          # Run the publisher - don't run the batch script but run the line directly
-          args: ./packages/run_ig_publisher.sh
+
 
       # deploy implementation guide to github pages
       - name: Deploy
