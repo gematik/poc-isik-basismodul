@@ -11,14 +11,14 @@ fhirVersion: 4.0.1
 # copyright:
 copyrightYear: 2021+
 releaseLabel: ci-build
-title: Botswana Laboratory HIE Workflow Implementation Guide
+title: ISiK Basismodul
 description: TODO
 license: CC-BY-SA-4.0
 publisher:
-  name: B-TECHBW
-  url: www.github.com/b-techbw
-  email: pmanko@uw.edu
-  contact: Piotr W Mankowski
+  name: gematik
+  url: www.gematik.de
+  email: isik@gematik.de
+  contact: isik@gematik
 jurisdiction:
   - http://unstats.un.org/unsd/methods/m49/m49.htm#072
   - urn:iso:std:iso:3166#BW
