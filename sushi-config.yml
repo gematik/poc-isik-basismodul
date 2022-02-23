@@ -26,14 +26,7 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 dependencies:
-  hl7.fhir.uv.ips: 1.0.0
-  #ihe.mcsd.fhir: dev
-    # uri: https://ihe.github.io/ITI.mCSD/index.html
-    # version: 0.2.0
-  #laboratory.workflows.ig: 0.2.0
-    # uri: https://i-tech-uw.github.io/laboratory-workflows-ig/
-    # version: 0.2.0
-  de.basisprofil.r4:
+  de.gematik.isik-basismodul:
     id: de.gematik.isik-basismodul 
     uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
     version: 1.0.3
