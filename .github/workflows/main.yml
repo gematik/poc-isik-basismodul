@@ -25,11 +25,6 @@ jobs:
         with:
          shellcommand: "chmod +x ./_updatePublisher.sh --force"
 
-      - name: Run sushi to generate the ig.ini file
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: sushi .
-
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
