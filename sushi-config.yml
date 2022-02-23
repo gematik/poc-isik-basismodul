@@ -21,6 +21,10 @@ publisher:
   name: gematik
   url: https://www.gematik.de
   email: isik@gematik.de
+
+experimental: true
+parameters:
+  excludettl: true
  
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
