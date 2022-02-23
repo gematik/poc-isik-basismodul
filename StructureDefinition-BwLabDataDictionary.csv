@@ -1,0 +1,89 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: PIMS 2 V4","Mapping: FHIR Release 4","Mapping: RIM Mapping"
+"EmrLisDataDictionary","","","",0,*,"","","","","Base for all elements","EmrLisDataDictionary","","","","","","","","","",,,,,"",,,,"Element",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","","","n/a"
+"EmrLisDataDictionary.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"EmrLisDataDictionary.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"EmrLisDataDictionary.Patient","","","",0,1,"","","","BackboneElement {[]} {[]}
+","EMR-LIS Patient Logical Model","Logical model of EMR-LIS Patient","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient",0,1,"","","Patient.tblPatient","Patient"
+"EmrLisDataDictionary.Patient.NationalID","","","",0,1,"","","","Identifier {[]} {[]}
+","National Patient Identification Number","Main national-level identification number (Omang or Passport)","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.NationalID",0,1,"","","Patient.tblPatient.IDNo; Patient.tblPatient.IDNoType","Patient.identifier"
+"EmrLisDataDictionary.Patient.Active","","","",0,1,"","","","text {[]} {[]}
+","Patient Active Flag","Flag for distinguishing between active and not active Patients","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.Active",0,1,"","","Patient.tblPatientProgramActivity","Patient.active"
+"EmrLisDataDictionary.Patient.MaritalStatus","","","",0,*,"","","","string {[]} {[]}
+","Marital Status","Marital Status","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.MaritalStatus",0,*,"","","Patient.tblPatient.MartitalStatusID; Patient.tblkMaritalStatus","Patient.maritalStatus"
+"EmrLisDataDictionary.Patient.Address","","","",0,*,"","","","Address {[]} {[]}
+","Patient Address","Patient Address","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.Address",0,*,"","","Patient.tblAddress; Patient.tblkAddressType","Patient.address"
+"EmrLisDataDictionary.Patient.birthDate","","","",0,1,"","","","date {[]} {[]}
+","Patient Date of Birth","Patient Date of Birth","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.birthDate",0,1,"","","Patient.tblPatient.DOB","Patient.birthDate"
+"EmrLisDataDictionary.Patient.birthDateType","","","",0,1,"","","","string {[]} {[]}
+","Birth Date Type","Type of Birth Date","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.birthDateType",0,1,"","","Patient.tblPatient.DOBType","TODO"
+"EmrLisDataDictionary.Patient.Contact","","","",0,*,"","","","ContactPoint {[]} {[]}
+","Patient Contact Information","Patient Contact Information","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.Contact",0,*,"","","Patient.tblContactDetail","Patient.telecom"
+"EmrLisDataDictionary.Patient.Name","","","",0,*,"","","","HumanName {[]} {[]}
+","Patient Name","Patient Name","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.Name",0,*,"","","Patient.tblPatient.Surname; Patient.tblPatient.Firstname; Patient.tblPatient.Middlename","Patient.name"
+"EmrLisDataDictionary.Patient.GenderID","","","",0,1,"","","","string {[]} {[]}
+","Gender","Gender","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Patient.GenderID",0,1,"","","Patient.tblPatient.GenderID; Patient.tblkGender","Patient.gender"
+"EmrLisDataDictionary.LabOrderTask","","","",0,1,"","","","BackboneElement {[]} {[]}
+","EMR-LIS Lab Order Task Logical Model","Logical model of a EMR-LIS Lab Order Task","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask",0,1,"","","Laboratory.tblLabOrder","BwLabTask"
+"EmrLisDataDictionary.LabOrderTask.Patient","","","",1,1,"","","","Reference {[]} {[]}
+","Lab Order Patient","The Patient for whom the lab order was created","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.Patient",1,1,"","","Laboratory.tblLabOrder.PatientID","Task.for"
+"EmrLisDataDictionary.LabOrderTask.Requester","","","",0,1,"","","","Reference {[]} {[]}
+","Lab Order Requester","The requester of the lab order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.Requester",0,1,"","","Laboratory.tblLabOrder.RequesterID","Task.owner"
+"EmrLisDataDictionary.LabOrderTask.OrderDate","","","",1,1,"","","","date {[]} {[]}
+","Lab Order Date","Date Lab Order was authored on","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.OrderDate",1,1,"","","Laboratory.tblLabOrder.LabOrderDate","Task.authoredOn"
+"EmrLisDataDictionary.LabOrderTask.RequestingFacility","","","",1,1,"","","","Reference {[]} {[]}
+","Requesting Facility","Requesting Facility","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.RequestingFacility",1,1,"","","Laboratory.tblLabOrder.RequestingFacilityID","Task.owner"
+"EmrLisDataDictionary.LabOrderTask.OrderNumber","","","",1,1,"","","","Identifier {[]} {[]}
+","National Order Identifier","National Order Identifier","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.OrderNumber",1,1,"","","Laboratory.tblLabOrder.LabOrderNo","Task.identifier"
+"EmrLisDataDictionary.LabOrderTask.LabOrderGroup","","","",1,*,"","","","Reference {[]} {[]}
+","Ordered Lab Test Profile for Lab Order","Reference to Ordered Lab Test Profile for Lab Order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.LabOrderGroup",1,*,"","","Laboratory.tblLabOrderProfile","Task.basedOn"
+"EmrLisDataDictionary.LabOrderTask.Result","","","",0,*,"","","","Reference {[]} {[]}
+","Lab Order Result","Lab Order Result","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderTask.Result",0,*,"","","Laboratory.tblLabOrderProfileTest","Task.output"
+"EmrLisDataDictionary.LabOrderGroup","","","",0,1,"","","","BackboneElement {[]} {[]}
+","EMR-LIS Lab Order Group Logical Model","Logical model of a EMR-LIS Lab Order Group","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup",0,1,"","","Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile","BwLabTask"
+"EmrLisDataDictionary.LabOrderGroup.Patient","","","",1,1,"","","","Reference {[]} {[]}
+","Lab Order Patient","The subject of the lab order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.Patient",1,1,"","","Laboratory.tblLabOrder.PatientID","ServiceRequest.subject"
+"EmrLisDataDictionary.LabOrderGroup.Requester","","","",0,1,"","","","Reference {[]} {[]}
+","Lab Order Requester","The requester of the lab order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.Requester",0,1,"","","Laboratory.tblLabOrder.RequesterID","ServiceRequest.requester"
+"EmrLisDataDictionary.LabOrderGroup.OrderDate","","","",1,1,"","","","date {[]} {[]}
+","Lab Order Date","Date Lab Order was authored on","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.OrderDate",1,1,"","","Laboratory.tblLabOrder.LabOrderDate","ServiceRequest.authoredOn"
+"EmrLisDataDictionary.LabOrderGroup.SampleDate","","","",1,1,"","","","date {[]} {[]}
+","Scheduled Sample Date","Date sample collection is scheduled for.","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.SampleDate",1,1,"","","Laboratory.tblLabOrder.SampleDate","ServiceRequest.occurance"
+"EmrLisDataDictionary.LabOrderGroup.RequestingFacility","","","",1,1,"","","","Reference {[]} {[]}
+","Requesting Facility","Requesting Facility","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.RequestingFacility",1,1,"","","Laboratory.tblLabOrder.RequestingFacilityID","ServiceRequest.requester"
+"EmrLisDataDictionary.LabOrderGroup.Profile","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Ordering Profile for Lab Orders","Ordering Profile for Lab Orders","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.Profile",1,1,"","","Laboratory.tblLabOrderProfile.labOrderProfileID","ServiceRequest"
+"EmrLisDataDictionary.LabOrderGroup.LabOrder","","","",1,*,"","","","Reference {[]} {[]}
+","Reference to child lab orders","Reference to child lab orders","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrderGroup.LabOrder",1,*,"","","Laboratory.tblLabOrderProfileTest","ServiceRequest.code"
+"EmrLisDataDictionary.LabOrder","","","",0,1,"","","","BackboneElement {[]} {[]}
+","EMR-LIS Lab Order Logical Model","Logical model of a EMR-LIS Lab Order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder",0,1,"","","Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile, Laboratory.tblLabOrderProfileTest","BwServiceRequest"
+"EmrLisDataDictionary.LabOrder.Patient","","","",1,1,"","","","Reference {[]} {[]}
+","Lab Order Patient","The subject of the lab order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.Patient",1,1,"","","Laboratory.tblLabOrder.PatientID","ServiceRequest.subject"
+"EmrLisDataDictionary.LabOrder.Requester","","","",0,1,"","","","Reference {[]} {[]}
+","Lab Order Requester","The requester of the lab order","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.Requester",0,1,"","","Laboratory.tblLabOrder.RequesterID","ServiceRequest.requester"
+"EmrLisDataDictionary.LabOrder.OrderDate","","","",1,1,"","","","date {[]} {[]}
+","Lab Order Date","Date Lab Order was authored on","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.OrderDate",1,1,"","","Laboratory.tblLabOrder.LabOrderDate","ServiceRequest.authoredOn"
+"EmrLisDataDictionary.LabOrder.SampleDate","","","",1,1,"","","","date {[]} {[]}
+","Scheduled Sample Date","Date sample collection is scheduled for.","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.SampleDate",1,1,"","","Laboratory.tblLabOrder.SampleDate","ServiceRequest.occurance"
+"EmrLisDataDictionary.LabOrder.RequestingFacility","","","",1,1,"","","","Reference {[]} {[]}
+","Requesting Facility","Requesting Facility","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.RequestingFacility",1,1,"","","Laboratory.tblLabOrder.RequestingFacilityID","ServiceRequest.requester"
+"EmrLisDataDictionary.LabOrder.LabTest","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Ordered Lab Test","Ordered Lab Test","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabOrder.LabTest",1,1,"","","Laboratory.tblLabOrderProfileTest.LabTestID","ServiceRequest.code"
+"EmrLisDataDictionary.LabTest","","","",1,*,"","","","Reference {[]} {[]}
+","Lab Test","Reference to Lab Test","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.LabTest",1,*,"","","Laboratory.tblLabOrderProfile.LabTestID","ServiceRequest.code"
+"EmrLisDataDictionary.Result","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Result for Lab Orders","Result for Lab Orders","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Result",0,*,"","","Laboratory.tblLabOrderProfile; Laboratory.tblLabOrderProfileTest; Laboratory.tblLabOrderProfileTestParameter","DiagnosticReport"
+"EmrLisDataDictionary.Result.LabTest","","","",0,1,"","","","Reference {[]} {[]}
+","Lab Test for Result","Lab Test for Result","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Result.LabTest",0,1,"","","Laboratory.tblLabOrderProfile","DiagnosticReport.code"
+"EmrLisDataDictionary.Result.Value","","","",1,1,"","","","BackboneElement {[]} {[]}
+","Value for Result","Value for Result","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Result.Value",1,1,"","","Laboratory.tblLabOrderProfileTest.Result; Laboratory.tblLabOrderProfileTestParameter.Result","Observation.value"
+"EmrLisDataDictionary.Result.ValueType","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Type of Value for Result","Type of Value for Result","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Result.ValueType",1,1,"","","??","Observation.value[x]"
+"EmrLisDataDictionary.Result.Unit","","","",0,1,"","","","string {[]} {[]}
+","Unit for Result","Unit for Result","","","","","","","","","",,,,,"",,,,"EmrLisDataDictionary.Result.Unit",0,1,"","","Laboratory.tblLabOrderProfileTest.LabTestUnitID","Observation.value[Quantity]; Quantity.unit"

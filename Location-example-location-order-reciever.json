@@ -1,0 +1,37 @@
+{
+  "resourceType": "Location",
+  "id": "example-location-order-reciever",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-location-order-reciever\" </p></div><p><b>status</b>: active</p><p><b>type</b>: HLAB <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#HLAB)</span>, Facility <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ITI.mCSD#Facility)</span></p><p><b>physicalType</b>: bu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#bu)</span></p><p><b>managingOrganization</b>: <a href=\"Organization-example-facility-order-reciever.html\">Organization/example-facility-order-reciever</a></p></div>"
+  },
+  "status": "active",
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "urn:ietf:rfc:3986",
+          "code": "HLAB"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "https://github.com/ihe/ITI.mCSD",
+          "code": "Facility"
+        }
+      ]
+    }
+  ],
+  "physicalType": {
+    "coding": [
+      {
+        "code": "bu"
+      }
+    ]
+  },
+  "managingOrganization": {
+    "reference": "Organization/example-facility-order-reciever"
+  }
+}

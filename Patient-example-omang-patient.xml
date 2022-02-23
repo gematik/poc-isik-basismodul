@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="example-omang-patient"/>
+  <meta>
+    <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>&lt;SURNME&gt; &lt;FIRST_NME&gt; (OFFICIAL)</b> (no stated gender) 2000-01-01 ( id: &lt;ID_NO&gt; (OFFICIAL))</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://moh.bw.org/ext/identifier/omang"/>
+    <value value="&lt;ID_NO&gt;"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="&lt;FIRST_NME&gt;"/>
+    <given value="&lt;SURNME&gt;"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="2000-01-01"/>
+  <deceasedDateTime value="2010-01-01"/>
+  <address>
+    <district value="&lt;DISTRICT_NME&gt;"/>
+    <postalCode value="&lt;DISTRICT_CDE&gt;"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <code value="M"/>
+    </coding>
+  </maritalStatus>
+</Patient>

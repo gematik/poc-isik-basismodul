@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bw-lab-order-code-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a></li></ul></div>"
+  },
+  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-order-code-vs",
+  "version": "0.2.0",
+  "name": "BwLabOrderCodeVS",
+  "title": "Botswana Lab Order Code",
+  "status": "active",
+  "date": "2022-02-23T10:07:07+00:00",
+  "publisher": "B-TECHBW",
+  "contact": [
+    {
+      "name": "B-TECHBW",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.github.com/b-techbw"
+        },
+        {
+          "system": "email",
+          "value": "pmanko@uw.edu"
+        }
+      ]
+    }
+  ],
+  "description": "The code for the lab order.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "072"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "BW"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested> a fhir:Task;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-bw-task-requested"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task";
+       fhir:index 0;
+       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-task-requested\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-lab-task.html\">Botswana Lab Task Resource</a></p></div><p><b>identifier</b>: id: PimsSpecificLabOrderID</p><p><b>basedOn</b>: </p><ul><li><a href=\"ServiceRequest-example-bw-pims-service-request-1.html\">ServiceRequest/example-bw-pims-service-request-1</a></li><li><a href=\"ServiceRequest-example-bw-pims-service-request-2.html\">ServiceRequest/example-bw-pims-service-request-2</a></li></ul><p><b>status</b>: requested</p><p><b>intent</b>: order</p><p><b>for</b>: <a href=\"Patient-example-pims-patient.html\">Patient/example-pims-patient</a> \" PIMSPATIENT\"</p><p><b>authoredOn</b>: 2021-05-20</p><p><b>owner</b>: <a href=\"Organization-example-facility-order-reciever.html\">Organization/example-facility-order-reciever</a></p><p><b>location</b>: <a href=\"Location-example-location-order-creator.html\">Location/example-location-order-creator</a></p></div>"
+  ];
+  fhir:Task.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://<pims-instance-specific-url>/ext/lab-task/identifier" ];
+     fhir:Identifier.value [ fhir:value "PimsSpecificLabOrderID" ]
+  ];
+  fhir:Task.basedOn [
+     fhir:index 0;
+     fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+     fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+     fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
+  ];
+  fhir:Task.status [ fhir:value "requested"];
+  fhir:Task.intent [ fhir:value "order"];
+  fhir:Task.for [
+     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
+  ];
+  fhir:Task.authoredOn [ fhir:value "2021-05-20"^^xsd:date];
+  fhir:Task.owner [
+     fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+     fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
+  ];
+  fhir:Task.location [
+     fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-creator>;
+     fhir:Reference.reference [ fhir:value "Location/example-location-order-creator" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

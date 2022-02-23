@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-omang-patient"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient";
+       fhir:index 0;
+       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>&lt;SURNME&gt; &lt;FIRST_NME&gt; (OFFICIAL)</b> (no stated gender) 2000-01-01 ( id: &lt;ID_NO&gt; (OFFICIAL))</p></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "http://moh.bw.org/ext/identifier/omang" ];
+     fhir:Identifier.value [ fhir:value "<ID_NO>" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "<FIRST_NME>" ];
+     fhir:HumanName.given [
+       fhir:value "<SURNME>";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "2000-01-01"^^xsd:date];
+  fhir:Patient.deceasedDateTime [ fhir:value "2010-01-01"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.district [ fhir:value "<DISTRICT_NME>" ];
+     fhir:Address.postalCode [ fhir:value "<DISTRICT_CDE>" ]
+  ];
+  fhir:Patient.maritalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.code [ fhir:value "M" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

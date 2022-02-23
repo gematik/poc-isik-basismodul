@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bw-pims-lab-class-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-bw-pims-lab-class-cs.html"><code>http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-class-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-class-vs"/>
+  <version value="0.2.0"/>
+  <name value="BwPimsLabClassVS"/>
+  <title value="Status Values for PIMS Lab Orders"/>
+  <status value="active"/>
+  <date value="2022-02-23T10:07:07+00:00"/>
+  <publisher value="B-TECHBW"/>
+  <contact>
+    <name value="B-TECHBW"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.github.com/b-techbw"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pmanko@uw.edu"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="072"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BW"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-class-cs"/>
+    </include>
+  </compose>
+</ValueSet>

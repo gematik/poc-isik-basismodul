@@ -1,0 +1,53 @@
+{
+  "resourceType": "Composition",
+  "id": "example-bw-lab-composition",
+  "meta": {
+    "profile": [
+      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-lab-composition\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-lab-composition.html\">Botswana Lab Order Composition</a></p></div><p><b>status</b>: active</p><p><b>type</b>: document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#document)</span></p><p><b>date</b>: 2021-06-06</p><p><b>author</b>: <a href=\"example-bw-practitioner\">example-bw-practitioner</a></p><p><b>title</b>: BW Lab Order Composition</p></div>"
+  },
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "code": "document"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-pims-patient"
+  },
+  "date": "2021-06-06",
+  "author": [
+    {
+      "reference": "example-bw-practitioner"
+    }
+  ],
+  "title": "BW Lab Order Composition",
+  "section": [
+    {
+      "entry": [
+        {
+          "reference": "Task/example-bw-task-requested"
+        }
+      ]
+    },
+    {
+      "entry": [
+        {
+          "reference": "ServiceRequest/example-bw-pims-service-request-profile"
+        },
+        {
+          "reference": "ServiceRequest/example-bw-pims-service-request-1"
+        },
+        {
+          "reference": "ServiceRequest/example-bw-pims-service-request-2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="bw-pims-lab-test-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">CD4<a name="bw-pims-lab-test-cs-CD4"> </a></td><td>CD4 Count</td><td>tblkLabTest#1 - CD4 count</td></tr><tr><td style="white-space:nowrap">CD4%<a name="bw-pims-lab-test-cs-CD4.37"> </a></td><td>CD4 Percentage</td><td>tblkLabTest#2 - CD4 Percent</td></tr><tr><td style="white-space:nowrap">VL<a name="bw-pims-lab-test-cs-VL"> </a></td><td>Viral Load</td><td>tblkLabTest#3 - Viral Load (HIV?)</td></tr><tr><td style="white-space:nowrap">PCV<a name="bw-pims-lab-test-cs-PCV"> </a></td><td>Packed Cell Volume (PCV)</td><td>tblkLabTest#4 - Packed Cell Volume</td></tr><tr><td style="white-space:nowrap">WBC<a name="bw-pims-lab-test-cs-WBC"> </a></td><td>White Blood Cells(WBC)</td><td>tblkLabTest#5 - White Blood Cells</td></tr><tr><td style="white-space:nowrap">NP%<a name="bw-pims-lab-test-cs-NP.37"> </a></td><td>Neutrophils %</td><td>tblkLabTest#7 - Neutrophils %</td></tr><tr><td style="white-space:nowrap">AST<a name="bw-pims-lab-test-cs-AST"> </a></td><td>Aspartate Aminotrasferase</td><td>tblkLabTest#9 - Aspartate aminotrasferase</td></tr><tr><td style="white-space:nowrap">GGT<a name="bw-pims-lab-test-cs-GGT"> </a></td><td>Gamma Glutamyl Transferase</td><td>tblkLabTest#10 - Gamma glutamyl transferase</td></tr><tr><td style="white-space:nowrap">ALPL<a name="bw-pims-lab-test-cs-ALPL"> </a></td><td>Alkaline Phosphatase</td><td>tblkLabTest#11 - Alkaline Phosphatase</td></tr><tr><td style="white-space:nowrap">LIP<a name="bw-pims-lab-test-cs-LIP"> </a></td><td>Lipase</td><td>tblkLabTest#12 - Lipase</td></tr><tr><td style="white-space:nowrap">TGS<a name="bw-pims-lab-test-cs-TGS"> </a></td><td>TGS</td><td>tblkLabTest#13 - TGS</td></tr><tr><td style="white-space:nowrap">Urea<a name="bw-pims-lab-test-cs-Urea"> </a></td><td>Urea</td><td>tblkLabTest#14 - Urea</td></tr><tr><td style="white-space:nowrap">Na<a name="bw-pims-lab-test-cs-Na"> </a></td><td>Sodium</td><td>tblkLabTest#15 - Sodium</td></tr><tr><td style="white-space:nowrap">K<a name="bw-pims-lab-test-cs-K"> </a></td><td>Potassium</td><td>tblkLabTest#16 - Potassium</td></tr><tr><td style="white-space:nowrap">PCR<a name="bw-pims-lab-test-cs-PCR"> </a></td><td>DNA PCR</td><td>tblkLabTest#17 - DNA PCR</td></tr><tr><td style="white-space:nowrap">Ag<a name="bw-pims-lab-test-cs-Ag"> </a></td><td>Ag</td><td>tblkLabTest#18 - DNA PCR</td></tr><tr><td style="white-space:nowrap">CST<a name="bw-pims-lab-test-cs-CST"> </a></td><td>Culture Sensitive Test</td><td>tblkLabTest#19 - Culture Sensitive Test</td></tr><tr><td style="white-space:nowrap">MCV<a name="bw-pims-lab-test-cs-MCV"> </a></td><td>Mean Cell Volume</td><td>tblkLabTest#20 - Mean cell volume</td></tr><tr><td style="white-space:nowrap">Rapid<a name="bw-pims-lab-test-cs-Rapid"> </a></td><td>Rapid</td><td>tblkLabTest#21 - Rapid</td></tr><tr><td style="white-space:nowrap">ELISA<a name="bw-pims-lab-test-cs-ELISA"> </a></td><td>ELISA</td><td>tblkLabTest#22 - ELISA</td></tr><tr><td style="white-space:nowrap">UP<a name="bw-pims-lab-test-cs-UP"> </a></td><td>Urine Pregnancy</td><td>tblkLabTest#23 - Urine pregnancy test</td></tr><tr><td style="white-space:nowrap">CXRAY<a name="bw-pims-lab-test-cs-CXRAY"> </a></td><td>Chest X-Ray</td><td>tblkLabTest#25 - Chest x-ray</td></tr><tr><td style="white-space:nowrap">PT<a name="bw-pims-lab-test-cs-PT"> </a></td><td>Pleural Tap</td><td>tblkLabTest#26 - Pleural tap</td></tr><tr><td style="white-space:nowrap">CSF<a name="bw-pims-lab-test-cs-CSF"> </a></td><td>CSF</td><td>tblkLabTest#27 - CSF</td></tr><tr><td style="white-space:nowrap">LNB<a name="bw-pims-lab-test-cs-LNB"> </a></td><td>Lymph Node Biopsy</td><td>tblkLabTest#28 - Lymph node biopsy</td></tr><tr><td style="white-space:nowrap">SM<a name="bw-pims-lab-test-cs-SM"> </a></td><td>Sputum Microscopy</td><td>tblkLabTest#130 - Sputum microscopy</td></tr></table></div>
+  </text>
+  <url value="http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs"/>
+  <version value="0.2.0"/>
+  <name value="BwPimsLabTestCS"/>
+  <title value="PIMS Lab Test Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-02-23T10:07:07+00:00"/>
+  <publisher value="B-TECHBW"/>
+  <contact>
+    <name value="B-TECHBW"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.github.com/b-techbw"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pmanko@uw.edu"/>
+    </telecom>
+  </contact>
+  <description value="PIMS Lab Test Code System"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="072"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BW"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="26"/>
+  <concept>
+    <code value="CD4"/>
+    <display value="CD4 Count"/>
+    <definition value="tblkLabTest#1 - CD4 count"/>
+  </concept>
+  <concept>
+    <code value="CD4%"/>
+    <display value="CD4 Percentage"/>
+    <definition value="tblkLabTest#2 - CD4 Percent"/>
+  </concept>
+  <concept>
+    <code value="VL"/>
+    <display value="Viral Load"/>
+    <definition value="tblkLabTest#3 - Viral Load (HIV?)"/>
+  </concept>
+  <concept>
+    <code value="PCV"/>
+    <display value="Packed Cell Volume (PCV)"/>
+    <definition value="tblkLabTest#4 - Packed Cell Volume"/>
+  </concept>
+  <concept>
+    <code value="WBC"/>
+    <display value="White Blood Cells(WBC)"/>
+    <definition value="tblkLabTest#5 - White Blood Cells"/>
+  </concept>
+  <concept>
+    <code value="NP%"/>
+    <display value="Neutrophils %"/>
+    <definition value="tblkLabTest#7 - Neutrophils %"/>
+  </concept>
+  <concept>
+    <code value="AST"/>
+    <display value="Aspartate Aminotrasferase"/>
+    <definition value="tblkLabTest#9 - Aspartate aminotrasferase"/>
+  </concept>
+  <concept>
+    <code value="GGT"/>
+    <display value="Gamma Glutamyl Transferase"/>
+    <definition value="tblkLabTest#10 - Gamma glutamyl transferase"/>
+  </concept>
+  <concept>
+    <code value="ALPL"/>
+    <display value="Alkaline Phosphatase"/>
+    <definition value="tblkLabTest#11 - Alkaline Phosphatase"/>
+  </concept>
+  <concept>
+    <code value="LIP"/>
+    <display value="Lipase"/>
+    <definition value="tblkLabTest#12 - Lipase"/>
+  </concept>
+  <concept>
+    <code value="TGS"/>
+    <display value="TGS"/>
+    <definition value="tblkLabTest#13 - TGS"/>
+  </concept>
+  <concept>
+    <code value="Urea"/>
+    <display value="Urea"/>
+    <definition value="tblkLabTest#14 - Urea"/>
+  </concept>
+  <concept>
+    <code value="Na"/>
+    <display value="Sodium"/>
+    <definition value="tblkLabTest#15 - Sodium"/>
+  </concept>
+  <concept>
+    <code value="K"/>
+    <display value="Potassium"/>
+    <definition value="tblkLabTest#16 - Potassium"/>
+  </concept>
+  <concept>
+    <code value="PCR"/>
+    <display value="DNA PCR"/>
+    <definition value="tblkLabTest#17 - DNA PCR"/>
+  </concept>
+  <concept>
+    <code value="Ag"/>
+    <display value="Ag"/>
+    <definition value="tblkLabTest#18 - DNA PCR"/>
+  </concept>
+  <concept>
+    <code value="CST"/>
+    <display value="Culture Sensitive Test"/>
+    <definition value="tblkLabTest#19 - Culture Sensitive Test"/>
+  </concept>
+  <concept>
+    <code value="MCV"/>
+    <display value="Mean Cell Volume"/>
+    <definition value="tblkLabTest#20 - Mean cell volume"/>
+  </concept>
+  <concept>
+    <code value="Rapid"/>
+    <display value="Rapid"/>
+    <definition value="tblkLabTest#21 - Rapid"/>
+  </concept>
+  <concept>
+    <code value="ELISA"/>
+    <display value="ELISA"/>
+    <definition value="tblkLabTest#22 - ELISA"/>
+  </concept>
+  <concept>
+    <code value="UP"/>
+    <display value="Urine Pregnancy"/>
+    <definition value="tblkLabTest#23 - Urine pregnancy test"/>
+  </concept>
+  <concept>
+    <code value="CXRAY"/>
+    <display value="Chest X-Ray"/>
+    <definition value="tblkLabTest#25 - Chest x-ray"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Pleural Tap"/>
+    <definition value="tblkLabTest#26 - Pleural tap"/>
+  </concept>
+  <concept>
+    <code value="CSF"/>
+    <display value="CSF"/>
+    <definition value="tblkLabTest#27 - CSF"/>
+  </concept>
+  <concept>
+    <code value="LNB"/>
+    <display value="Lymph Node Biopsy"/>
+    <definition value="tblkLabTest#28 - Lymph node biopsy"/>
+  </concept>
+  <concept>
+    <code value="SM"/>
+    <display value="Sputum Microscopy"/>
+    <definition value="tblkLabTest#130 - Sputum microscopy"/>
+  </concept>
+</CodeSystem>

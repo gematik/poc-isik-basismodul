@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "example-pims-patient",
+  "meta": {
+    "profile": [
+      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Test PimsPatient (OFFICIAL)</b> (no stated gender) 1988-03-02 ( id: &lt;OmangNumber&gt; (OFFICIAL))</p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:uuid:<Pims-specific Patient ID>"
+    },
+    {
+      "use": "official",
+      "system": "http://moh.bw.org/ext/identifier/omang",
+      "value": "<OmangNumber>"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "PimsPatient",
+      "given": [
+        "Test"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1988-03-02",
+  "managingOrganization": {
+    "reference": "Organization/example-facility-order-creator"
+  }
+}

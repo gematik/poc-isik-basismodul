@@ -1,0 +1,433 @@
+{
+  "resourceType": "Bundle",
+  "id": "example-bw-lab-bundle",
+  "type": "document",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Composition",
+        "id": "example-bw-lab-composition",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-lab-composition\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-lab-composition.html\">Botswana Lab Order Composition</a></p></div><p><b>status</b>: active</p><p><b>type</b>: document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#document)</span></p><p><b>date</b>: 2021-06-06</p><p><b>author</b>: <a href=\"example-bw-practitioner\">example-bw-practitioner</a></p><p><b>title</b>: BW Lab Order Composition</p></div>"
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "code": "document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/example-pims-patient"
+        },
+        "date": "2021-06-06",
+        "author": [
+          {
+            "reference": "example-bw-practitioner"
+          }
+        ],
+        "title": "BW Lab Order Composition",
+        "section": [
+          {
+            "entry": [
+              {
+                "reference": "Task/example-bw-task-requested"
+              }
+            ]
+          },
+          {
+            "entry": [
+              {
+                "reference": "ServiceRequest/example-bw-pims-service-request-profile"
+              },
+              {
+                "reference": "ServiceRequest/example-bw-pims-service-request-1"
+              },
+              {
+                "reference": "ServiceRequest/example-bw-pims-service-request-2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "example-pims-patient",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-pims-patient\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-patient.html\">Botswana Patient</a></p></div><p><b>identifier</b>: MR: urn:uuid:&lt;Pims-specific Patient ID&gt;, id: &lt;OmangNumber&gt; (OFFICIAL)</p><p><b>name</b>: Test PimsPatient (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1988-03-02</p><p><b>managingOrganization</b>: <a href=\"#Organization_example-facility-order-creator\">See above (Organization/example-facility-order-creator)</a></p></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:<Pims-specific Patient ID>"
+          },
+          {
+            "use": "official",
+            "system": "http://moh.bw.org/ext/identifier/omang",
+            "value": "<OmangNumber>"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "PimsPatient",
+            "given": [
+              "Test"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1988-03-02",
+        "managingOrganization": {
+          "reference": "Organization/example-facility-order-creator"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "example-bw-pims-practitioner",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-pims-practitioner\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-practitioner.html\">Botswana Practitioner</a></p></div><p><b>identifier</b>: id: RequesterID</p><p><b>name</b>: PIMS Provider </p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://<pims-instance-specific-url>/ext/practitioner/identifier",
+            "value": "RequesterID"
+          }
+        ],
+        "name": [
+          {
+            "family": "Provider",
+            "given": [
+              "PIMS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Task",
+        "id": "example-bw-task-requested",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-task-requested\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-lab-task.html\">Botswana Lab Task Resource</a></p></div><p><b>identifier</b>: id: PimsSpecificLabOrderID</p><p><b>basedOn</b>: </p><ul><li><a href=\"#ServiceRequest_example-bw-pims-service-request-1\">See above (ServiceRequest/example-bw-pims-service-request-1)</a></li><li><a href=\"#ServiceRequest_example-bw-pims-service-request-2\">See above (ServiceRequest/example-bw-pims-service-request-2)</a></li></ul><p><b>status</b>: requested</p><p><b>intent</b>: order</p><p><b>for</b>: <a href=\"#Patient_example-pims-patient\">See above (Patient/example-pims-patient)</a></p><p><b>authoredOn</b>: 2021-05-20</p><p><b>owner</b>: <a href=\"#Organization_example-facility-order-reciever\">See above (Organization/example-facility-order-reciever)</a></p><p><b>location</b>: <a href=\"#Location_example-location-order-creator\">See above (Location/example-location-order-creator)</a></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://<pims-instance-specific-url>/ext/lab-task/identifier",
+            "value": "PimsSpecificLabOrderID"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/example-bw-pims-service-request-1"
+          },
+          {
+            "reference": "ServiceRequest/example-bw-pims-service-request-2"
+          }
+        ],
+        "status": "requested",
+        "intent": "order",
+        "for": {
+          "reference": "Patient/example-pims-patient"
+        },
+        "authoredOn": "2021-05-20",
+        "owner": {
+          "reference": "Organization/example-facility-order-reciever"
+        },
+        "location": {
+          "reference": "Location/example-location-order-creator"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "example-bw-pims-service-request-profile",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-pims-service-request-profile\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-basic-service-request.html\">Basic Botswana Lab Service Request</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-profile-code <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pims-lab-profile-code#pims-profile-code)</span></p><p><b>subject</b>: <a href=\"#Patient_example-pims-patient\">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href=\"#Organization_example-facility-order-reciever\">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href=\"#Location_example-location-order-reciever\">See above (Location/example-location-order-reciever)</a></p></div>"
+        },
+        "status": "active",
+        "intent": "order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://moh.bw.org/ext/laboratory/pims-lab-profile-code",
+              "code": "pims-profile-code"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/example-pims-patient"
+        },
+        "performer": [
+          {
+            "reference": "Organization/example-facility-order-reciever"
+          }
+        ],
+        "locationReference": [
+          {
+            "reference": "Location/example-location-order-reciever"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "example-bw-pims-service-request-1",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-pims-service-request-1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-basic-service-request.html\">Basic Botswana Lab Service Request</a></p></div><p><b>basedOn</b>: <a href=\"#ServiceRequest_example-bw-pims-service-request-profile\">See above (ServiceRequest/example-bw-pims-service-request-profile)</a></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-labtest-code <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pims-lab-test-code#pims-labtest-code)</span></p><p><b>subject</b>: <a href=\"#Patient_example-pims-patient\">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href=\"#Organization_example-facility-order-reciever\">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href=\"#Location_example-location-order-reciever\">See above (Location/example-location-order-reciever)</a></p></div>"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/example-bw-pims-service-request-profile"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://moh.bw.org/ext/laboratory/pims-lab-test-code",
+              "code": "pims-labtest-code"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/example-pims-patient"
+        },
+        "performer": [
+          {
+            "reference": "Organization/example-facility-order-reciever"
+          }
+        ],
+        "locationReference": [
+          {
+            "reference": "Location/example-location-order-reciever"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "example-bw-pims-service-request-2",
+        "meta": {
+          "profile": [
+            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-pims-service-request-2\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-basic-service-request.html\">Basic Botswana Lab Service Request</a></p></div><p><b>basedOn</b>: <a href=\"#ServiceRequest_example-bw-pims-service-request-profile\">See above (ServiceRequest/example-bw-pims-service-request-profile)</a></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-labtest-code <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pims-lab-test-code#pims-labtest-code)</span></p><p><b>subject</b>: <a href=\"#Patient_example-pims-patient\">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href=\"#Organization_example-facility-order-reciever\">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href=\"#Location_example-location-order-reciever\">See above (Location/example-location-order-reciever)</a></p></div>"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/example-bw-pims-service-request-profile"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://moh.bw.org/ext/laboratory/pims-lab-test-code",
+              "code": "pims-labtest-code"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/example-pims-patient"
+        },
+        "performer": [
+          {
+            "reference": "Organization/example-facility-order-reciever"
+          }
+        ],
+        "locationReference": [
+          {
+            "reference": "Location/example-location-order-reciever"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "example-facility-order-creator",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-facility-order-creator\" </p></div><p><b>identifier</b>: id: &lt;pims-facility-code&gt;</p><p><b>active</b>: true</p><p><b>type</b>: prov <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#prov)</span>, Facility <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ITI.mCSD#Facility)</span></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://moh.bw.org/ext/mfl/facility-code",
+            "value": "<pims-facility-code>"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:ietf:rfc:3986",
+                "code": "prov"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://github.com/ihe/ITI.mCSD",
+                "code": "Facility"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "example-location-order-creator",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-location-order-creator\" </p></div><p><b>status</b>: active</p><p><b>type</b>: HOSP <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#HOSP)</span>, Facility <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ITI.mCSD#Facility)</span></p><p><b>physicalType</b>: bu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#bu)</span></p><p><b>managingOrganization</b>: <a href=\"#Organization_example-facility-order-creator\">See above (Organization/example-facility-order-creator)</a></p></div>"
+        },
+        "status": "active",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:ietf:rfc:3986",
+                "code": "HOSP"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://github.com/ihe/ITI.mCSD",
+                "code": "Facility"
+              }
+            ]
+          }
+        ],
+        "physicalType": {
+          "coding": [
+            {
+              "code": "bu"
+            }
+          ]
+        },
+        "managingOrganization": {
+          "reference": "Organization/example-facility-order-creator"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "example-facility-order-reciever",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-facility-order-reciever\" </p></div><p><b>identifier</b>: id: MOH001</p><p><b>active</b>: true</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://moh.bw.org/ext/mfl/facility-code",
+            "value": "MOH001"
+          }
+        ],
+        "active": true
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "example-location-order-reciever",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-location-order-reciever\" </p></div><p><b>status</b>: active</p><p><b>type</b>: HLAB <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#HLAB)</span>, Facility <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ITI.mCSD#Facility)</span></p><p><b>physicalType</b>: bu <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#bu)</span></p><p><b>managingOrganization</b>: <a href=\"#Organization_example-facility-order-reciever\">See above (Organization/example-facility-order-reciever)</a></p></div>"
+        },
+        "status": "active",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:ietf:rfc:3986",
+                "code": "HLAB"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "https://github.com/ihe/ITI.mCSD",
+                "code": "Facility"
+              }
+            ]
+          }
+        ],
+        "physicalType": {
+          "coding": [
+            {
+              "code": "bu"
+            }
+          ]
+        },
+        "managingOrganization": {
+          "reference": "Organization/example-facility-order-reciever"
+        }
+      }
+    }
+  ]
+}

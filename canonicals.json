@@ -1,0 +1,254 @@
+[
+  {
+    "id": "BwLabDataDictionary",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io//StructureDefinition/BwLabDataDictionary",
+    "version": "0.2.0",
+    "name": "BwLabDataDictionary"
+  },
+  {
+    "id": "bw-ipms-facility-code-cs",
+    "type": "CodeSystem",
+    "url": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-ipms-facility-code-cs",
+    "version": "0.2.0",
+    "name": "BwIpmsFacilityCodeCS"
+  },
+  {
+    "id": "bw-mfl-facility-code-cs",
+    "type": "CodeSystem",
+    "url": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-mfl-facility-code-cs",
+    "version": "0.2.0",
+    "name": "BwMflFacilityCodeCS"
+  },
+  {
+    "id": "bw-pims-lab-class-cs",
+    "type": "CodeSystem",
+    "url": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-class-cs",
+    "version": "0.2.0",
+    "name": "BwPimsLabClassCS"
+  },
+  {
+    "id": "bw-pims-lab-order-status-cs",
+    "type": "CodeSystem",
+    "url": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs",
+    "version": "0.2.0",
+    "name": "BwPimsLabOrderStatusCS"
+  },
+  {
+    "id": "bw-pims-lab-test-cs",
+    "type": "CodeSystem",
+    "url": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs",
+    "version": "0.2.0",
+    "name": "BwPimsLabTestCS"
+  },
+  {
+    "id": "BwIpmsFacilityCodeMap",
+    "type": "ConceptMap",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwIpmsFacilityCodeMap",
+    "version": "0.2.0",
+    "name": "BwIpmsFacilityCodeCM"
+  },
+  {
+    "id": "BwLabPimsOrderStatusDiagnosticReportCM",
+    "type": "ConceptMap",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusDiagnosticReportCM",
+    "version": "0.2.0",
+    "name": "BwLabPimsOrderStatusDiagnosticReportCM"
+  },
+  {
+    "id": "BwLabPimsOrderStatusRequestCM",
+    "type": "ConceptMap",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusRequestCM",
+    "version": "0.2.0",
+    "name": "BwLabPimsOrderStatusRequestCM"
+  },
+  {
+    "id": "BwLabPimsOrderStatusTaskCM",
+    "type": "ConceptMap",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusTaskCM",
+    "version": "0.2.0",
+    "name": "BwLabPimsOrderStatusTaskCM"
+  },
+  {
+    "id": "BwPimsLabTestLoincCM",
+    "type": "ConceptMap",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwPimsLabTestLoincCM",
+    "version": "0.2.0",
+    "name": "BwPimsLabTestLoincCM"
+  },
+  {
+    "id": "fhir.bw.lab",
+    "type": "ImplementationGuide",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab",
+    "version": "0.2.0",
+    "name": "BwLabIG"
+  },
+  {
+    "id": "birth-place-observation",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation",
+    "version": "0.2.0",
+    "name": "BirthPlaceObservation"
+  },
+  {
+    "id": "bw-basic-service-request",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request",
+    "version": "0.2.0",
+    "name": "BwServiceRequest"
+  },
+  {
+    "id": "bw-encounter",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter",
+    "version": "0.2.0",
+    "name": "BwEncounter"
+  },
+  {
+    "id": "bw-lab-composition",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition",
+    "version": "0.2.0",
+    "name": "BwLabComposition"
+  },
+  {
+    "id": "bw-lab-diagnostic-report",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report",
+    "version": "0.2.0",
+    "name": "BwLabDiagnosticReport"
+  },
+  {
+    "id": "bw-lab-observation",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation",
+    "version": "0.2.0",
+    "name": "BwLabObservation"
+  },
+  {
+    "id": "bw-lab-task",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task",
+    "version": "0.2.0",
+    "name": "BwLabTask"
+  },
+  {
+    "id": "bw-national-identifier",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-national-identifier",
+    "version": "0.2.0",
+    "name": "BwNationalIdentifier"
+  },
+  {
+    "id": "bw-patient",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient",
+    "version": "0.2.0",
+    "name": "BwPatient"
+  },
+  {
+    "id": "bw-pims-lab-profile-service-request",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-profile-service-request",
+    "version": "0.2.0",
+    "name": "BwPimsLabProfile"
+  },
+  {
+    "id": "bw-pims-lab-test-service-request",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-test-service-request",
+    "version": "0.2.0",
+    "name": "BwPimsLabTest"
+  },
+  {
+    "id": "bw-practitioner",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner",
+    "version": "0.2.0",
+    "name": "BwPractitioner"
+  },
+  {
+    "id": "death-certificate-observation",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation",
+    "version": "0.2.0",
+    "name": "DeathCertificateObservation"
+  },
+  {
+    "id": "omang-patient",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient",
+    "version": "0.2.0",
+    "name": "OmangPatient"
+  },
+  {
+    "id": "pims-patient",
+    "type": "StructureDefinition",
+    "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/pims-patient",
+    "version": "0.2.0",
+    "name": "PimsPatient"
+  },
+  {
+    "id": "bw-ipms-facility-code-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-ipms-facility-code-vs",
+    "version": "0.2.0",
+    "name": "BwIpmsFacilityCodeVS"
+  },
+  {
+    "id": "bw-lab-diagnostic-report-status-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-diagnostic-report-status-vs",
+    "version": "0.2.0",
+    "name": "BwLabDiagnosticReportStatusVS"
+  },
+  {
+    "id": "bw-lab-order-code-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-order-code-vs",
+    "version": "0.2.0",
+    "name": "BwLabOrderCodeVS"
+  },
+  {
+    "id": "bw-lab-task-intent-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs",
+    "version": "0.2.0",
+    "name": "BwLabTaskIntentVS"
+  },
+  {
+    "id": "bw-lab-task-status-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-status-vs",
+    "version": "0.2.0",
+    "name": "BwLabTaskStatusVS"
+  },
+  {
+    "id": "bw-mfl-facility-code-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-mfl-facility-code-vs",
+    "version": "0.2.0",
+    "name": "BwMflFacilityCodeVS"
+  },
+  {
+    "id": "bw-pims-lab-class-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-class-vs",
+    "version": "0.2.0",
+    "name": "BwPimsLabClassVS"
+  },
+  {
+    "id": "bw-pims-lab-order-status-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs",
+    "version": "0.2.0",
+    "name": "BwPimsLabOrderStatusVS"
+  },
+  {
+    "id": "bw-pims-lab-test-vs",
+    "type": "ValueSet",
+    "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs",
+    "version": "0.2.0",
+    "name": "BwPimsLabTestVS"
+  }
+]

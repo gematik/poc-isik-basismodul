@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bw-pims-lab-test-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-pims-lab-test-cs.html\"><code>http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs</code></a></li></ul></div>"
+  },
+  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs",
+  "version": "0.2.0",
+  "name": "BwPimsLabTestVS",
+  "title": "PIMS Lab Test Codes",
+  "status": "active",
+  "date": "2022-02-23T10:07:07+00:00",
+  "publisher": "B-TECHBW",
+  "contact": [
+    {
+      "name": "B-TECHBW",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.github.com/b-techbw"
+        },
+        {
+          "system": "email",
+          "value": "pmanko@uw.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PIMS Lab Test Codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "072"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "BW"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs"
+      }
+    ]
+  }
+}
