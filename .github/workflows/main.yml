@@ -33,7 +33,7 @@ jobs:
         with:
           # Workaround for inability of sushi to generate snapshots: untar packages first (using script)
           # Run the publisher - don't run the batch script but run the line directly
-          args: ./run_ig_publisher.sh
+          shellcommand: "chmod +x ./run_ig_publisher.sh"
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
