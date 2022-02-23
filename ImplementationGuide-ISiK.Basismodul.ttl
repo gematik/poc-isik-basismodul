@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISiK Basismodul"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:22:10+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "gematik"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -912,12 +912,9 @@
          fhir:link <http://simplifier.net/ISiK/Bundle/example-bw-lab-bundle>;
          fhir:Reference.reference [ fhir:value "Bundle/example-bw-lab-bundle" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW Lab Bundle" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition Bundle containing Lab Order Information for the Botswana HIE" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition>
-       ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Lab Bundle" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Full PIMS Lab Bundle" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 41;
        fhir:Element.extension [

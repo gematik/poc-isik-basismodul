@@ -11,7 +11,7 @@
   "title": "ISiK Basismodul",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T12:18:43+00:00",
+  "date": "2022-02-23T12:22:10+00:00",
   "publisher": "gematik",
   "contact": [
     {
@@ -913,9 +913,9 @@
         "reference": {
           "reference": "Bundle/example-bw-lab-bundle"
         },
-        "name": "BW Lab Bundle",
-        "description": "Composition Bundle containing Lab Order Information for the Botswana HIE",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"
+        "name": "Example Lab Bundle",
+        "description": "Example Full PIMS Lab Bundle",
+        "exampleBoolean": true
       },
       {
         "extension": [

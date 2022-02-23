@@ -12,7 +12,7 @@
   <title value="ISiK Basismodul"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T12:18:43+00:00"/>
+  <date value="2022-02-23T12:22:10+00:00"/>
   <publisher value="gematik"/>
   <contact>
     <name value="gematik"/>
@@ -664,9 +664,9 @@
       <reference>
         <reference value="Bundle/example-bw-lab-bundle"/>
       </reference>
-      <name value="BW Lab Bundle"/>
-      <description value="Composition Bundle containing Lab Order Information for the Botswana HIE"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"/>
+      <name value="Example Lab Bundle"/>
+      <description value="Example Full PIMS Lab Bundle"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

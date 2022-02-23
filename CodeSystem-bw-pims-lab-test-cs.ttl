@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "PIMS Lab Test Code System"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:22:10+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "gematik"];
   fhir:CodeSystem.contact [
      fhir:index 0;
