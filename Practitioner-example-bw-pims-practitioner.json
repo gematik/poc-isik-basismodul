@@ -3,7 +3,7 @@
   "id": "example-bw-pims-practitioner",
   "meta": {
     "profile": [
-      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"
+      "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"
     ]
   },
   "text": {

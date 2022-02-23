@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Observation/example-birth-place> a fhir:Observation;
+<http://simplifier.net/ISiK/Observation/example-birth-place> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-birth-place"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/birth-place-observation>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,7 +30,7 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient>;
+     fhir:link <http://simplifier.net/ISiK/Patient/example-omang-patient>;
      fhir:Reference.reference [ fhir:value "Patient/example-omang-patient" ]
   ];
   fhir:Observation.component [
@@ -48,7 +48,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Observation/example-birth-place.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Observation/example-birth-place.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

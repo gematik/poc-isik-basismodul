@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/DiagnosticReport/example-bw-ipms-diagnostic-report> a fhir:DiagnosticReport;
+<http://simplifier.net/ISiK/DiagnosticReport/example-bw-ipms-diagnostic-report> a fhir:DiagnosticReport;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-ipms-diagnostic-report"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report>
      ]
   ];
   fhir:DomainResource.text [
@@ -54,19 +54,19 @@
   fhir:DiagnosticReport.effectiveDateTime [ fhir:value "2021-06-03T14:00:00.000Z"^^xsd:dateTime];
   fhir:DiagnosticReport.result [
      fhir:index 0;
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-1>;
+     fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-1>;
      fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-1" ];
      fhir:Reference.type [ fhir:value "Observation" ]
   ], [
      fhir:index 1;
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-2>;
+     fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2>;
      fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-2" ];
      fhir:Reference.type [ fhir:value "Observation" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/DiagnosticReport/example-bw-ipms-diagnostic-report.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/DiagnosticReport/example-bw-ipms-diagnostic-report.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient> a fhir:Patient;
+<http://simplifier.net/ISiK/Patient/example-omang-patient> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-omang-patient"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/omang-patient";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/omang-patient>
      ]
   ];
   fhir:DomainResource.text [
@@ -51,7 +51,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Patient/example-omang-patient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

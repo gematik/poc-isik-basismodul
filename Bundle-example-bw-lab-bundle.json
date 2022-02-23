@@ -9,7 +9,7 @@
         "id": "example-bw-lab-composition",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition"
           ]
         },
         "text": {
@@ -64,7 +64,7 @@
         "id": "example-pims-patient",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
           ]
         },
         "text": {
@@ -111,7 +111,7 @@
         "id": "example-bw-pims-practitioner",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"
           ]
         },
         "text": {
@@ -140,7 +140,7 @@
         "id": "example-bw-task-requested",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"
           ]
         },
         "text": {
@@ -181,7 +181,7 @@
         "id": "example-bw-pims-service-request-profile",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
           ]
         },
         "text": {
@@ -219,7 +219,7 @@
         "id": "example-bw-pims-service-request-1",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
           ]
         },
         "text": {
@@ -262,7 +262,7 @@
         "id": "example-bw-pims-service-request-2",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
           ]
         },
         "text": {

@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-test-service-request",
+  "url": "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-test-service-request",
   "version": "0.2.0",
   "name": "BwPimsLabTest",
   "title": "PIMS Lab Test Service Request",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -87,7 +87,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "ServiceRequest",
-  "baseDefinition": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request",
+  "baseDefinition": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request",
   "derivation": "constraint",
   "snapshot": {
     "element": [
@@ -670,7 +670,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-profile-service-request"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-profile-service-request"
             ]
           }
         ],
@@ -1474,7 +1474,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/pims-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/pims-patient"
             ]
           }
         ],
@@ -1536,7 +1536,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-encounter"
             ]
           }
         ],
@@ -2493,7 +2493,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-profile-service-request"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-profile-service-request"
             ]
           }
         ]
@@ -2510,7 +2510,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/pims-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/pims-patient"
             ]
           }
         ]

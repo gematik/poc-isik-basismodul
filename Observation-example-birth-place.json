@@ -3,7 +3,7 @@
   "id": "example-birth-place",
   "meta": {
     "profile": [
-      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation"
+      "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"
     ]
   },
   "text": {

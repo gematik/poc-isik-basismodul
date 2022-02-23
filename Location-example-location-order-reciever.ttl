@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever> a fhir:Location;
+<http://simplifier.net/ISiK/Location/example-location-order-reciever> a fhir:Location;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-location-order-reciever"];
   fhir:DomainResource.text [
@@ -35,13 +35,13 @@
      ]
   ];
   fhir:Location.managingOrganization [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
      fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Location/example-location-order-reciever.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

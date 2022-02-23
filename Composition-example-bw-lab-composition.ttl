@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Composition/example-bw-lab-composition> a fhir:Composition;
+<http://simplifier.net/ISiK/Composition/example-bw-lab-composition> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-lab-composition"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition>
      ]
   ];
   fhir:DomainResource.text [
@@ -27,7 +27,7 @@
      ]
   ];
   fhir:Composition.subject [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+     fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
      fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
   ];
   fhir:Composition.date [ fhir:value "2021-06-06"^^xsd:date];
@@ -40,29 +40,29 @@
      fhir:index 0;
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested>;
+       fhir:link <http://simplifier.net/ISiK/Task/example-bw-task-requested>;
        fhir:Reference.reference [ fhir:value "Task/example-bw-task-requested" ]
      ]
   ], [
      fhir:index 1;
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-profile>;
+       fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile>;
        fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-profile" ]
      ], [
        fhir:index 1;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+       fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-1>;
        fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
      ], [
        fhir:index 2;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+       fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-2>;
        fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Composition/example-bw-lab-composition.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Composition/example-bw-lab-composition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

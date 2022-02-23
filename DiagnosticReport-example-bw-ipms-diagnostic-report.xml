@@ -3,7 +3,7 @@
 <DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="example-bw-ipms-diagnostic-report"/>
   <meta>
-    <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"/>
+    <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2><span title="Codes: {L COVID}">SARS-CoV-2 PCR</span> (<span title="Codes: ">LAB</span>) </h2><table class="grid"><tr><td>Subject</td><td>Unable to get Patient Details</td></tr><tr><td>When For</td><td>2021-06-03 02:00:00+0000</td></tr><tr><td>Identifier:</td><td> FILL: ?ngen-9?</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td><td><b>When For</b></td></tr><tr><td><a href="Observation-example-bw-ipms-obs-1.html"><span title="Codes: {L COVID}">SARS-CoV-2 PCR</span></a></td><td>INCONCLUSIVE</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation N}">Normal</span></td><td>2021-06-10 03:49:00+0000</td></tr><tr><td><a href="Observation-example-bw-ipms-obs-2.html"><span title="Codes: {L S-Cov-2-RVW}">SARS-CoV-2 PCR REVIEW</span></a></td><td>.</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation N}">Normal</span></td><td>2021-06-10 03:49:00+0000</td></tr></table></div>

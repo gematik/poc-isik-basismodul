@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab> a fhir:ImplementationGuide;
+<http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "fhir.bw.lab"];
+  fhir:Resource.id [ fhir:value "ISiK.Basismodul"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BwLabIG</h2><p>The official URL for this implementation guide is: </p><pre>http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab</pre><div><p>TODO</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Basismodul_Stufe1</h2><p>The official URL for this implementation guide is: </p><pre>http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul</pre><div><p>TODO</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab"];
+  fhir:ImplementationGuide.url [ fhir:value "http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul"];
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
-  fhir:ImplementationGuide.name [ fhir:value "BwLabIG"];
+  fhir:ImplementationGuide.name [ fhir:value "Basismodul_Stufe1"];
   fhir:ImplementationGuide.title [ fhir:value "Botswana Laboratory HIE Workflow Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "B-TECHBW"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -49,7 +49,7 @@
        fhir:Coding.code [ fhir:value "BW" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "fhir.bw.lab"];
+  fhir:ImplementationGuide.packageId [ fhir:value "ISiK.Basismodul"];
   fhir:ImplementationGuide.license [ fhir:value "CC-BY-SA-4.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -195,7 +195,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://b-techbw.github.io/bw-lab-ig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://simplifier.net/ISiK/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -351,7 +351,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/birth-place-observation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/birth-place-observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Birth Place" ];
@@ -365,7 +365,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-encounter>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-encounter" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Encounter (TODO)" ];
@@ -379,7 +379,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-lab-composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Order Composition" ];
@@ -393,7 +393,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-lab-diagnostic-report" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Diagnostic Report" ];
@@ -407,7 +407,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-lab-observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Observation" ];
@@ -421,7 +421,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-task>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-lab-task" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Task Resource" ];
@@ -435,7 +435,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-national-identifier>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-national-identifier>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-national-identifier" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana National Identifier" ];
@@ -449,7 +449,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Patient" ];
@@ -463,7 +463,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-profile-service-request>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-profile-service-request>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-pims-lab-profile-service-request" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Profile Service Request" ];
@@ -477,7 +477,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-test-service-request>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-test-service-request>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-pims-lab-test-service-request" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Test Service Request" ];
@@ -491,7 +491,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-practitioner>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Practitioner" ];
@@ -505,7 +505,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/bw-basic-service-request" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Basic Botswana Lab Service Request" ];
@@ -519,7 +519,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/death-certificate-observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Death Certificate" ];
@@ -533,7 +533,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/omang-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/omang-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Omang System Patient" ];
@@ -547,7 +547,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/pims-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/pims-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Patient" ];
@@ -561,7 +561,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-ipms-facility-code-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-ipms-facility-code-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-ipms-facility-code-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Facility Code Valueset" ];
@@ -575,7 +575,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-diagnostic-report-status-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-lab-diagnostic-report-status-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-lab-diagnostic-report-status-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Diagnostic Report Status Flag" ];
@@ -589,7 +589,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-order-code-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-lab-order-code-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-lab-order-code-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Order Code" ];
@@ -603,7 +603,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-lab-task-intent-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Intent for Lab Task" ];
@@ -617,7 +617,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-status-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-lab-task-status-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-lab-task-status-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Status for Lab Task" ];
@@ -631,7 +631,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-mfl-facility-code-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-mfl-facility-code-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-mfl-facility-code-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MFL Facility Code Valueset" ];
@@ -645,7 +645,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-class-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-pims-lab-class-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-pims-lab-class-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status Values for PIMS Lab Orders" ];
@@ -658,7 +658,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-pims-lab-order-status-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status Values for PIMS Lab Orders" ];
@@ -671,7 +671,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs>;
+         fhir:link <http://simplifier.net/ISiK/ValueSet/bw-pims-lab-test-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/bw-pims-lab-test-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Test Codes" ];
@@ -685,7 +685,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-ipms-facility-code-cs>;
+         fhir:link <http://simplifier.net/ISiK/CodeSystem/bw-ipms-facility-code-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/bw-ipms-facility-code-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Facility Codes" ];
@@ -699,7 +699,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-mfl-facility-code-cs>;
+         fhir:link <http://simplifier.net/ISiK/CodeSystem/bw-mfl-facility-code-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/bw-mfl-facility-code-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW MFL Facility Codes" ];
@@ -713,7 +713,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-class-cs>;
+         fhir:link <http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/bw-pims-lab-class-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Class Code System" ];
@@ -727,7 +727,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs>;
+         fhir:link <http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/bw-pims-lab-order-status-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Order Status Code System" ];
@@ -741,7 +741,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs>;
+         fhir:link <http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs>;
          fhir:Reference.reference [ fhir:value "CodeSystem/bw-pims-lab-test-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Test Code System" ];
@@ -755,7 +755,7 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwIpmsFacilityCodeMap>;
+         fhir:link <http://simplifier.net/ISiK/ConceptMap/BwIpmsFacilityCodeMap>;
          fhir:Reference.reference [ fhir:value "ConceptMap/BwIpmsFacilityCodeMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Facility Code Mappings" ];
@@ -769,7 +769,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/BwLabDataDictionary>;
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/BwLabDataDictionary>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BwLabDataDictionary" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Botswana Lab Data Dictionary" ];
@@ -783,7 +783,7 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusDiagnosticReportCM>;
+         fhir:link <http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusDiagnosticReportCM>;
          fhir:Reference.reference [ fhir:value "ConceptMap/BwLabPimsOrderStatusDiagnosticReportCM" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Order Diagnostic Report Status Mapping" ];
@@ -797,7 +797,7 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusRequestCM>;
+         fhir:link <http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusRequestCM>;
          fhir:Reference.reference [ fhir:value "ConceptMap/BwLabPimsOrderStatusRequestCM" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Order Service Request Status Mapping" ];
@@ -811,7 +811,7 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwLabPimsOrderStatusTaskCM>;
+         fhir:link <http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusTaskCM>;
          fhir:Reference.reference [ fhir:value "ConceptMap/BwLabPimsOrderStatusTaskCM" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Lab Order Status Task Mapping" ];
@@ -825,7 +825,7 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ConceptMap/BwPimsLabTestLoincCM>;
+         fhir:link <http://simplifier.net/ISiK/ConceptMap/BwPimsLabTestLoincCM>;
          fhir:Reference.reference [ fhir:value "ConceptMap/BwPimsLabTestLoincCM" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS tblkLabTest <-> LOINC" ];
@@ -839,14 +839,14 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-birth-place>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-birth-place>;
          fhir:Reference.reference [ fhir:value "Observation/example-birth-place" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Birth Place" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Birth Place for Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/birth-place-observation>
        ]
      ], [
        fhir:index 36;
@@ -856,14 +856,14 @@
          fhir:Extension.valueString [ fhir:value "DiagnosticReport" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/DiagnosticReport/example-bw-ipms-diagnostic-report>;
+         fhir:link <http://simplifier.net/ISiK/DiagnosticReport/example-bw-ipms-diagnostic-report>;
          fhir:Reference.reference [ fhir:value "DiagnosticReport/example-bw-ipms-diagnostic-report" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboratory DiagnosticReport" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Laboratory DiagnosticReport" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report>
        ]
      ], [
        fhir:index 37;
@@ -873,14 +873,14 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-1>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-1>;
          fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Observation #1" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example IPMS Observation" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
        ]
      ], [
        fhir:index 38;
@@ -890,14 +890,14 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-2>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2>;
          fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Observation #2" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example IPMS Observation" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
        ]
      ], [
        fhir:index 39;
@@ -907,14 +907,14 @@
          fhir:Extension.valueString [ fhir:value "ServiceRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-ipms-service-request>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-ipms-service-request>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-ipms-service-request" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW PIMS ServiceRequest 2" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example ServiceRequest resource representing a IPMS Lab Order" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
        ]
      ], [
        fhir:index 40;
@@ -924,7 +924,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-bundle>;
+         fhir:link <http://simplifier.net/ISiK/Bundle/example-bw-lab-bundle>;
          fhir:Reference.reference [ fhir:value "Bundle/example-bw-lab-bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW Lab Bundle" ];
@@ -941,14 +941,14 @@
          fhir:Extension.valueString [ fhir:value "Composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Composition/example-bw-lab-composition>;
+         fhir:link <http://simplifier.net/ISiK/Composition/example-bw-lab-composition>;
          fhir:Reference.reference [ fhir:value "Composition/example-bw-lab-composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example PIMS Lab Composition" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Lab Order Composition" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition>
        ]
      ], [
        fhir:index 42;
@@ -958,7 +958,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-results-bundle>;
+         fhir:link <http://simplifier.net/ISiK/Bundle/example-bw-lab-results-bundle>;
          fhir:Reference.reference [ fhir:value "Bundle/example-bw-lab-results-bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example IPMS Results Lab Bundle" ];
@@ -972,14 +972,14 @@
          fhir:Extension.valueString [ fhir:value "Practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Practitioner/example-bw-pims-practitioner>;
+         fhir:link <http://simplifier.net/ISiK/Practitioner/example-bw-pims-practitioner>;
          fhir:Reference.reference [ fhir:value "Practitioner/example-bw-pims-practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW PIMS Practitioner" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example PIMS Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-practitioner>
        ]
      ], [
        fhir:index 44;
@@ -989,14 +989,14 @@
          fhir:Extension.valueString [ fhir:value "ServiceRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-1>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW PIMS ServiceRequest 1" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example ServiceRequest resource representing a PIMS Lab Order" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
        ]
      ], [
        fhir:index 45;
@@ -1006,14 +1006,14 @@
          fhir:Extension.valueString [ fhir:value "ServiceRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-2>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW PIMS ServiceRequest 2" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example ServiceRequest resource representing a PIMS Lab Order" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
        ]
      ], [
        fhir:index 46;
@@ -1023,14 +1023,14 @@
          fhir:Extension.valueString [ fhir:value "ServiceRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-profile>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-profile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW PIMS ServiceRequest Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example ServiceRequest resource representing a PIMS Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
        ]
      ], [
        fhir:index 47;
@@ -1040,14 +1040,14 @@
          fhir:Extension.valueString [ fhir:value "Task" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested>;
+         fhir:link <http://simplifier.net/ISiK/Task/example-bw-task-requested>;
          fhir:Reference.reference [ fhir:value "Task/example-bw-task-requested" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW Requested Lab Task" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example Task for Requested Lab Orders and Results in Botswana" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-task>
        ]
      ], [
        fhir:index 48;
@@ -1057,14 +1057,14 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-death-cert>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-death-cert>;
          fhir:Reference.reference [ fhir:value "Observation/example-death-cert" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Death Certificate" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Death Certificate Information for Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation>
        ]
      ], [
        fhir:index 49;
@@ -1074,7 +1074,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-creator>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-creator>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-creator" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Facility" ];
@@ -1088,7 +1088,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Facility" ];
@@ -1102,14 +1102,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example IPMS Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
        ]
      ], [
        fhir:index 52;
@@ -1119,7 +1119,7 @@
          fhir:Extension.valueString [ fhir:value "Location" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-creator>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-creator>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-creator" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Location" ];
@@ -1133,7 +1133,7 @@
          fhir:Extension.valueString [ fhir:value "Location" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-reciever>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-reciever" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPMS Location" ];
@@ -1147,14 +1147,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-omang-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-omang-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-omang-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Omang Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Omang Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/omang-patient";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/omang-patient>
        ]
      ], [
        fhir:index 55;
@@ -1164,14 +1164,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PIMS Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example PIMS Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
        ]
      ], [
        fhir:index 56;
@@ -1181,14 +1181,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient-international>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient-international>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient-international" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BW Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example International Botswana Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+         fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
+         fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -1292,7 +1292,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
   "id": "example-omang-patient",
   "meta": {
     "profile": [
-      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"
+      "http://simplifier.net/ISiK/StructureDefinition/omang-patient"
     ]
   },
   "text": {

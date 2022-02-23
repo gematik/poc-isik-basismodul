@@ -3,14 +3,14 @@
   "id": "bw-ipms-facility-code-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-ipms-facility-code-cs.html\"><code>http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-ipms-facility-code-cs</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-ipms-facility-code-cs.html\"><code>http://simplifier.net/ISiK/CodeSystem/bw-ipms-facility-code-cs</code></a></li></ul></div>"
   },
-  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-ipms-facility-code-vs",
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-ipms-facility-code-vs",
   "version": "0.2.0",
   "name": "BwIpmsFacilityCodeVS",
   "title": "IPMS Facility Code Valueset",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -49,7 +49,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-ipms-facility-code-cs"
+        "system": "http://simplifier.net/ISiK/CodeSystem/bw-ipms-facility-code-cs"
       }
     ]
   }

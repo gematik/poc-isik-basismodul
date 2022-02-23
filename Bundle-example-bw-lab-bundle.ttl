@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-bundle> a fhir:Bundle;
+<http://simplifier.net/ISiK/Bundle/example-bw-lab-bundle> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-lab-bundle"];
   fhir:Bundle.type [ fhir:value "document"];
@@ -16,9 +16,9 @@
        fhir:Resource.id [ fhir:value "example-bw-lab-composition" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition>
          ]
        ];
        fhir:DomainResource.text [
@@ -33,7 +33,7 @@
          ]
        ];
        fhir:Composition.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:Composition.date [ fhir:value "2021-06-06"^^xsd:date ];
@@ -46,22 +46,22 @@
          fhir:index 0;
          fhir:Composition.section.entry [
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested>;
+           fhir:link <http://simplifier.net/ISiK/Task/example-bw-task-requested>;
            fhir:Reference.reference [ fhir:value "Task/example-bw-task-requested" ]
          ]
        ], [
          fhir:index 1;
          fhir:Composition.section.entry [
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-profile>;
+           fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile>;
            fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-profile" ]
          ], [
            fhir:index 1;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+           fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-1>;
            fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
          ], [
            fhir:index 2;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+           fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-2>;
            fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
          ]
        ]
@@ -73,9 +73,9 @@
        fhir:Resource.id [ fhir:value "example-pims-patient" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
          ]
        ];
        fhir:DomainResource.text [
@@ -110,7 +110,7 @@
        fhir:Patient.gender [ fhir:value "female" ];
        fhir:Patient.birthDate [ fhir:value "1988-03-02"^^xsd:date ];
        fhir:Patient.managingOrganization [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-creator>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-creator>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-creator" ]
        ]
      ]
@@ -121,9 +121,9 @@
        fhir:Resource.id [ fhir:value "example-bw-pims-practitioner" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-practitioner>
          ]
        ];
        fhir:DomainResource.text [
@@ -151,9 +151,9 @@
        fhir:Resource.id [ fhir:value "example-bw-task-requested" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-task>
          ]
        ];
        fhir:DomainResource.text [
@@ -167,26 +167,26 @@
        ];
        fhir:Task.basedOn [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-1>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
        ], [
          fhir:index 1;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-2>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
        ];
        fhir:Task.status [ fhir:value "requested" ];
        fhir:Task.intent [ fhir:value "order" ];
        fhir:Task.for [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:Task.authoredOn [ fhir:value "2021-05-20"^^xsd:date ];
        fhir:Task.owner [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:Task.location [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-creator>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-creator>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-creator" ]
        ]
      ]
@@ -197,9 +197,9 @@
        fhir:Resource.id [ fhir:value "example-bw-pims-service-request-profile" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
          ]
        ];
        fhir:DomainResource.text [
@@ -216,17 +216,17 @@
          ]
        ];
        fhir:ServiceRequest.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:ServiceRequest.performer [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:ServiceRequest.locationReference [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-reciever>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-reciever" ]
        ]
      ]
@@ -237,9 +237,9 @@
        fhir:Resource.id [ fhir:value "example-bw-pims-service-request-1" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
          ]
        ];
        fhir:DomainResource.text [
@@ -248,7 +248,7 @@
        ];
        fhir:ServiceRequest.basedOn [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-profile>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-profile" ]
        ];
        fhir:ServiceRequest.status [ fhir:value "active" ];
@@ -261,17 +261,17 @@
          ]
        ];
        fhir:ServiceRequest.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:ServiceRequest.performer [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:ServiceRequest.locationReference [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-reciever>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-reciever" ]
        ]
      ]
@@ -282,9 +282,9 @@
        fhir:Resource.id [ fhir:value "example-bw-pims-service-request-2" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
          ]
        ];
        fhir:DomainResource.text [
@@ -293,7 +293,7 @@
        ];
        fhir:ServiceRequest.basedOn [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-profile>;
+         fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile>;
          fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-profile" ]
        ];
        fhir:ServiceRequest.status [ fhir:value "active" ];
@@ -306,17 +306,17 @@
          ]
        ];
        fhir:ServiceRequest.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
        ];
        fhir:ServiceRequest.performer [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:ServiceRequest.locationReference [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Location/example-location-order-reciever>;
          fhir:Reference.reference [ fhir:value "Location/example-location-order-reciever" ]
        ]
      ]
@@ -383,7 +383,7 @@
          ]
        ];
        fhir:Location.managingOrganization [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-creator>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-creator>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-creator" ]
        ]
      ]
@@ -435,7 +435,7 @@
          ]
        ];
        fhir:Location.managingOrganization [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ]
      ]
@@ -443,7 +443,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-bundle.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Bundle/example-bw-lab-bundle.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

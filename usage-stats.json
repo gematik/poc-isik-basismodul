@@ -1,5 +1,5 @@
 {
-  "package": "fhir.bw.lab",
+  "package": "ISiK.Basismodul",
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "072",
@@ -7,57 +7,57 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation",
         "title": "Death Certificate"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-profile-service-request",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-profile-service-request",
         "title": "PIMS Lab Profile Service Request"
       },
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-pims-lab-test-service-request",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-test-service-request",
         "title": "PIMS Lab Test Service Request"
       }
     ],
     "Encounter": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-encounter",
         "title": "Botswana Encounter (TODO)"
       }
     ],
     "Composition": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition",
         "title": "Botswana Lab Order Composition"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report",
         "title": "Botswana Lab Diagnostic Report"
       }
     ],
     "Task": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task",
         "title": "Botswana Lab Task Resource"
       }
     ],
     "Patient": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/omang-patient",
         "title": "Omang System Patient"
       },
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/pims-patient",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/pims-patient",
         "title": "PIMS Patient"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner",
+        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner",
         "title": "Botswana Practitioner"
       }
     ]

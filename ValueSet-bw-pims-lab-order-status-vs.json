@@ -3,14 +3,14 @@
   "id": "bw-pims-lab-order-status-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-pims-lab-order-status-cs.html\"><code>http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-pims-lab-order-status-cs.html\"><code>http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs</code></a></li></ul></div>"
   },
-  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs",
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs",
   "version": "0.2.0",
   "name": "BwPimsLabOrderStatusVS",
   "title": "Status Values for PIMS Lab Orders",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -48,7 +48,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs"
+        "system": "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs"
       }
     ]
   }

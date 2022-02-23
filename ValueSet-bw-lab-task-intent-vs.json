@@ -5,12 +5,12 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/ValueSet/task-intent</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>task-intent-order</td><td>Order</td></tr></table></li></ul></div>"
   },
-  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs",
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs",
   "version": "0.2.0",
   "name": "BwLabTaskIntentVS",
   "title": "Botswana Intent for Lab Task",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {

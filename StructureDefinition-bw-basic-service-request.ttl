@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request> a fhir:StructureDefinition;
+<http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "bw-basic-service-request"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"];
+  fhir:StructureDefinition.url [ fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"];
   fhir:StructureDefinition.version [ fhir:value "0.2.0"];
   fhir:StructureDefinition.name [ fhir:value "BwServiceRequest"];
   fhir:StructureDefinition.title [ fhir:value "Basic Botswana Lab Service Request"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -1570,9 +1570,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1635,9 +1635,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-encounter";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-encounter>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2666,9 +2666,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
          ]
        ]
      ], [
@@ -2679,9 +2679,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-encounter";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-encounter>
          ]
        ]
      ], [
@@ -2708,7 +2708,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="example-pims-patient-international"/>
   <meta>
-    <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+    <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>BwTest Patient </b> (no stated gender) 1988-03-02 ( PPN: &lt;PassportNumber&gt;)</p></div>

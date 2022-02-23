@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request",
+  "url": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request",
   "version": "0.2.0",
   "name": "BwServiceRequest",
   "title": "Basic Botswana Lab Service Request",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -1476,7 +1476,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
             ]
           }
         ],
@@ -1538,7 +1538,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-encounter"
             ]
           }
         ],
@@ -2504,7 +2504,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
             ]
           }
         ]
@@ -2516,7 +2516,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-encounter"
             ]
           }
         ]

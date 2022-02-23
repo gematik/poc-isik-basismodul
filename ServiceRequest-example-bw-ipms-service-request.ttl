@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-ipms-service-request> a fhir:ServiceRequest;
+<http://simplifier.net/ISiK/ServiceRequest/example-bw-ipms-service-request> a fhir:ServiceRequest;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-ipms-service-request"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,13 +30,13 @@
      ]
   ];
   fhir:ServiceRequest.subject [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+     fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
      fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-ipms-service-request.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/ServiceRequest/example-bw-ipms-service-request.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

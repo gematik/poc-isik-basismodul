@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/BwLabDataDictionary> a fhir:StructureDefinition;
+<http://simplifier.net/ISiK/StructureDefinition/BwLabDataDictionary> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BwLabDataDictionary"];
   fhir:DomainResource.text [
@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BwLabDataDictionary"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -2064,7 +2064,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/BwLabDataDictionary.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/StructureDefinition/BwLabDataDictionary.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-results-bundle> a fhir:Bundle;
+<http://simplifier.net/ISiK/Bundle/example-bw-lab-results-bundle> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-lab-results-bundle"];
   fhir:Bundle.type [ fhir:value "transaction"];
@@ -16,9 +16,9 @@
        fhir:Resource.id [ fhir:value "example-ipms-patient" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
          ]
        ];
        fhir:DomainResource.text [
@@ -53,7 +53,7 @@
        fhir:Patient.gender [ fhir:value "male" ];
        fhir:Patient.birthDate [ fhir:value "1948-01-22"^^xsd:date ];
        fhir:Patient.managingOrganization [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ]
      ];
@@ -68,9 +68,9 @@
        fhir:Resource.id [ fhir:value "example-bw-ipms-service-request" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
          ]
        ];
        fhir:DomainResource.text [
@@ -88,7 +88,7 @@
          ]
        ];
        fhir:ServiceRequest.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ]
        ]
      ];
@@ -103,9 +103,9 @@
        fhir:Resource.id [ fhir:value "example-bw-ipms-diagnostic-report" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report>
          ]
        ];
        fhir:DomainResource.text [
@@ -147,12 +147,12 @@
        fhir:DiagnosticReport.effectiveDateTime [ fhir:value "2021-06-03T14:00:00.000Z"^^xsd:dateTime ];
        fhir:DiagnosticReport.result [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-1>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-1>;
          fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-1" ];
          fhir:Reference.type [ fhir:value "Observation" ]
        ], [
          fhir:index 1;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-2>;
+         fhir:link <http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2>;
          fhir:Reference.reference [ fhir:value "Observation/example-bw-ipms-obs-2" ];
          fhir:Reference.type [ fhir:value "Observation" ]
        ]
@@ -168,9 +168,9 @@
        fhir:Resource.id [ fhir:value "example-bw-ipms-obs-1" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
          ]
        ];
        fhir:DomainResource.text [
@@ -195,14 +195,14 @@
          ]
        ];
        fhir:Observation.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ];
          fhir:Reference.type [ fhir:value "Patient" ]
        ];
        fhir:Observation.effectiveDateTime [ fhir:value "2021-06-10T15:49:00.000Z"^^xsd:dateTime ];
        fhir:Observation.performer [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:Observation.valueString [ fhir:value "INCONCLUSIVE" ];
@@ -227,9 +227,9 @@
        fhir:Resource.id [ fhir:value "example-bw-ipms-obs-2" ];
        fhir:Resource.meta [
          fhir:Meta.profile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
          ]
        ];
        fhir:DomainResource.text [
@@ -254,14 +254,14 @@
          ]
        ];
        fhir:Observation.subject [
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+         fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
          fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ];
          fhir:Reference.type [ fhir:value "Patient" ]
        ];
        fhir:Observation.effectiveDateTime [ fhir:value "2021-06-10T15:49:00.000Z"^^xsd:dateTime ];
        fhir:Observation.performer [
          fhir:index 0;
-         fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+         fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
          fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
        ];
        fhir:Observation.valueString [ fhir:value "." ];
@@ -283,7 +283,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Bundle/example-bw-lab-results-bundle.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Bundle/example-bw-lab-results-bundle.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

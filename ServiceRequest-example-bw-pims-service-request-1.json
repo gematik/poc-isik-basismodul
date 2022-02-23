@@ -3,7 +3,7 @@
   "id": "example-bw-pims-service-request-1",
   "meta": {
     "profile": [
-      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+      "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
     ]
   },
   "text": {

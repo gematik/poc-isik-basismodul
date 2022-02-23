@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs> a fhir:ValueSet;
+<http://simplifier.net/ISiK/ValueSet/bw-pims-lab-test-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "bw-pims-lab-test-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-pims-lab-test-cs.html\"><code>http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bw-pims-lab-test-cs.html\"><code>http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs"];
+  fhir:ValueSet.url [ fhir:value "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-test-vs"];
   fhir:ValueSet.version [ fhir:value "0.2.0"];
   fhir:ValueSet.name [ fhir:value "BwPimsLabTestVS"];
   fhir:ValueSet.title [ fhir:value "PIMS Lab Test Codes"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "B-TECHBW"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -51,13 +51,13 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-test-cs" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-test-vs.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/ValueSet/bw-pims-lab-test-vs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

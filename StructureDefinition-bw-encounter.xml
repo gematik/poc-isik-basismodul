@@ -12,12 +12,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"/>
+  <url value="http://simplifier.net/ISiK/StructureDefinition/bw-encounter"/>
   <version value="0.2.0"/>
   <name value="BwEncounter"/>
   <title value="Botswana Encounter (TODO)"/>
   <status value="active"/>
-  <date value="2022-02-23T11:19:10+00:00"/>
+  <date value="2022-02-23T11:46:26+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>

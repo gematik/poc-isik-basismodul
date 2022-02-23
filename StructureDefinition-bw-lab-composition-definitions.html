@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FHIR.BW.LAB\Botswana Lab Order Composition - Definitions - FHIR v4.0.1</title>
+    <title>ISIK.BASISMODUL\Botswana Lab Order Composition - Definitions - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -144,7 +144,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 4" class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Botswana Laboratory HIE Workflow Implementation Guide - Local Development build (v0.2.0). See the <a href="http://b-techbw.github.io/bw-lab-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Botswana Laboratory HIE Workflow Implementation Guide - Local Development build (v0.2.0). See the <a href="http://simplifier.net/ISiK/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
 
@@ -389,7 +389,7 @@ High-level kind of a clinical document at a macro level.
   <tr><td>Definition</td><td><p>Who or what the composition is about. The composition can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure).</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-patient.html" title="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient">BwPatient</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-patient.html" title="http://simplifier.net/ISiK/StructureDefinition/bw-patient">BwPatient</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Essential metadata for searching for the composition. Identifies who and/or what the composition/document is about.</p>
 </td></tr>
   <tr><td>Comments</td><td><p>For clinical documents, this is usually the patient.</p>
@@ -420,7 +420,7 @@ High-level kind of a clinical document at a macro level.
   <tr><td>Definition</td><td><p>Identifies who is responsible for the information in the composition, not necessarily who typed it in.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-practitioner.html" title="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner">BwPractitioner</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-practitioner.html" title="http://simplifier.net/ISiK/StructureDefinition/bw-practitioner">BwPractitioner</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Identifies who is responsible for the content.</p>
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
@@ -927,7 +927,7 @@ What order applies to the items in the entry.
   <tr><td>Definition</td><td><p>A reference to the actual resource from which the narrative in the section is derived.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: cmp-2</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-lab-task.html" title="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task">BwLabTask</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-lab-task.html" title="http://simplifier.net/ISiK/StructureDefinition/bw-lab-task">BwLabTask</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>If there are no entries in the list, an emptyReason SHOULD be provided.</p>
 </td></tr>
@@ -1080,7 +1080,7 @@ What order applies to the items in the entry.
   <tr><td>Definition</td><td><p>A reference to the actual resource from which the narrative in the section is derived.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: cmp-2</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-basic-service-request.html" title="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request">BwServiceRequest</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-basic-service-request.html" title="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request">BwServiceRequest</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>If there are no entries in the list, an emptyReason SHOULD be provided.</p>
 </td></tr>
@@ -1233,7 +1233,7 @@ What order applies to the items in the entry.
   <tr><td>Definition</td><td><p>A reference to the actual resource from which the narrative in the section is derived.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: cmp-2</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-lab-diagnostic-report.html" title="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report">BwLabDiagnosticReport</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-bw-lab-diagnostic-report.html" title="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report">BwLabDiagnosticReport</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>If there are no entries in the list, an emptyReason SHOULD be provided.</p>
 </td></tr>
@@ -1316,7 +1316,7 @@ If a section is empty, why it is empty.
 
       <div class="inner-wrapper">
         <p><a name="l6910">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 11:19+0000">2022-02-23</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package ISiK.Basismodul#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 11:46+0000">2022-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

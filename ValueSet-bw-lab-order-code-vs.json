@@ -5,12 +5,12 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a></li></ul></div>"
   },
-  "url": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-order-code-vs",
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-lab-order-code-vs",
   "version": "0.2.0",
   "name": "BwLabOrderCodeVS",
   "title": "Botswana Lab Order Code",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {

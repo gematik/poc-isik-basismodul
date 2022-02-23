@@ -18,12 +18,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation"/>
+  <url value="http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"/>
   <version value="0.2.0"/>
   <name value="BirthPlaceObservation"/>
   <title value="Birth Place"/>
   <status value="active"/>
-  <date value="2022-02-23T11:19:10+00:00"/>
+  <date value="2022-02-23T11:46:26+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>
@@ -756,7 +756,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/omang-patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2244,7 +2244,7 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/omang-patient"/>
       </type>
       <mustSupport value="true"/>
     </element>

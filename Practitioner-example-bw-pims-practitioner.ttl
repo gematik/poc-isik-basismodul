@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Practitioner/example-bw-pims-practitioner> a fhir:Practitioner;
+<http://simplifier.net/ISiK/Practitioner/example-bw-pims-practitioner> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-pims-practitioner"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-practitioner>
      ]
   ];
   fhir:DomainResource.text [
@@ -35,7 +35,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Practitioner/example-bw-pims-practitioner.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Practitioner/example-bw-pims-practitioner.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

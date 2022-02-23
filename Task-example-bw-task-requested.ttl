@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested> a fhir:Task;
+<http://simplifier.net/ISiK/Task/example-bw-task-requested> a fhir:Task;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-task-requested"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-task>
      ]
   ];
   fhir:DomainResource.text [
@@ -26,32 +26,32 @@
   ];
   fhir:Task.basedOn [
      fhir:index 0;
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-1>;
+     fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-1>;
      fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-1" ]
   ], [
      fhir:index 1;
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/ServiceRequest/example-bw-pims-service-request-2>;
+     fhir:link <http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-2>;
      fhir:Reference.reference [ fhir:value "ServiceRequest/example-bw-pims-service-request-2" ]
   ];
   fhir:Task.status [ fhir:value "requested"];
   fhir:Task.intent [ fhir:value "order"];
   fhir:Task.for [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-pims-patient>;
+     fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
      fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
   ];
   fhir:Task.authoredOn [ fhir:value "2021-05-20"^^xsd:date];
   fhir:Task.owner [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
      fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
   ];
   fhir:Task.location [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Location/example-location-order-creator>;
+     fhir:link <http://simplifier.net/ISiK/Location/example-location-order-creator>;
      fhir:Reference.reference [ fhir:value "Location/example-location-order-creator" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Task/example-bw-task-requested.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Task/example-bw-task-requested.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
   "id": "example-death-cert",
   "meta": {
     "profile": [
-      "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation"
+      "http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation"
     ]
   },
   "text": {

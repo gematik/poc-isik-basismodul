@@ -9,7 +9,7 @@
         "id": "example-ipms-patient",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
           ]
         },
         "text": {
@@ -60,7 +60,7 @@
         "id": "example-bw-ipms-service-request",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
           ]
         },
         "text": {
@@ -93,7 +93,7 @@
         "id": "example-bw-ipms-diagnostic-report",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"
           ]
         },
         "text": {
@@ -160,7 +160,7 @@
         "id": "example-bw-ipms-obs-1",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"
           ]
         },
         "text": {
@@ -221,7 +221,7 @@
         "id": "example-bw-ipms-obs-2",
         "meta": {
           "profile": [
-            "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"
+            "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"
           ]
         },
         "text": {

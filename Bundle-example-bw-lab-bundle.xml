@@ -8,7 +8,7 @@
       <Composition>
         <id value="example-bw-lab-composition"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-lab-composition" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-lab-composition.html">Botswana Lab Order Composition</a></p></div><p><b>status</b>: active</p><p><b>type</b>: document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#document)</span></p><p><b>date</b>: 2021-06-06</p><p><b>author</b>: <a href="example-bw-practitioner">example-bw-practitioner</a></p><p><b>title</b>: BW Lab Order Composition</p></div>
@@ -51,7 +51,7 @@
       <Patient>
         <id value="example-pims-patient"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-pims-patient" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-patient.html">Botswana Patient</a></p></div><p><b>identifier</b>: MR: urn:uuid:&lt;Pims-specific Patient ID&gt;, id: &lt;OmangNumber&gt; (OFFICIAL)</p><p><b>name</b>: Test PimsPatient (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1988-03-02</p><p><b>managingOrganization</b>: <a href="#Organization_example-facility-order-creator">See above (Organization/example-facility-order-creator)</a></p></div>
@@ -88,7 +88,7 @@
       <Practitioner>
         <id value="example-bw-pims-practitioner"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-pims-practitioner" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-practitioner.html">Botswana Practitioner</a></p></div><p><b>identifier</b>: id: RequesterID</p><p><b>name</b>: PIMS Provider </p></div>
@@ -109,7 +109,7 @@
       <Task>
         <id value="example-bw-task-requested"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-task-requested" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-lab-task.html">Botswana Lab Task Resource</a></p></div><p><b>identifier</b>: id: PimsSpecificLabOrderID</p><p><b>basedOn</b>: </p><ul><li><a href="#ServiceRequest_example-bw-pims-service-request-1">See above (ServiceRequest/example-bw-pims-service-request-1)</a></li><li><a href="#ServiceRequest_example-bw-pims-service-request-2">See above (ServiceRequest/example-bw-pims-service-request-2)</a></li></ul><p><b>status</b>: requested</p><p><b>intent</b>: order</p><p><b>for</b>: <a href="#Patient_example-pims-patient">See above (Patient/example-pims-patient)</a></p><p><b>authoredOn</b>: 2021-05-20</p><p><b>owner</b>: <a href="#Organization_example-facility-order-reciever">See above (Organization/example-facility-order-reciever)</a></p><p><b>location</b>: <a href="#Location_example-location-order-creator">See above (Location/example-location-order-creator)</a></p></div>
@@ -144,7 +144,7 @@
       <ServiceRequest>
         <id value="example-bw-pims-service-request-profile"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-pims-service-request-profile" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-basic-service-request.html">Basic Botswana Lab Service Request</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-profile-code <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pims-lab-profile-code#pims-profile-code)</span></p><p><b>subject</b>: <a href="#Patient_example-pims-patient">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href="#Organization_example-facility-order-reciever">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href="#Location_example-location-order-reciever">See above (Location/example-location-order-reciever)</a></p></div>
@@ -174,7 +174,7 @@
       <ServiceRequest>
         <id value="example-bw-pims-service-request-1"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-pims-service-request-1" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-basic-service-request.html">Basic Botswana Lab Service Request</a></p></div><p><b>basedOn</b>: <a href="#ServiceRequest_example-bw-pims-service-request-profile">See above (ServiceRequest/example-bw-pims-service-request-profile)</a></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-labtest-code <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pims-lab-test-code#pims-labtest-code)</span></p><p><b>subject</b>: <a href="#Patient_example-pims-patient">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href="#Organization_example-facility-order-reciever">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href="#Location_example-location-order-reciever">See above (Location/example-location-order-reciever)</a></p></div>
@@ -207,7 +207,7 @@
       <ServiceRequest>
         <id value="example-bw-pims-service-request-2"/>
         <meta>
-          <profile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+          <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-pims-service-request-2" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-basic-service-request.html">Basic Botswana Lab Service Request</a></p></div><p><b>basedOn</b>: <a href="#ServiceRequest_example-bw-pims-service-request-profile">See above (ServiceRequest/example-bw-pims-service-request-profile)</a></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-labtest-code <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pims-lab-test-code#pims-labtest-code)</span></p><p><b>subject</b>: <a href="#Patient_example-pims-patient">See above (Patient/example-pims-patient)</a></p><p><b>performer</b>: <a href="#Organization_example-facility-order-reciever">See above (Organization/example-facility-order-reciever)</a></p><p><b>locationReference</b>: <a href="#Location_example-location-order-reciever">See above (Location/example-location-order-reciever)</a></p></div>

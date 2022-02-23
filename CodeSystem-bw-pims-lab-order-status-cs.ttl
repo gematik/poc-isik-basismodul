@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs> a fhir:CodeSystem;
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "bw-pims-lab-order-status-cs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ordered<a name=\"bw-pims-lab-order-status-cs-ordered\"> </a></td><td>Ordered</td><td>Order was requested</td></tr><tr><td style=\"white-space:nowrap\">fully-drawn<a name=\"bw-pims-lab-order-status-cs-fully-drawn\"> </a></td><td>Fully-drawn</td><td>All Order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">partially-resulted<a name=\"bw-pims-lab-order-status-cs-partially-resulted\"> </a></td><td>Partially-resulted</td><td>Partial results are available</td></tr><tr><td style=\"white-space:nowrap\">cancelled<a name=\"bw-pims-lab-order-status-cs-cancelled\"> </a></td><td>Cancelled</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">partially-drawn<a name=\"bw-pims-lab-order-status-cs-partially-drawn\"> </a></td><td>Partially-drawn</td><td>Some order specimens were drawn</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ordered<a name=\"bw-pims-lab-order-status-cs-ordered\"> </a></td><td>Ordered</td><td>Order was requested</td></tr><tr><td style=\"white-space:nowrap\">fully-drawn<a name=\"bw-pims-lab-order-status-cs-fully-drawn\"> </a></td><td>Fully-drawn</td><td>All Order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">partially-resulted<a name=\"bw-pims-lab-order-status-cs-partially-resulted\"> </a></td><td>Partially-resulted</td><td>Partial results are available</td></tr><tr><td style=\"white-space:nowrap\">cancelled<a name=\"bw-pims-lab-order-status-cs-cancelled\"> </a></td><td>Cancelled</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">partially-drawn<a name=\"bw-pims-lab-order-status-cs-partially-drawn\"> </a></td><td>Partially-drawn</td><td>Some order specimens were drawn</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs"];
+  fhir:CodeSystem.url [ fhir:value "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs"];
   fhir:CodeSystem.version [ fhir:value "0.2.0"];
   fhir:CodeSystem.name [ fhir:value "BwPimsLabOrderStatusCS"];
   fhir:CodeSystem.title [ fhir:value "PIMS Lab Order Status Code System"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "B-TECHBW"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -80,7 +80,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/CodeSystem/bw-pims-lab-order-status-cs.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-order-status-cs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

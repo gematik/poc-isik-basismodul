@@ -5,12 +5,12 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://loinc.org"><code>http://loinc.org</code></a></li></ul></div>
   </text>
-  <url value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-order-code-vs"/>
+  <url value="http://simplifier.net/ISiK/ValueSet/bw-lab-order-code-vs"/>
   <version value="0.2.0"/>
   <name value="BwLabOrderCodeVS"/>
   <title value="Botswana Lab Order Code"/>
   <status value="active"/>
-  <date value="2022-02-23T11:19:10+00:00"/>
+  <date value="2022-02-23T11:46:26+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>

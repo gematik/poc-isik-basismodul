@@ -1,17 +1,17 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "fhir.bw.lab",
+  "id": "ISiK.Basismodul",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BwLabIG</h2><p>The official URL for this implementation guide is: </p><pre>http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab</pre><div><p>TODO</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Basismodul_Stufe1</h2><p>The official URL for this implementation guide is: </p><pre>http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul</pre><div><p>TODO</p>\n</div></div>"
   },
-  "url": "http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab",
+  "url": "http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul",
   "version": "0.2.0",
-  "name": "BwLabIG",
+  "name": "Basismodul_Stufe1",
   "title": "Botswana Laboratory HIE Workflow Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "packageId": "fhir.bw.lab",
+  "packageId": "ISiK.Basismodul",
   "license": "CC-BY-SA-4.0",
   "fhirVersion": [
     "4.0.1"
@@ -200,7 +200,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://b-techbw.github.io/bw-lab-ig/history.html"
+            "valueString": "http://simplifier.net/ISiK/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -863,7 +863,7 @@
         },
         "name": "Birth Place",
         "description": "Birth Place for Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"
       },
       {
         "extension": [
@@ -877,7 +877,7 @@
         },
         "name": "Laboratory DiagnosticReport",
         "description": "Example Laboratory DiagnosticReport",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"
       },
       {
         "extension": [
@@ -891,7 +891,7 @@
         },
         "name": "IPMS Observation #1",
         "description": "Example IPMS Observation",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"
       },
       {
         "extension": [
@@ -905,7 +905,7 @@
         },
         "name": "IPMS Observation #2",
         "description": "Example IPMS Observation",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"
       },
       {
         "extension": [
@@ -919,7 +919,7 @@
         },
         "name": "BW PIMS ServiceRequest 2",
         "description": "Example ServiceRequest resource representing a IPMS Lab Order",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
       },
       {
         "extension": [
@@ -947,7 +947,7 @@
         },
         "name": "Example PIMS Lab Composition",
         "description": "Example Lab Order Composition",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition"
       },
       {
         "extension": [
@@ -975,7 +975,7 @@
         },
         "name": "BW PIMS Practitioner",
         "description": "Example PIMS Practitioner",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"
       },
       {
         "extension": [
@@ -989,7 +989,7 @@
         },
         "name": "BW PIMS ServiceRequest 1",
         "description": "Example ServiceRequest resource representing a PIMS Lab Order",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
       },
       {
         "extension": [
@@ -1003,7 +1003,7 @@
         },
         "name": "BW PIMS ServiceRequest 2",
         "description": "Example ServiceRequest resource representing a PIMS Lab Order",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
       },
       {
         "extension": [
@@ -1017,7 +1017,7 @@
         },
         "name": "BW PIMS ServiceRequest Profile",
         "description": "Example ServiceRequest resource representing a PIMS Profile",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
       },
       {
         "extension": [
@@ -1031,7 +1031,7 @@
         },
         "name": "BW Requested Lab Task",
         "description": "Example Task for Requested Lab Orders and Results in Botswana",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"
       },
       {
         "extension": [
@@ -1045,7 +1045,7 @@
         },
         "name": "Death Certificate",
         "description": "Death Certificate Information for Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation"
       },
       {
         "extension": [
@@ -1087,7 +1087,7 @@
         },
         "name": "IPMS Patient",
         "description": "Example IPMS Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
       },
       {
         "extension": [
@@ -1129,7 +1129,7 @@
         },
         "name": "Omang Patient",
         "description": "Omang Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/omang-patient"
       },
       {
         "extension": [
@@ -1143,7 +1143,7 @@
         },
         "name": "PIMS Patient",
         "description": "Example PIMS Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
       },
       {
         "extension": [
@@ -1157,7 +1157,7 @@
         },
         "name": "BW Patient",
         "description": "Example International Botswana Patient",
-        "exampleCanonical": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+        "exampleCanonical": "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
       }
     ],
     "page": {

@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-2> a fhir:Observation;
+<http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-bw-ipms-obs-2"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
      ]
   ];
   fhir:DomainResource.text [
@@ -37,14 +37,14 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient>;
+     fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
      fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ];
      fhir:Reference.type [ fhir:value "Patient" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2021-06-10T15:49:00.000Z"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
      fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
   ];
   fhir:Observation.valueString [ fhir:value "."];
@@ -60,7 +60,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Observation/example-bw-ipms-obs-2.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation> a fhir:StructureDefinition;
+<http://simplifier.net/ISiK/StructureDefinition/birth-place-observation> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "birth-place-observation"];
   fhir:DomainResource.text [
@@ -22,12 +22,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation"];
+  fhir:StructureDefinition.url [ fhir:value "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"];
   fhir:StructureDefinition.version [ fhir:value "0.2.0"];
   fhir:StructureDefinition.name [ fhir:value "BirthPlaceObservation"];
   fhir:StructureDefinition.title [ fhir:value "Birth Place"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:19:10+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -1005,9 +1005,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/omang-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/omang-patient>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2933,9 +2933,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient";
+           fhir:value "http://simplifier.net/ISiK/StructureDefinition/omang-patient";
            fhir:index 0;
-           fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient>
+           fhir:link <http://simplifier.net/ISiK/StructureDefinition/omang-patient>
          ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ]
@@ -2952,7 +2952,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/StructureDefinition/birth-place-observation.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

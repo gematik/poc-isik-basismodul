@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient> a fhir:Patient;
+<http://simplifier.net/ISiK/Patient/example-ipms-patient> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example-ipms-patient"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient";
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
        fhir:index 0;
-       fhir:link <http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient>
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
      ]
   ];
   fhir:DomainResource.text [
@@ -47,13 +47,13 @@
   fhir:Patient.gender [ fhir:value "male"];
   fhir:Patient.birthDate [ fhir:value "1948-01-22"^^xsd:date];
   fhir:Patient.managingOrganization [
-     fhir:link <http://b-techbw.github.io/bw-lab-ig/Organization/example-facility-order-reciever>;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
      fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://b-techbw.github.io/bw-lab-ig/Patient/example-ipms-patient.ttl> a owl:Ontology;
+<http://simplifier.net/ISiK/Patient/example-ipms-patient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -15,12 +15,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task",
+  "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task",
   "version": "0.2.0",
   "name": "BwLabTask",
   "title": "Botswana Lab Task Resource",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -634,7 +634,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
             ]
           }
         ],
@@ -780,7 +780,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs"
+          "valueSet": "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs"
         },
         "mapping": [
           {
@@ -923,7 +923,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs"
+          "valueSet": "http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs"
         },
         "mapping": [
           {
@@ -1154,7 +1154,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
             ]
           }
         ],
@@ -1206,7 +1206,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-encounter"
             ]
           }
         ],
@@ -2968,7 +2968,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"
             ]
           }
         ],
@@ -3012,7 +3012,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
             ]
           }
         ]
@@ -3022,7 +3022,7 @@
         "path": "Task.status",
         "binding": {
           "strength": "required",
-          "valueSet": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs"
+          "valueSet": "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs"
         }
       },
       {
@@ -3030,7 +3030,7 @@
         "path": "Task.intent",
         "binding": {
           "strength": "required",
-          "valueSet": "http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs"
+          "valueSet": "http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs"
         }
       },
       {
@@ -3040,7 +3040,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-patient"
             ]
           }
         ]
@@ -3052,7 +3052,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-encounter"
             ]
           }
         ]
@@ -3086,7 +3086,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"
+              "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"
             ]
           }
         ]

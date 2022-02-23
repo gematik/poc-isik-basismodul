@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter",
+  "url": "http://simplifier.net/ISiK/StructureDefinition/bw-encounter",
   "version": "0.2.0",
   "name": "BwEncounter",
   "title": "Botswana Encounter (TODO)",
   "status": "active",
-  "date": "2022-02-23T11:19:10+00:00",
+  "date": "2022-02-23T11:46:26+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {

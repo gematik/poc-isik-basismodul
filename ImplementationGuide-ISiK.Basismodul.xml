@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="fhir.bw.lab"/>
+  <id value="ISiK.Basismodul"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BwLabIG</h2><p>The official URL for this implementation guide is: </p><pre>http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab</pre><div><p>TODO</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Basismodul_Stufe1</h2><p>The official URL for this implementation guide is: </p><pre>http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul</pre><div><p>TODO</p>
 </div></div>
   </text>
-  <url value="http://b-techbw.github.io/bw-lab-ig/ImplementationGuide/fhir.bw.lab"/>
+  <url value="http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul"/>
   <version value="0.2.0"/>
-  <name value="BwLabIG"/>
+  <name value="Basismodul_Stufe1"/>
   <title value="Botswana Laboratory HIE Workflow Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T11:19:10+00:00"/>
+  <date value="2022-02-23T11:46:26+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>
@@ -38,7 +38,7 @@
       <code value="BW"/>
     </coding>
   </jurisdiction>
-  <packageId value="fhir.bw.lab"/>
+  <packageId value="ISiK.Basismodul"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7_fhir_uv_ips">
@@ -132,7 +132,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://b-techbw.github.io/bw-lab-ig/history.html"/>
+        <valueString value="http://simplifier.net/ISiK/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -623,7 +623,7 @@
       </reference>
       <name value="Birth Place"/>
       <description value="Birth Place for Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/birth-place-observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -634,7 +634,7 @@
       </reference>
       <name value="Laboratory DiagnosticReport"/>
       <description value="Example Laboratory DiagnosticReport"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -645,7 +645,7 @@
       </reference>
       <name value="IPMS Observation #1"/>
       <description value="Example IPMS Observation"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -656,7 +656,7 @@
       </reference>
       <name value="IPMS Observation #2"/>
       <description value="Example IPMS Observation"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -667,7 +667,7 @@
       </reference>
       <name value="BW PIMS ServiceRequest 2"/>
       <description value="Example ServiceRequest resource representing a IPMS Lab Order"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -689,7 +689,7 @@
       </reference>
       <name value="Example PIMS Lab Composition"/>
       <description value="Example Lab Order Composition"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -711,7 +711,7 @@
       </reference>
       <name value="BW PIMS Practitioner"/>
       <description value="Example PIMS Practitioner"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-practitioner"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -722,7 +722,7 @@
       </reference>
       <name value="BW PIMS ServiceRequest 1"/>
       <description value="Example ServiceRequest resource representing a PIMS Lab Order"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -733,7 +733,7 @@
       </reference>
       <name value="BW PIMS ServiceRequest 2"/>
       <description value="Example ServiceRequest resource representing a PIMS Lab Order"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -744,7 +744,7 @@
       </reference>
       <name value="BW PIMS ServiceRequest Profile"/>
       <description value="Example ServiceRequest resource representing a PIMS Profile"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -755,7 +755,7 @@
       </reference>
       <name value="BW Requested Lab Task"/>
       <description value="Example Task for Requested Lab Orders and Results in Botswana"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -766,7 +766,7 @@
       </reference>
       <name value="Death Certificate"/>
       <description value="Death Certificate Information for Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/death-certificate-observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -799,7 +799,7 @@
       </reference>
       <name value="IPMS Patient"/>
       <description value="Example IPMS Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -832,7 +832,7 @@
       </reference>
       <name value="Omang Patient"/>
       <description value="Omang Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/omang-patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/omang-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -843,7 +843,7 @@
       </reference>
       <name value="PIMS Patient"/>
       <description value="Example PIMS Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -854,7 +854,7 @@
       </reference>
       <name value="BW Patient"/>
       <description value="Example International Botswana Patient"/>
-      <exampleCanonical value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

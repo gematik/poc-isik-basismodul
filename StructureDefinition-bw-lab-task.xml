@@ -24,12 +24,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-task"/>
+  <url value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"/>
   <version value="0.2.0"/>
   <name value="BwLabTask"/>
   <title value="Botswana Lab Task Resource"/>
   <status value="active"/>
-  <date value="2022-02-23T11:19:10+00:00"/>
+  <date value="2022-02-23T11:46:26+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>
@@ -535,7 +535,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -654,7 +654,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs"/>
+        <valueSet value="http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -770,7 +770,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs"/>
+        <valueSet value="http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -958,7 +958,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1001,7 +1001,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-encounter"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2438,7 +2438,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2469,35 +2469,35 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-basic-service-request"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
       </type>
     </element>
     <element id="Task.status">
       <path value="Task.status"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-pims-lab-order-status-vs"/>
+        <valueSet value="http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs"/>
       </binding>
     </element>
     <element id="Task.intent">
       <path value="Task.intent"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://b-techbw.github.io/bw-lab-ig/ValueSet/bw-lab-task-intent-vs"/>
+        <valueSet value="http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs"/>
       </binding>
     </element>
     <element id="Task.for">
       <path value="Task.for"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-patient"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
       </type>
     </element>
     <element id="Task.encounter">
       <path value="Task.encounter"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-encounter"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-encounter"/>
       </type>
     </element>
     <element id="Task.owner">
@@ -2519,7 +2519,7 @@
       <path value="Task.output.value[x]"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-diagnostic-report"/>
+        <targetProfile value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"/>
       </type>
     </element>
   </differential>
