@@ -26,8 +26,7 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 dependencies:
-  hl7.fhir.uv.ips: 1.0.0
-#  de.gematik.isik-basismodul:
-#    id: de.gematik.isik-basismodul
-#    uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
-#    version: 1.0.3
+  de.gematik.isik-basismodul:
+    id: de.gematik.isik-basismodul
+    uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
+    version: 1.0.3
