@@ -27,7 +27,7 @@
   fhir:StructureDefinition.name [ fhir:value "DeathCertificateObservation"];
   fhir:StructureDefinition.title [ fhir:value "Death Certificate"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T12:05:26+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

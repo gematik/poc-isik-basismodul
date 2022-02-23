@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "BwIpmsFacilityCodeVS"];
   fhir:ValueSet.title [ fhir:value "IPMS Facility Code Valueset"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-23T11:46:26+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-02-23T12:05:26+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "B-TECHBW"];
   fhir:ValueSet.contact [
      fhir:index 0;
