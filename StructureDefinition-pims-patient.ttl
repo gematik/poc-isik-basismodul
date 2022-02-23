@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PimsPatient"];
   fhir:StructureDefinition.title [ fhir:value "PIMS Patient"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T10:14:18+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T10:23:47+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

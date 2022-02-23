@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "BwLabOrderCodeVS"];
   fhir:ValueSet.title [ fhir:value "Botswana Lab Order Code"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-23T10:14:18+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-02-23T10:23:47+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "B-TECHBW"];
   fhir:ValueSet.contact [
      fhir:index 0;
