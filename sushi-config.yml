@@ -29,14 +29,6 @@ parameters:
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Home: index.html
-  Table of Contents: toc.html
-  Functional Specifications:
-    System Requirements: system_specification.html
-    Use Cases: use_cases.html
-  Technical Specifications:
-    Artifacts: artifacts.html
 
 resources:
   Bundle/example-bw-lab-bundle:
