@@ -30,12 +30,6 @@ parameters:
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-resources:
-  Bundle/example-bw-lab-bundle:
-    name: BW Lab Bundle
-    description: Composition Bundle containing Lab Order Information for the Botswana HIE
-    exampleCanonical: http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition
-  
 dependencies:
   hl7.fhir.uv.ips: 1.0.0
   #ihe.mcsd.fhir: dev
