@@ -23,8 +23,7 @@ jobs:
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-         shellcommand: "chmod +x ./_updatePublisher.sh"
-         args: --force
+         shellcommand: "chmod +x ./_updatePublisher.sh --force"
 
       - name: Run sushi to generate the ig.ini file
         uses: docker://hl7fhir/ig-publisher-base:latest
@@ -34,8 +33,7 @@ jobs:
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-         shellcommand: "chmod +x ./_genonce.sh" 
-         args: -no-sushi
+         shellcommand: "chmod +x ./_genonce.sh -no-sushi"
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
