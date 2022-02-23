@@ -13,15 +13,15 @@ copyrightYear: 2021+
 releaseLabel: ci-build
 title: ISiK Basismodul
 description: TODO
-license: CC-BY-SA-4.0
+#license: CC-BY-SA-4.0
 publisher:
   name: gematik
   url: www.gematik.de
   email: isik@gematik.de
   contact: isik@gematik
-jurisdiction:
-  - http://unstats.un.org/unsd/methods/m49/m49.htm#072
-  - urn:iso:std:iso:3166#BW
+#jurisdiction:
+#  - http://unstats.un.org/unsd/methods/m49/m49.htm#072
+#  - urn:iso:std:iso:3166#BW
 experimental: true
 parameters:
   excludettl: true
