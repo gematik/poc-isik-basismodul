@@ -34,6 +34,6 @@ dependencies:
     # uri: https://i-tech-uw.github.io/laboratory-workflows-ig/
     # version: 0.2.0
   de.basisprofil.r4:
-    id: basisprofilr4
-    uri: https://simplifier.net/guide/basisprofil-de-r4
-    version: 1.2.0
+    id: de.gematik.isik-basismodul 
+    uri: https://gematik.de/fhir/ISiK/ImplementationGuide/ISiK-basismodul
+    version: 1.0.3
