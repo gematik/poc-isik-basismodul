@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISiK Basismodul"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:33:07+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:38:04+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "gematik"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -49,6 +49,15 @@
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.ips" ];
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.0.0" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "basisprofilr4" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "https://simplifier.net/guide/basisprofil-de-r4";
+       fhir:link <https://simplifier.net/guide/basisprofil-de-r4>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "de.basisprofil.r4" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.2.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [

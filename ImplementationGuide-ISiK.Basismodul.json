@@ -11,7 +11,7 @@
   "title": "ISiK Basismodul",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T12:33:07+00:00",
+  "date": "2022-02-23T12:38:04+00:00",
   "publisher": "gematik",
   "contact": [
     {
@@ -40,6 +40,12 @@
       "uri": "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
       "packageId": "hl7.fhir.uv.ips",
       "version": "1.0.0"
+    },
+    {
+      "id": "basisprofilr4",
+      "uri": "https://simplifier.net/guide/basisprofil-de-r4",
+      "packageId": "de.basisprofil.r4",
+      "version": "1.2.0"
     }
   ],
   "definition": {

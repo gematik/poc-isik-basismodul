@@ -1,18 +1,20 @@
 ﻿Basismodul_Stufe1 : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 0
+err = 0, warn = 2, info = 0
 IG Publisher Version: 1.1.106
-Generated Wed Feb 23 12:33:23 UTC 2022. FHIR version 4.0.1 for ISiK.Basismodul#0.2.0 (canonical = http://simplifier.net/ISiK)
- Build Errors : 18 / 0 / 0
+Generated Wed Feb 23 12:38:19 UTC 2022. FHIR version 4.0.1 for ISiK.Basismodul#0.2.0 (canonical = http://simplifier.net/ISiK)
+ Build Errors : 19 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-ISiK.Basismodul : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-bw-practitioner : 0 / 1 / 1
 </table>
 == n/a ==
+WARNING: ImplementationGuide.dependency[1].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 ERROR: /github/workspace/output/Datenobjekte.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
 ERROR: /github/workspace/output/Einfuehrung.html#/html/body/div/div/div/div/div/p/a at Line 191, column 5: The link 'ISiK@gematik.de' for "ISiK@gematik.de" cannot be resolved
 ERROR: /github/workspace/output/Einfuehrung.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
 ERROR: /github/workspace/output/Motivation.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
+ERROR: /github/workspace/output/ReleaseNotes.html#/html/body/div/div/div/div/div/ul/li/a at Line 189, column 121: The link 'https://simplifier.net/guide/basisprofil-de-r4/AmbulanterstationrerFallEncounterAccountEpisodeOfCare' for "Repräsentation der Fallarten in FHIR - Deutsche Basisprofile HL7 Deutschland" cannot be resolved
 ERROR: /github/workspace/output/ReleaseNotes.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-bw-practitioner-definitions.html#/html/body/div/div/div/p/a at Line 634, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-bw-practitioner-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'www.gematik.de' for "gematik" cannot be resolved
