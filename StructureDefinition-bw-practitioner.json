@@ -10,19 +10,19 @@
   "name": "BwPractitioner",
   "title": "Botswana Practitioner",
   "status": "active",
-  "date": "2022-02-23T12:05:26+00:00",
-  "publisher": "B-TECHBW",
+  "date": "2022-02-23T12:12:15+00:00",
+  "publisher": "gematik",
   "contact": [
     {
-      "name": "B-TECHBW",
+      "name": "gematik",
       "telecom": [
         {
           "system": "url",
-          "value": "www.github.com/b-techbw"
+          "value": "www.gematik.de"
         },
         {
           "system": "email",
-          "value": "pmanko@uw.edu"
+          "value": "isik@gematik.de"
         }
       ]
     }

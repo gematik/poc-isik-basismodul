@@ -18,19 +18,19 @@
   fhir:CodeSystem.title [ fhir:value "PIMS Lab Class Code System"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:05:26+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "B-TECHBW"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "gematik"];
   fhir:CodeSystem.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "B-TECHBW" ];
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "www.github.com/b-techbw" ]
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
      ], [
        fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "PIMS Lab Class Code System"];

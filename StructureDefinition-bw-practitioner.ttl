@@ -17,19 +17,19 @@
   fhir:StructureDefinition.name [ fhir:value "BwPractitioner"];
   fhir:StructureDefinition.title [ fhir:value "Botswana Practitioner"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T12:05:26+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "gematik"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "B-TECHBW" ];
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "www.github.com/b-techbw" ]
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
      ], [
        fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "A practitioner in a Botswana Health System"];

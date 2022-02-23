@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b8dc1d3b-0217-4dcf-bbf0-bb4c721a3203"/>
+  <id value="150a7496-859d-47bb-bd06-6384480ed736"/>
   <meta>
-    <lastUpdated value="2022-02-23T12:05:26.930+00:00"/>
+    <lastUpdated value="2022-02-23T12:12:15.907+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -75,17 +75,17 @@
         <name value="BwLabDiagnosticReportStatusVS"/>
         <title value="Botswana Diagnostic Report Status Flag"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <description value="The status of the diagnostic report, subset from https://www.hl7.org/fhir/valueset-diagnostic-report-status.html"/>
@@ -102,8 +102,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:73354e17-3eab-4545-8957-6779f2ad75c6"/>
-          <timestamp value="2022-02-23T12:06:04+00:00"/>
+          <identifier value="urn:uuid:ba8bd9bb-4ee7-45fc-86f4-7744aeb43421"/>
+          <timestamp value="2022-02-23T12:12:47+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -219,17 +219,17 @@
         <name value="BwPimsLabOrderStatusVS"/>
         <title value="Status Values for PIMS Lab Orders"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <jurisdiction>
@@ -245,8 +245,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f5dbfdd0-d350-45f0-bf41-ecf8921f20af"/>
-          <timestamp value="2022-02-23T12:06:06+00:00"/>
+          <identifier value="urn:uuid:072b5006-13e6-4141-a909-89ae05766802"/>
+          <timestamp value="2022-02-23T12:12:49+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -410,17 +410,17 @@
         <name value="BwPimsLabClassVS"/>
         <title value="Status Values for PIMS Lab Orders"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <jurisdiction>
@@ -436,8 +436,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7c3423c6-7f78-4833-bd7a-a7a3c4cdb6d5"/>
-          <timestamp value="2022-02-23T12:06:13+00:00"/>
+          <identifier value="urn:uuid:ce68a614-f3bb-4e60-b359-9c107a978423"/>
+          <timestamp value="2022-02-23T12:12:52+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7538,17 +7538,17 @@
         <name value="BwLabOrderCodeVS"/>
         <title value="Botswana Lab Order Code"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <description value="The code for the lab order."/>
@@ -7568,8 +7568,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:84007aae-d348-4286-ae5f-e584b80855e2"/>
-          <timestamp value="2022-02-23T12:06:23+00:00"/>
+          <identifier value="urn:uuid:505cdd27-cba9-47ac-b354-87ba33e67dad"/>
+          <timestamp value="2022-02-23T12:13:02+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12832,17 +12832,17 @@
         <name value="BwPimsLabTestVS"/>
         <title value="PIMS Lab Test Codes"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <description value="PIMS Lab Test Codes"/>
@@ -12859,8 +12859,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2baf9e4b-4221-4ae2-ac40-9f00d9bbf8f8"/>
-          <timestamp value="2022-02-23T12:06:27+00:00"/>
+          <identifier value="urn:uuid:737f6171-dd4b-4760-9ddf-91c5c38f9d6b"/>
+          <timestamp value="2022-02-23T12:13:07+00:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19205,17 +19205,17 @@
         <name value="BwIpmsFacilityCodeVS"/>
         <title value="IPMS Facility Code Valueset"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <description value="IPMS Facility Code Valueset"/>
@@ -19232,8 +19232,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e8411f39-242a-43e9-831f-1553fa4b8de0"/>
-          <timestamp value="2022-02-23T12:06:29+00:00"/>
+          <identifier value="urn:uuid:8e14547e-950c-4ffd-8b2c-83b38be90b71"/>
+          <timestamp value="2022-02-23T12:13:10+00:00"/>
           <total value="881"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28152,17 +28152,17 @@
         <name value="BwMflFacilityCodeVS"/>
         <title value="MFL Facility Code Valueset"/>
         <status value="active"/>
-        <date value="2022-02-23T12:05:26+00:00"/>
-        <publisher value="B-TECHBW"/>
+        <date value="2022-02-23T12:12:15+00:00"/>
+        <publisher value="gematik"/>
         <contact>
-          <name value="B-TECHBW"/>
+          <name value="gematik"/>
           <telecom>
             <system value="url"/>
-            <value value="www.github.com/b-techbw"/>
+            <value value="www.gematik.de"/>
           </telecom>
           <telecom>
             <system value="email"/>
-            <value value="pmanko@uw.edu"/>
+            <value value="isik@gematik.de"/>
           </telecom>
         </contact>
         <description value="MFL Facility Code Valueset"/>
@@ -28179,8 +28179,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad0b84c7-de2c-43a0-b18d-3b06f8556a87"/>
-          <timestamp value="2022-02-23T12:06:29+00:00"/>
+          <identifier value="urn:uuid:f6601325-31bc-4049-b677-b88b2edf3fb5"/>
+          <timestamp value="2022-02-23T12:13:10+00:00"/>
           <total value="638"/>
           <parameter>
             <name value="excludeNested"/>

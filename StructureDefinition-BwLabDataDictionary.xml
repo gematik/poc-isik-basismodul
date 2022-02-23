@@ -50,17 +50,17 @@
   <name value="BwLabDataDictionary"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T12:05:26+00:00"/>
-  <publisher value="B-TECHBW"/>
+  <date value="2022-02-23T12:12:15+00:00"/>
+  <publisher value="gematik"/>
   <contact>
-    <name value="B-TECHBW"/>
+    <name value="gematik"/>
     <telecom>
       <system value="url"/>
-      <value value="www.github.com/b-techbw"/>
+      <value value="www.gematik.de"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="pmanko@uw.edu"/>
+      <value value="isik@gematik.de"/>
     </telecom>
   </contact>
   <jurisdiction>

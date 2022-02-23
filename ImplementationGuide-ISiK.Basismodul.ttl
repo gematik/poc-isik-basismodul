@@ -15,22 +15,22 @@
   fhir:ImplementationGuide.url [ fhir:value "http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul"];
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "Basismodul_Stufe1"];
-  fhir:ImplementationGuide.title [ fhir:value "Botswana Laboratory HIE Workflow Implementation Guide"];
+  fhir:ImplementationGuide.title [ fhir:value "ISiK Basismodul"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:05:26+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "B-TECHBW"];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "gematik"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "B-TECHBW" ];
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "www.github.com/b-techbw" ]
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
      ], [
        fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
      ]
   ];
   fhir:ImplementationGuide.description [ fhir:value "TODO"];
