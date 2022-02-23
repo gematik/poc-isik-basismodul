@@ -33,7 +33,7 @@ jobs:
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: ./_genonce.sh -no-sushi
+         shellcommand: "chmod +x ./_genonce.sh -no-sushi"
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
