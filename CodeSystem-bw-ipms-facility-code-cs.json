@@ -11,7 +11,7 @@
   "title": "IPMS Facility Codes",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T12:12:15+00:00",
+  "date": "2022-02-23T12:18:43+00:00",
   "publisher": "gematik",
   "contact": [
     {
@@ -29,24 +29,6 @@
     }
   ],
   "description": "IPMS Facility Codes",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "072"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "BW"
-        }
-      ]
-    }
-  ],
   "content": "complete",
   "count": 881,
   "concept": [

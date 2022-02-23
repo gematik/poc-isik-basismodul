@@ -11,7 +11,7 @@
   "title": "ISiK Basismodul",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T12:12:15+00:00",
+  "date": "2022-02-23T12:18:43+00:00",
   "publisher": "gematik",
   "contact": [
     {
@@ -29,26 +29,8 @@
     }
   ],
   "description": "TODO",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "072"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "BW"
-        }
-      ]
-    }
-  ],
   "packageId": "ISiK.Basismodul",
-  "license": "CC-BY-SA-4.0",
+  "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
   ],

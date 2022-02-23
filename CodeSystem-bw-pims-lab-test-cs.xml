@@ -11,7 +11,7 @@
   <title value="PIMS Lab Test Code System"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T12:12:15+00:00"/>
+  <date value="2022-02-23T12:18:43+00:00"/>
   <publisher value="gematik"/>
   <contact>
     <name value="gematik"/>
@@ -25,18 +25,6 @@
     </telecom>
   </contact>
   <description value="PIMS Lab Test Code System"/>
-  <jurisdiction>
-    <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="072"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="BW"/>
-    </coding>
-  </jurisdiction>
   <content value="complete"/>
   <count value="26"/>
   <concept>

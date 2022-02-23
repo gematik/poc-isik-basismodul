@@ -10,7 +10,7 @@
   <name value="BwLabDiagnosticReportStatusVS"/>
   <title value="Botswana Diagnostic Report Status Flag"/>
   <status value="active"/>
-  <date value="2022-02-23T12:12:15+00:00"/>
+  <date value="2022-02-23T12:18:43+00:00"/>
   <publisher value="gematik"/>
   <contact>
     <name value="gematik"/>
@@ -24,18 +24,6 @@
     </telecom>
   </contact>
   <description value="The status of the diagnostic report, subset from https://www.hl7.org/fhir/valueset-diagnostic-report-status.html"/>
-  <jurisdiction>
-    <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="072"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="BW"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/diagnostic-report-status"/>

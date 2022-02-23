@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "IPMS Facility Codes"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "gematik"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -34,21 +34,6 @@
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "IPMS Facility Codes"];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "072" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "BW" ]
-     ]
-  ];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "881"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [

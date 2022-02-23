@@ -12,7 +12,7 @@
   <title value="ISiK Basismodul"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T12:12:15+00:00"/>
+  <date value="2022-02-23T12:18:43+00:00"/>
   <publisher value="gematik"/>
   <contact>
     <name value="gematik"/>
@@ -26,20 +26,8 @@
     </telecom>
   </contact>
   <description value="TODO"/>
-  <jurisdiction>
-    <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="072"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="BW"/>
-    </coding>
-  </jurisdiction>
   <packageId value="ISiK.Basismodul"/>
-  <license value="CC-BY-SA-4.0"/>
+  <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7_fhir_uv_ips">
     <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>

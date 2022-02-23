@@ -2,7 +2,6 @@
   "package": "ISiK.Basismodul",
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "072",
   "extensions": [],
   "profiles": {
     "Observation": [

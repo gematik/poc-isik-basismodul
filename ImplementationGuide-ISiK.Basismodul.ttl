@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISiK Basismodul"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "gematik"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -34,23 +34,8 @@
      ]
   ];
   fhir:ImplementationGuide.description [ fhir:value "TODO"];
-  fhir:ImplementationGuide.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "072" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "BW" ]
-     ]
-  ];
   fhir:ImplementationGuide.packageId [ fhir:value "ISiK.Basismodul"];
-  fhir:ImplementationGuide.license [ fhir:value "CC-BY-SA-4.0"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0

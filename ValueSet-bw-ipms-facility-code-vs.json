@@ -10,7 +10,7 @@
   "name": "BwIpmsFacilityCodeVS",
   "title": "IPMS Facility Code Valueset",
   "status": "active",
-  "date": "2022-02-23T12:12:15+00:00",
+  "date": "2022-02-23T12:18:43+00:00",
   "publisher": "gematik",
   "contact": [
     {
@@ -28,24 +28,6 @@
     }
   ],
   "description": "IPMS Facility Code Valueset",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "072"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "BW"
-        }
-      ]
-    }
-  ],
   "compose": {
     "include": [
       {

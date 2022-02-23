@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BwPatient"];
   fhir:StructureDefinition.title [ fhir:value "Botswana Patient"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "gematik"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -33,21 +33,6 @@
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "A patient in a Botswana Health System"];
-  fhir:StructureDefinition.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "072" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "BW" ]
-     ]
-  ];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

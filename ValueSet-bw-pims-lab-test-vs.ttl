@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "BwPimsLabTestVS"];
   fhir:ValueSet.title [ fhir:value "PIMS Lab Test Codes"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-23T12:12:15+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-02-23T12:18:43+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "gematik"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -33,21 +33,6 @@
      ]
   ];
   fhir:ValueSet.description [ fhir:value "PIMS Lab Test Codes"];
-  fhir:ValueSet.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "072" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "BW" ]
-     ]
-  ];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;

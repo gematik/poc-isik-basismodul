@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "150a7496-859d-47bb-bd06-6384480ed736",
+  "id" : "2fe078ed-9bfb-4b2d-afe0-9ad23115477d",
   "meta" : {
-    "lastUpdated" : "2022-02-23T12:12:15.907+00:00"
+    "lastUpdated" : "2022-02-23T12:18:43.048+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "BwLabDiagnosticReportStatusVS",
       "title" : "Botswana Diagnostic Report Status Flag",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -33,21 +33,9 @@
         }]
       }],
       "description" : "The status of the diagnostic report, subset from https://www.hl7.org/fhir/valueset-diagnostic-report-status.html",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:ba8bd9bb-4ee7-45fc-86f4-7744aeb43421",
-        "timestamp" : "2022-02-23T12:12:47+00:00",
+        "identifier" : "urn:uuid:2d2ffa24-db01-4101-9eeb-60aa69af9dba",
+        "timestamp" : "2022-02-23T12:19:11+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -99,7 +87,7 @@
       "name" : "BwPimsLabOrderStatusVS",
       "title" : "Status Values for PIMS Lab Orders",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -112,21 +100,9 @@
           "value" : "isik@gematik.de"
         }]
       }],
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:072b5006-13e6-4141-a909-89ae05766802",
-        "timestamp" : "2022-02-23T12:12:49+00:00",
+        "identifier" : "urn:uuid:f4914046-a180-4acf-86b6-791307354cfe",
+        "timestamp" : "2022-02-23T12:19:13+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -178,7 +154,7 @@
       "name" : "BwPimsLabClassVS",
       "title" : "Status Values for PIMS Lab Orders",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -191,21 +167,9 @@
           "value" : "isik@gematik.de"
         }]
       }],
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:ce68a614-f3bb-4e60-b359-9c107a978423",
-        "timestamp" : "2022-02-23T12:12:52+00:00",
+        "identifier" : "urn:uuid:662eaca4-659a-4143-a6bc-a3c5b55a92b6",
+        "timestamp" : "2022-02-23T12:19:16+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -287,7 +251,7 @@
       "name" : "BwLabOrderCodeVS",
       "title" : "Botswana Lab Order Code",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -301,25 +265,13 @@
         }]
       }],
       "description" : "The code for the lab order.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:505cdd27-cba9-47ac-b354-87ba33e67dad",
-        "timestamp" : "2022-02-23T12:13:02+00:00",
+        "identifier" : "urn:uuid:f7d36846-b1c6-4360-aa37-a14aa0ebd275",
+        "timestamp" : "2022-02-23T12:19:25+00:00",
         "total" : 1000,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5350,7 +5302,7 @@
       "name" : "BwPimsLabTestVS",
       "title" : "PIMS Lab Test Codes",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -5364,21 +5316,9 @@
         }]
       }],
       "description" : "PIMS Lab Test Codes",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:737f6171-dd4b-4760-9ddf-91c5c38f9d6b",
-        "timestamp" : "2022-02-23T12:13:07+00:00",
+        "identifier" : "urn:uuid:159036b1-7aaa-4ac8-ab1e-423e2d6e59fe",
+        "timestamp" : "2022-02-23T12:19:30+00:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5535,7 +5475,7 @@
       "name" : "BwIpmsFacilityCodeVS",
       "title" : "IPMS Facility Code Valueset",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -5549,21 +5489,9 @@
         }]
       }],
       "description" : "IPMS Facility Code Valueset",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:8e14547e-950c-4ffd-8b2c-83b38be90b71",
-        "timestamp" : "2022-02-23T12:13:10+00:00",
+        "identifier" : "urn:uuid:4ec40a5e-6eac-4489-bb17-55786c7e9802",
+        "timestamp" : "2022-02-23T12:19:31+00:00",
         "total" : 881,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9995,7 +9923,7 @@
       "name" : "BwMflFacilityCodeVS",
       "title" : "MFL Facility Code Valueset",
       "status" : "active",
-      "date" : "2022-02-23T12:12:15+00:00",
+      "date" : "2022-02-23T12:18:43+00:00",
       "publisher" : "gematik",
       "contact" : [{
         "name" : "gematik",
@@ -10009,21 +9937,9 @@
         }]
       }],
       "description" : "MFL Facility Code Valueset",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "072"
-        }]
-      },
-      {
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "BW"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:f6601325-31bc-4049-b677-b88b2edf3fb5",
-        "timestamp" : "2022-02-23T12:13:10+00:00",
+        "identifier" : "urn:uuid:2f1439ce-d16d-45ba-bcd9-1dd7b86d0de6",
+        "timestamp" : "2022-02-23T12:19:31+00:00",
         "total" : 638,
         "parameter" : [{
           "name" : "excludeNested",
