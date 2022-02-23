@@ -20,6 +20,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Create symbolic link to package directory
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          # Get the latest publisher - don't run the batch script but run the line directly
+          args: ln -s ./fhir-packages/packages packages
+
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
