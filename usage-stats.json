@@ -4,56 +4,6 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
-    "Observation": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation",
-        "title": "Death Certificate"
-      }
-    ],
-    "ServiceRequest": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-profile-service-request",
-        "title": "PIMS Lab Profile Service Request"
-      },
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-pims-lab-test-service-request",
-        "title": "PIMS Lab Test Service Request"
-      }
-    ],
-    "Encounter": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-encounter",
-        "title": "Botswana Encounter (TODO)"
-      }
-    ],
-    "Composition": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition",
-        "title": "Botswana Lab Order Composition"
-      }
-    ],
-    "DiagnosticReport": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report",
-        "title": "Botswana Lab Diagnostic Report"
-      }
-    ],
-    "Task": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/bw-lab-task",
-        "title": "Botswana Lab Task Resource"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/omang-patient",
-        "title": "Omang System Patient"
-      },
-      {
-        "url": "http://simplifier.net/ISiK/StructureDefinition/pims-patient",
-        "title": "PIMS Patient"
-      }
-    ],
     "Practitioner": [
       {
         "url": "http://simplifier.net/ISiK/StructureDefinition/bw-practitioner",
@@ -62,13 +12,6 @@
     ]
   },
   "usage": {
-    "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber": [
-      "Composition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/data-absent-reason": [
-      "DiagnosticReport.effective[x]",
-      "Observation.effective[x]"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -84,29 +27,8 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
-      "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
-      "StructureDefinition.snapshot.element"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
-      "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
