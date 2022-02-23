@@ -1,0 +1,54 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: fhir.bw.lab
+canonical: http://b-techbw.github.io/bw-lab-ig
+name: BwLabIG
+status: draft
+version: 0.2.0
+fhirVersion: 4.0.1
+# copyright:
+copyrightYear: 2021+
+releaseLabel: ci-build
+title: Botswana Laboratory HIE Workflow Implementation Guide
+description: TODO
+license: CC-BY-SA-4.0
+publisher:
+  name: B-TECHBW
+  url: www.github.com/b-techbw
+  email: pmanko@uw.edu
+  contact: Piotr W Mankowski
+jurisdiction: 
+  - http://unstats.un.org/unsd/methods/m49/m49.htm#072
+  - urn:iso:std:iso:3166#BW
+experimental: true
+parameters:
+  excludettl: true
+ 
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  Functional Specifications:
+    System Requirements: system_specification.html
+    Use Cases: use_cases.html
+  Technical Specifications:
+    Artifacts: artifacts.html
+
+resources:
+  Bundle/example-bw-lab-bundle:
+    name: BW Lab Bundle
+    description: Composition Bundle containing Lab Order Information for the Botswana HIE
+    exampleCanonical: http://b-techbw.github.io/bw-lab-ig/StructureDefinition/bw-lab-composition
+  
+dependencies:
+  hl7.fhir.uv.ips: 1.0.0
+  #ihe.mcsd.fhir: dev
+    # uri: https://ihe.github.io/ITI.mCSD/index.html
+    # version: 0.2.0
+  #laboratory.workflows.ig: 0.2.0
+    # uri: https://i-tech-uw.github.io/laboratory-workflows-ig/
+    # version: 0.2.0

@@ -4,7 +4,7 @@ services:
   ig:
     image: ghcr.io/b-techbw/bw-lab-ig:latest
     build:
-      context: ./
+      context: ../../../Desktop/New folder
     container_name: ig
     volumes:
     - ./input:/ig/input 
