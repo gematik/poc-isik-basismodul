@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISiK Basismodul"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:22:10+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T12:27:28+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "gematik"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
