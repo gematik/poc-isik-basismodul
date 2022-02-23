@@ -12,7 +12,7 @@
   <title value="Botswana Laboratory HIE Workflow Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-02-23T10:49:18+00:00"/>
+  <date value="2022-02-23T11:09:08+00:00"/>
   <publisher value="B-TECHBW"/>
   <contact>
     <name value="B-TECHBW"/>
@@ -863,36 +863,31 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="changes.html"/>
-        <title value="Changes"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Downloads"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="spec.html"/>
-        <title value="Spec"/>
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="system_specification.html"/>
-        <title value="System Specification"/>
+        <nameUrl value="Datenobjekte.html"/>
+        <title value="Datenobjekte"/>
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="use_cases.html"/>
-        <title value="Use Cases"/>
+        <nameUrl value="Einfuehrung.html"/>
+        <title value="Einfuehrung"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="Motivation.html"/>
+        <title value="Motivation"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ReleaseNotes.html"/>
+        <title value="Release Notes"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="UebergreifendeFestlegungen.html"/>
+        <title value="Uebergreifende Festlegungen"/>
         <generation value="markdown"/>
       </page>
     </page>

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FHIR.BW.LAB\Background - FHIR v4.0.1</title>
+    <title>FHIR.BW.LAB\Motivation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2"}
-    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -81,39 +81,33 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <ul class="nav navbar-nav">
+  <li><a href="Einfuehrung.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="ReleaseNotes.html">Release Notes</a></li>
+  <li><a href="Motivation.html">Motivation</a></li>  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Uebergreifende Festlegungen<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="UebergreifendeFestlegungen.html">Uebergreifende Festlegungen</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Datenobjekte<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datenobjekte.html">Datenobjekte</a>
+      </li>
+    </ul>
+  </li>
+</ul>      
 
-<ul class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="system_specification.html">System Requirements</a>
-      </li>
-      <li>
-        <a href="use_cases.html">Use Cases</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="artifacts.html">Artifacts</a>
-      </li>
-    </ul>
-  </li>
-</ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -125,7 +119,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Background</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Motivation</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -146,19 +140,58 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Botswana Laboratory HIE Workflow Implementation Guide - Local Development build (v0.2.0). See the <a href="http://b-techbw.github.io/bw-lab-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Background</h2>
+  <h2>Motivation</h2>
   
-  
-  
-  <div>
-  <a name="1"></a><h3>Overview</h3>
-  <p>The Lab Order workflow between OpenELIS and OpenMRS will use the FHIR Workflow Module and suggested Communication Patterns to implement the ordering of lab tests from OpenMRS to OpenELIS and the returning the results to OpenMRS.</p>
-  <p>The current communication workflow uses HL7 V2.5.1 messages as documented here: (https://github.com/openelisglobal/openelisglobal-core/wiki/Result-Reporting). This functionality is implemented in openmrs-module-labintegration, an OpenMRS module made for an implementation of OpenMRS deployed in Haiti called iSantePlus.</p>
 
-	<p>
-    See https://wiki.openmrs.org/display/projects/Lab+Integration+Workflow for more information.
-	</p>
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
+<h1 id="motivation">Motivation</h1>
+
+<p>Die Landschaft informationstechnischer Systeme in Krankenhäusern ist enorm heterogen. Für die Patientenverwaltung und -abrechnung, die medizinische Dokumentation, die Laborverwaltung, die Blutbank bis hin zum Dokumentenarchiv werden verschiedene, auf das jeweilige Fachgebiet spezialisierte Systeme verwendet. Es besteht daher der Bedarf, diese Systeme über ihren Primärzweck hinaus sinnvoll zu integrieren. Ein Szenario ist beispielsweise die Abrechnung der im Krankenhaus erbrachten Leistungen. Aus den ursprünglich in verschiedenen Spezialsystemen erfassten Informationen werden die für die Abrechnung relevanten Informationen an ein Abrechnungssystem gesendet und dort zur Rechnungslegung weiterverarbeitet.</p>
+
+<p>Herausforderungen stellen dabei die Vielzahl der Schnittstellen von informationstechnischen Systemen im Krankenhaus sowie zusätzliche Anforderungen für die Nutzung in mobilen Anwendungen dar. Durch die Festlegung und Verwendung von offenen und standardisierten Schnittstellen können diese Herausforderungen effizienter angenommen werden.</p>
+
+<p>Im Folgenden leiten wir - die gematik GmbH - her, warum die bestehenden Integrationsansätze im Krankenhaus noch unzureichend sind und durch die im Bestätigungsverfahren „Interoperabler Datenaustausch durch Informationssysteme im Krankenhaus“ (ISiK) spezifizierten Ansätze ergänzt werden, um die Vielzahl sinnvoller Integrationsszenarien effizient abzudecken.</p>
+
+<h2 id="reaktiver-datenaustausch-im-krankenhaus">Reaktiver Datenaustausch im Krankenhaus</h2>
+
+<p>Der aktuell in Krankenhäusern vorherrschende Integrationsansatz nach dem Standard HL7 Version 2 (HL7v2) sieht vor, dass fachdomänenspezifische Systeme Nachrichten versenden, sobald für andere Systeme interessante Ereignisse eintreten. Bei Anlegen einer Diagnose in einem System für medizinische Dokumentation wird beispielsweise eine entsprechende Nachricht versendet, die vom Abrechnungssystem konsumiert und in der Rechnungslegung berücksichtigt wird. Für diesen Ansatz ist es nötig, dass die konsumierenden Systeme direkt auf die für sie passenden Nachrichten reagieren können. Leider werden dieselben Inhalte in verschiedenen Krankenhäusern oft unterschiedlich in HL7v2-Nachrichten kodiert. Darum wird häufig ein Kommunikationsserver verwendet, der die krankenhausspezifischen Nachrichten in ein Format übersetzt, dass die konsumierenden Systeme verarbeiten können. Erst wenn diese Übersetzung der HL7v2 Nachrichten eingerichtet ist, können Daten zwischen den Systemen ausgetauscht werden.</p>
+
+<p>Daraus ergeben sich einige relevante Nachteile.</p>
+
+<ol>
+  <li>Es ist nur eine im Voraus definierte Datenverarbeitung möglich. Es müssen Verarbeitungsregeln im Kommunikationsserver festgelegt werden, die empfangene HL7v2-Nachrichten zur Weiterverarbeitung in ein geeignetes Format überführen.</li>
+  <li>Es können keine HL7v2-Nachrichten genutzt werden, die vor Aktivierung der Verarbeitungsregeln im Krankenhaus versandt wurden. Damit bleibt ein großer Teil der verfügbaren Daten des Krankenhauses ungenutzt.</li>
+  <li>Gerade große Krankenhäuser müssen tausende dieser Verarbeitungsregeln verwalten. So wird der Überblick erschwert und nicht mehr benötigte Regeln belasten den Kommunikationsserver.</li>
+</ol>
+
+<p>Daher hat der Gesetzgeber im Patientendaten-Schutzgesetz (PDSG) der gematik den Auftrag erteilt, offene und standardisierte Schnittstellen zu spezifizieren, die über den reaktiven Datenaustausch hinaus einen bedarfsgerechten Datenaustausch ermöglichen. Die Einhaltung dieser Spezifikation wird in dem ISiK Bestätigungsverfahren geprüft. Die Beschreibung des Bestätigungsverfahrens ist nicht Inhalt dieses Implementierungsleitfadens und wird im Fachportal der gematik erfolgen (<a href="https://fachportal.gematik.de/">https://fachportal.gematik.de/</a>).</p>
+
+<h2 id="bedarfsgerechter-datenaustausch-im-krankenhaus">Bedarfsgerechter Datenaustausch im Krankenhaus</h2>
+
+<p>Um die oben skizzierten Nachteile zu vermeiden, wird in diesem Leitfaden ein bedarfsgerechter Datenaustausch im Krankenhaus spezifiziert. Benötigte Daten werden zum gewünschten Zeitpunkt im nötigen Umfang angefragt und zur Verfügung gestellt. So sind prinzipiell alle Daten eines Krankenhauses nutzbar, auch wenn sie lange vor dem Bedarf zur Nachnutzung erhoben wurden. Es müssen keine statischen Verarbeitungsregeln in einer Drittsoftware - dem Kommunikationsserver - verwaltet werden. Diese Art des bedarfsgerechten Datenaustausches wird in ISiK durch den internationalen HL7-Standard FHIR in seiner aktuellen Version R4 realisiert. Dabei folgt die Kommunikation dem Architekturstil Representational State Transfer - REST - auf dem auch wesentliche Teile der Kommunikation im Internet und mit mobilen Geräten im Besonderen basieren.</p>
+
+<h2 id="anwendungsfälle-und-interaktionen">Anwendungsfälle und Interaktionen</h2>
+
+<p>Mit ISiK sollen eine Vielzahl digital unterstützter Anwendungsfälle im Krankenhaus realisiert werden. Dabei soll nicht die Vielfalt an möglichen Anwendungsfällen im Voraus komplett spezifiziert werden. Damit würde die Implementierung von ISiK durch zu enge und komplexe Vorgaben eher verhindert werden, gerade mit Blick auf zu erwartende zukünftige Anwendungsfälle.
+Das Ziel von ISiK ist es, digitale Interaktionen in den Anwendungsfällen zu identifizieren, für die eine Standardisierung besonders wertstiftend ist. Wertstiftend sind Interaktionen, die bspw. viele Anwendungsfälle unterstützen oder in einem Anwendungsfall einen besonders aufwändigen manuellen Schritt automatisieren.</p>
+
+
+
+
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
@@ -180,8 +213,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l313">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 10:49+0000">2022-02-23</span>
+        <p><a name="l354">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 11:09+0000">2022-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

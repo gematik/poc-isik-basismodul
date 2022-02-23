@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FHIR.BW.LAB\Spec - FHIR v4.0.1</title>
+    <title>FHIR.BW.LAB\Einfuehrung - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5"}
-    h3,h4,h5,h6{--heading-prefix:"5"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -81,39 +81,33 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <ul class="nav navbar-nav">
+  <li><a href="Einfuehrung.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="ReleaseNotes.html">Release Notes</a></li>
+  <li><a href="Motivation.html">Motivation</a></li>  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Uebergreifende Festlegungen<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="UebergreifendeFestlegungen.html">Uebergreifende Festlegungen</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Datenobjekte<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datenobjekte.html">Datenobjekte</a>
+      </li>
+    </ul>
+  </li>
+</ul>      
 
-<ul class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="system_specification.html">System Requirements</a>
-      </li>
-      <li>
-        <a href="use_cases.html">Use Cases</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="artifacts.html">Artifacts</a>
-      </li>
-    </ul>
-  </li>
-</ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -125,7 +119,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Spec</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Einfuehrung</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -146,7 +140,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Botswana Laboratory HIE Workflow Implementation Guide - Local Development build (v0.2.0). See the <a href="http://b-techbw.github.io/bw-lab-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Spec</h2>
+  <h2>Einfuehrung</h2>
   
 
 
@@ -164,8 +158,40 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
-<h3 id="specifications">Specifications</h3>
-<p>These are the project specifications:</p>
+<p><img src="https://raw.githubusercontent.com/gematik/api-ISiK/master/images/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/></p>
+
+<hr/>
+<p>Version: 1.0.2</p>
+
+<p>Datum: 07.10.2021</p>
+
+<p>Status: Finale Release-Version (Technical Correction 2)</p>
+
+<p>Realm: Deutschland</p>
+
+<p>Abgekündigte Versionen oder Zwischenveröffentlichungen der Implementierungsleitfäden finden Sie unter:  https://github.com/gematik/api-ISiK/releases</p>
+
+<hr/>
+
+<h1 id="interoperabler-datenaustausch-durch-informationssysteme-im-krankenhaus-isik">Interoperabler Datenaustausch durch Informationssysteme im Krankenhaus (ISiK)</h1>
+
+<p>Die gematik wurde vom Gesetzgeber beauftragt, im Benehmen mit der Deutschen Krankenhausgesellschaft (DKG) und den maßgeblichen Bundesverbänden der Industrie im Gesundheitswesen, verbindliche Standards für den Austausch von Gesundheitsdaten mit Informationssystemen im Krankenhaus zu erarbeiten. Dieser FHIR ImplementationGuide (IG) beschreibt die für diesen Zweck entwickelten FHIR Profile und das <a href="https://de.wikipedia.org/wiki/Representational_State_Transfer">REST</a>-basierte Application Programming Interface (API). Die REST-API wird im Wesentlichen <a href="https://www.hl7.org/fhir/http.html">vom FHIR Standard vorgegeben</a>. Dieser Leitfaden konkretisiert die ISiK-relevanten Funktionen der Standard-REST-API und trifft inhaltliche Festlegungen zu den ISiK-relevanten Ressourcen in Form von Ressourcen-Profilen.</p>
+
+<p>Hersteller bestätigungsrelevanter Systeme sollen durch diesen IG in die Lage versetzt werden, eine konforme Implementierung zu erstellen und das Bestätigungsverfahren der gematik erfolgreich zu absolvieren.</p>
+
+<p>Weitere Informationen siehe <a href="https://www.gesetze-im-internet.de/sgb_5/__373.html">&sect;373 SGB V</a>.</p>
+
+<p>Hinweis: Es sei darauf hingewiesen, dass sowohl für die Implementierung der ISiK-Spezifikation, als auch für den Betrieb eines Produktes das die ISiK-Spezfikation implementiert eine SNOMED-CT-Lizenz notwendig ist. Diese kann durch das beim <a href="https://www.bfarm.de/DE/Kodiersysteme/Terminologien/SNOMED-CT/_node.html">National Release Center für SNOMED CT in Deutschland</a> beantragt werden.</p>
+
+<p><strong>Kontakt</strong></p>
+
+<p><a name="l319">​</a><a href="ISiK@gematik.de">ISiK@gematik.de</a></p>
+
+<p><strong>Herausgeber</strong></p>
+
+<p>gematik GmbH</p>
+
+<p><a href="https://www.gematik.de/impressum/">Impressum</a></p>
 
 
 
@@ -190,8 +216,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l311">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 10:49+0000">2022-02-23</span>
+        <p><a name="l371">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 11:09+0000">2022-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

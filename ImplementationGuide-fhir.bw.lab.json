@@ -11,7 +11,7 @@
   "title": "Botswana Laboratory HIE Workflow Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2022-02-23T10:49:18+00:00",
+  "date": "2022-02-23T11:09:08+00:00",
   "publisher": "B-TECHBW",
   "contact": [
     {
@@ -1168,36 +1168,31 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "background.html",
-          "title": "Background",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "changes.html",
-          "title": "Changes",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "downloads.html",
-          "title": "Downloads",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "spec.html",
-          "title": "Spec",
           "generation": "markdown"
         },
         {
-          "nameUrl": "system_specification.html",
-          "title": "System Specification",
+          "nameUrl": "Datenobjekte.html",
+          "title": "Datenobjekte",
           "generation": "markdown"
         },
         {
-          "nameUrl": "use_cases.html",
-          "title": "Use Cases",
+          "nameUrl": "Einfuehrung.html",
+          "title": "Einfuehrung",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "Motivation.html",
+          "title": "Motivation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ReleaseNotes.html",
+          "title": "Release Notes",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "UebergreifendeFestlegungen.html",
+          "title": "Uebergreifende Festlegungen",
           "generation": "markdown"
         }
       ]

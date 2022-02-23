@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FHIR.BW.LAB\Downloads - FHIR v4.0.1</title>
+    <title>FHIR.BW.LAB\Release Notes - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -81,39 +81,33 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <ul class="nav navbar-nav">
+  <li><a href="Einfuehrung.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="ReleaseNotes.html">Release Notes</a></li>
+  <li><a href="Motivation.html">Motivation</a></li>  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Uebergreifende Festlegungen<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="UebergreifendeFestlegungen.html">Uebergreifende Festlegungen</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Datenobjekte<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Datenobjekte.html">Datenobjekte</a>
+      </li>
+    </ul>
+  </li>
+</ul>      
 
-<ul class="nav navbar-nav">
-  <li>
-    <a href="index.html">Home</a>
-  </li>
-  <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="system_specification.html">System Requirements</a>
-      </li>
-      <li>
-        <a href="use_cases.html">Use Cases</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technical Specifications
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="artifacts.html">Artifacts</a>
-      </li>
-    </ul>
-  </li>
-</ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -125,7 +119,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Downloads</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Release Notes</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -146,50 +140,127 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Botswana Laboratory HIE Workflow Implementation Guide - Local Development build (v0.2.0). See the <a href="http://b-techbw.github.io/bw-lab-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Downloads</h2>
+  <h2>Release Notes</h2>
   
-  
-  
-  <div>
 
 
 
-	<p>
-    Download the entire implementation guide <a href="full-ig.zip">here</a>
-	</p>
-	<table>
-		<tbody>
-			<tr>
-				<th>Artifact Definitions</th>
-
-				<td>
-					<a href="definitions.xml.zip">XML</a>
-				</td>
 
 
-				<td>
-					<a href="definitions.json.zip">JSON</a>
-				</td>
 
 
-			</tr>
-			<tr>
-				<th>Examples</th>
-
-				<td>
-					<a href="examples.xml.zip">XML</a>
-				</td>
 
 
-				<td>
-					<a href="examples.json.zip">JSON</a>
-				</td>
 
 
-			</tr>
-		</tbody>
-	</table>
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
+<p>Im Rahmen der ISiK-Veröffentlichungen wird das <a href="https://semver.org/lang/de/">Semantic Versioning</a> verwendet.</p>
+
+<p>Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von Releases. Die dritte Ziffer Y (Release x.0.y) bezeichnet eine technische Korrektur und versioniert kleinere Änderungen (Packages) während eines Jahres, z. B. 1.0.1.</p>
+
+<hr/>
+<p>Version: 1.0.2</p>
+
+<p>Datum: 07.10.2021</p>
+
+<ul>
+  <li>Update der Deutschen Basisprofile auf die Version 1.1.0</li>
+  <li>Korrektur der Invarianten ‘isik-pat-1’, ‘relatedp-de-1’ und ‘proc-ISiK-1’</li>
+  <li>Slicing in Procedure.code.coding korrigiert</li>
+  <li>Encounter.hospitalization Kardinalität korrigiert (1..1 -&gt; 0..1)</li>
+  <li>Fehlendes Must-Support Flag für Pflichtfeld RelatedPerson.patient hinzugefügt</li>
+</ul>
+
+<hr/>
+<p>Version: 1.0.1</p>
+
+<p>Datum: 27.08.2021</p>
+
+<ul>
+  <li>Korrektur der Suchinteraktion für das Datenobjekt “Condition”: <code class="language-plaintext highlighter-rouge">Condition.onset[x]</code> enthält kein Must-Support-Flag, daher ist die Suche nach “onset-date” keine Pflicht. Der Suchparameter wurde nun als optional markiert.</li>
+  <li>Beschreibung von Encounter.status enthielt Teile der Beschreibung von Condition.status. Diese wurden nun gelöscht.</li>
+  <li>Der Slice Encounter.type:Kontaktart ist wurde fälschlicherweise als Pflichtfeld makiert. Um eine Kompabilität zu <a href="https://simplifier.net/guide/basisprofil-de-r4/AmbulanterstationrerFallEncounterAccountEpisodeOfCare">Repräsentation der Fallarten in FHIR - Deutsche Basisprofile HL7 Deutschland</a> gewährleisten wurde dieses Feld als optional gekennzeichnet.</li>
+  <li>Das Binding an Procedure.code:OPS enthielt ein Binding an ein ValueSet mit falscher Canonical-URL.</li>
+  <li>Korrektur der Interaktionen auf Coverage: Für Coverage.payor für das Profil ISiKVersicherungsverhaeltnisGesetzlich muss nur die Suche mittels des identifier-Modifiers untersützt werden, jedoch nicht die Suche auf die dazugehörige Referenz.</li>
+  <li>Hinweis hinzugefügt, dass sowohl für die Implementierung von ISiK, als auch für den anschließenden Betrieb eines ISiK-konformen Systems eine SNOMED-Lizenz notwendig ist.</li>
+  <li>Die FHIRPath-Constraints relatedp-de-1 und pat-de-1 resultierten in einem falschen Ergebnis falls das “gender”-Element innerhalb des Datenobjektes “Patient” bzw. “Practitioner” nicht gesetzt war.</li>
+  <li>Hinweise hinzugefügt für die korrekte Implementierung einer OperationOutcome falls ein Bericht eines Subsystems eine nicht-existierende Referenz auf ein “Patient”- oder “Encounter”-Datenobjekt enthält.</li>
+  <li>Update auf die <a href="https://simplifier.net/packages/de.basisprofil.r4/1.0.0">Deutschen Basisprofile Version 1.0.0</a>.</li>
+</ul>
+
+<hr/>
+<p>Version: 1.0.0</p>
+
+<p>Datum: 29.06.2021</p>
+
+<h5 id="übergreifende-festlegungen">Übergreifende Festlegungen</h5>
+<ul>
+  <li>Korrektur von verpflichtenden Suchparametern im CapabilityStatement mit Hinblick auf Must-Support-Flags in den Datenobjekt-Profilen</li>
+  <li>Anpassung der ISiK-Profile an die Version v1.0.0-rc4 der Deutschen Basisprofile</li>
+</ul>
+
+<hr/>
+<p>Version: 1.0.0 CC1</p>
+
+<p>Datum: 25.05.2021</p>
+
+<h5 id="übergreifende-festlegungen-1">Übergreifende Festlegungen</h5>
+<ul>
+  <li>Hinweis angepasst, dass HTTPS im produktiven Einsatz verpflichtend ist</li>
+  <li>Hinweis präzisiert, dass die eingesetzte Software eines Drittherstellers nur im Rahmen des Bestätigungsverfahrens zu einem Bestandteil des Primärsystems wird</li>
+  <li>Canoncial der ImplementationGuide-Ressource für ISiK harmonisiert mit den Schema der restlichen Canonicals</li>
+  <li>:not und :text Modifier waren als Modifier für String-Suchparameter anstelle von Token-Suchparameter definiert</li>
+  <li>Anpassung der ISiK-Profile an die Version v1.0.0-rc1 der Deutschen Basisprofile:</li>
+</ul>
+
+<h6 id="im-vergleich-zu-der-version-100-alpha9-ergeben-sich-in-den-deutschen-basisprofile-folgende-änderungen">Im Vergleich zu der Version 1.0.0-alpha9 ergeben sich in den deutschen Basisprofile folgende Änderungen:</h6>
+
+<ul>
+  <li>ValueSet Binding in Lebensphase-Extension korrigiert</li>
+  <li>Übersetzung von marital-status (“S”) korrigiert</li>
+  <li>BSNR und LANR aus CodeSystem-identifier-type-de gelöscht (sind bereits in HL7 v2 Table 0203 enthalten)</li>
+  <li>Constraint gender-amtlich-1 in die Extension gender-amtlich direkt eingefügt</li>
+  <li>Verweis auf own-prefix Extension in Extension-humanname-namenszusatz korrigiert</li>
+  <li>Anpassung der ICD-10-GM-Extensions und des Coding-Datentyp-Profils zur korrekten Abbildung von Mehrfachkodierungen</li>
+  <li>Änderung der canonical URL folgender, ehemals DIMDI, jetzt BfArM CodeSysteme: ICD-10-GM, OPS, ATC</li>
+</ul>
+
+<h5 id="diagnose">Diagnose</h5>
+<ul>
+  <li>Kein Must Support mehr für Condition.onset</li>
+  <li>Kardinalität von Condition.diagnosis.use auf 1..1 angepasst</li>
+  <li>FHIRPath Constraint isik-con1 hinzugefügt</li>
+  <li>Hinweis zu Condition.encounter erweitert</li>
+  <li>Must-support Flag für Condition.encounter hinzugefügt</li>
+</ul>
+
+<h5 id="kontakt">Kontakt</h5>
+<ul>
+  <li>Hinweise zu der begrifflichen Abgrenzung von Fall / Kontakt hinzugefügt</li>
+  <li>Basis-Statuswerte “in-progress”, “finished” und “cancelled” werden nun gefordert</li>
+</ul>
+
+<h5 id="patient">Patient</h5>
+<ul>
+  <li>Kardinalität 0..* für Slices von Patient.address</li>
+  <li>FHIRPath Constraint isik-pat-1 hinzugefügt</li>
+  <li>Update der Beispieldaten</li>
+</ul>
+
+<h5 id="prozedur">Prozedur</h5>
+<ul>
+  <li>
+    <h2 id="must-support-flag-für-procedureencounter-hinzugefügt">Must-support Flag für Procedure.encounter hinzugefügt</h2>
+  </li>
+</ul>
+
+
+
+
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
@@ -211,8 +282,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l348">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 10:49+0000">2022-02-23</span>
+        <p><a name="l521">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="www.github.com/b-techbw">B-TECHBW</a>.  Package fhir.bw.lab#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 23, 2022 11:09+0000">2022-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

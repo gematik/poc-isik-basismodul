@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Botswana Laboratory HIE Workflow Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T10:49:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-23T11:09:08+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "B-TECHBW"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1199,36 +1199,31 @@
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "background.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Background" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Datenobjekte.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Datenobjekte" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Changes" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Einfuehrung.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Einfuehrung" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Motivation.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Motivation" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 4;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Spec" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ReleaseNotes.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Release Notes" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 5;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "system_specification.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "System Specification" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 6;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "use_cases.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "UebergreifendeFestlegungen.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Uebergreifende Festlegungen" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

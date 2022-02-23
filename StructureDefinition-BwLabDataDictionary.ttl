@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BwLabDataDictionary"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-23T10:49:18+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-23T11:09:08+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "B-TECHBW"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
