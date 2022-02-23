@@ -8,23 +8,19 @@ name: Basismodul_Stufe1
 status: draft
 version: 0.2.0
 fhirVersion: 4.0.1
-# copyright:
-copyrightYear: 2021+
-releaseLabel: ci-build
-title: Botswana Laboratory HIE Workflow Implementation Guide
-description: TODO
-license: CC-BY-SA-4.0
+# title: Example Title
+# description: Example Implementation Guide for getting started with SUSHI
+status: draft # draft | active | retired | unknown
+version: 1.0.5
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2022+
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: B-TECHBW
-  url: www.github.com/b-techbw
-  email: pmanko@uw.edu
-  contact: Piotr W Mankowski
-jurisdiction: 
-  - http://unstats.un.org/unsd/methods/m49/m49.htm#072
-  - urn:iso:std:iso:3166#BW
-experimental: true
-parameters:
-  excludettl: true
+  name: gematik
+  url: https://www.gematik.de
+  email: isik@gematik.de
  
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
