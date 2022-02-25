@@ -18,8 +18,8 @@ jobs:
   gh-pages:
     runs-on: ubuntu-latest
 
-#    steps:
-#      - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
 #      - name: Firely.Terminal (GitHub Actions)
 #        uses: FirelyTeam/firely-terminal-pipeline@v0.3.2
