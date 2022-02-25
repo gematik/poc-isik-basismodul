@@ -18,27 +18,27 @@ jobs:
   gh-pages:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
+#    steps:
+#      - uses: actions/checkout@v2
 
-      - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.3.2
-        with:
-          PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
-          #PATH_TO_EXAMPLES: Examples
-          # PATH_TO_QUALITY_CONTROL_RULES: qc/custom
-          DOTNET_VALIDATION_ENABLED: true
-          JAVA_VALIDATION_ENABLED: false
-          # EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_EXAMPLES_JAVA
-          SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
-          SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
-          SUSHI_ENABLED: true
+#      - name: Firely.Terminal (GitHub Actions)
+#        uses: FirelyTeam/firely-terminal-pipeline@v0.3.2
+#        with:
+#          PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
+#          #PATH_TO_EXAMPLES: Examples
+#          # PATH_TO_QUALITY_CONTROL_RULES: qc/custom
+#          DOTNET_VALIDATION_ENABLED: true
+#          JAVA_VALIDATION_ENABLED: false
+#         # EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_EXAMPLES_JAVA
+#         SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
+#          SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
+#          SUSHI_ENABLED: true
 
-      - name: TEST
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          # Get the latest publisher - don't run the batch script but run the line directly
-          args: find /github/workspace
+#      - name: TEST
+#        uses: docker://hl7fhir/ig-publisher-base:latest
+#        with:
+#          # Get the latest publisher - don't run the batch script but run the line directly
+#          args: find /github/workspace
 
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
