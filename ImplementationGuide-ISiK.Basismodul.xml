@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ISiK.Basismodul"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Basismodul_Stufe13</h2><p>The official URL for this implementation guide is: </p><pre>http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul</pre><div><p>TODO</p>
+</div></div>
+  </text>
+  <url value="http://simplifier.net/ISiK/ImplementationGuide/ISiK.Basismodul"/>
+  <version value="0.2.0"/>
+  <name value="Basismodul_Stufe13"/>
+  <title value="ISiK Basismodul"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-03-07T07:35:42+00:00"/>
+  <publisher value="gematik"/>
+  <contact>
+    <name value="gematik"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.gematik.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="isik@gematik.de"/>
+    </telecom>
+  </contact>
+  <description value="TODO"/>
+  <packageId value="ISiK.Basismodul"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7_fhir_uv_ips">
+    <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
+    <packageId value="hl7.fhir.uv.ips"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludettl"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://simplifier.net/ISiK/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/birth-place-observation"/>
+      </reference>
+      <name value="Birth Place"/>
+      <description value="Describes a Birth Place in the Omang System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-encounter"/>
+      </reference>
+      <name value="Botswana Encounter (TODO)"/>
+      <description value="Encounter resource for clinical encounters in Botswana"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-lab-composition"/>
+      </reference>
+      <name value="Botswana Lab Order Composition"/>
+      <description value="This composition packages information needed to facilitate lab order communication between clinical systems in Botswana."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-lab-diagnostic-report"/>
+      </reference>
+      <name value="Botswana Lab Diagnostic Report"/>
+      <description value="DiagnosticReport resource that holds the results of a lab order"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-lab-observation"/>
+      </reference>
+      <name value="Botswana Lab Observation"/>
+      <description value="Observation resource that holds the result values a lab order in Botswana"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-lab-task"/>
+      </reference>
+      <name value="Botswana Lab Task Resource"/>
+      <description value="A Task resource for tracking order state and synchronizing Lab Order communication in Botswana"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-national-identifier"/>
+      </reference>
+      <name value="Botswana National Identifier"/>
+      <description value="A national-level identifier for Botswana, usually either OMANG or a Passport number."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-patient"/>
+      </reference>
+      <name value="Botswana Patient"/>
+      <description value="A patient in a Botswana Health System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-pims-lab-profile-service-request"/>
+      </reference>
+      <name value="PIMS Lab Profile Service Request"/>
+      <description value="A service request representing a PIMS lab profile as part of a PIMS lab order."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-pims-lab-test-service-request"/>
+      </reference>
+      <name value="PIMS Lab Test Service Request"/>
+      <description value="A service request representing a PIMS lab test as part of a PIMS lab order."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-practitioner"/>
+      </reference>
+      <name value="Botswana Practitioner"/>
+      <description value="A practitioner in a Botswana Health System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bw-basic-service-request"/>
+      </reference>
+      <name value="Basic Botswana Lab Service Request"/>
+      <description value="A service request a lab order for for a given patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/death-certificate-observation"/>
+      </reference>
+      <name value="Death Certificate"/>
+      <description value="Death Certificate in the Omang System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/omang-patient"/>
+      </reference>
+      <name value="Omang System Patient"/>
+      <description value="A patient in the Omang system"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pims-patient"/>
+      </reference>
+      <name value="PIMS Patient"/>
+      <description value="A patient in a PIMS instance"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-ipms-facility-code-vs"/>
+      </reference>
+      <name value="IPMS Facility Code Valueset"/>
+      <description value="IPMS Facility Code Valueset"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-lab-diagnostic-report-status-vs"/>
+      </reference>
+      <name value="Botswana Diagnostic Report Status Flag"/>
+      <description value="The status of the diagnostic report, subset from https://www.hl7.org/fhir/valueset-diagnostic-report-status.html"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-lab-order-code-vs"/>
+      </reference>
+      <name value="Botswana Lab Order Code"/>
+      <description value="The code for the lab order."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-lab-task-intent-vs"/>
+      </reference>
+      <name value="Botswana Intent for Lab Task"/>
+      <description value="The intent of the task, subset from https://www.hl7.org/FHIR/valueset-task-intent.html"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-lab-task-status-vs"/>
+      </reference>
+      <name value="Botswana Status for Lab Task"/>
+      <description value="The status of the task, subset from https://www.hl7.org/FHIR/valueset-task-status.html"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-mfl-facility-code-vs"/>
+      </reference>
+      <name value="MFL Facility Code Valueset"/>
+      <description value="MFL Facility Code Valueset"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-pims-lab-class-vs"/>
+      </reference>
+      <name value="Status Values for PIMS Lab Orders"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-pims-lab-order-status-vs"/>
+      </reference>
+      <name value="Status Values for PIMS Lab Orders"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bw-pims-lab-test-vs"/>
+      </reference>
+      <name value="PIMS Lab Test Codes"/>
+      <description value="PIMS Lab Test Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/bw-ipms-facility-code-cs"/>
+      </reference>
+      <name value="IPMS Facility Codes"/>
+      <description value="IPMS Facility Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/bw-mfl-facility-code-cs"/>
+      </reference>
+      <name value="BW MFL Facility Codes"/>
+      <description value="BW MFLFacility Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/bw-pims-lab-class-cs"/>
+      </reference>
+      <name value="PIMS Lab Class Code System"/>
+      <description value="PIMS Lab Class Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/bw-pims-lab-order-status-cs"/>
+      </reference>
+      <name value="PIMS Lab Order Status Code System"/>
+      <description value="PIMS Lab Order Status Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/bw-pims-lab-test-cs"/>
+      </reference>
+      <name value="PIMS Lab Test Code System"/>
+      <description value="PIMS Lab Test Code System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/BwIpmsFacilityCodeMap"/>
+      </reference>
+      <name value="IPMS Facility Code Mappings"/>
+      <description value="Mapping between IPMS facility codes and BW MFL codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BwLabDataDictionary"/>
+      </reference>
+      <name value="Botswana Lab Data Dictionary"/>
+      <description value="Botswana Laboratory Data Dictionary - Logical Model"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/BwLabPimsOrderStatusDiagnosticReportCM"/>
+      </reference>
+      <name value="PIMS Lab Order Diagnostic Report Status Mapping"/>
+      <description value="Mapping PIMS Lab Order Status to standard DiagnosticReport status value set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/BwLabPimsOrderStatusRequestCM"/>
+      </reference>
+      <name value="PIMS Lab Order Service Request Status Mapping"/>
+      <description value="Mapping PIMS Lab Order Status to standard ServiceRequest status value set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/BwLabPimsOrderStatusTaskCM"/>
+      </reference>
+      <name value="PIMS Lab Order Status Task Mapping"/>
+      <description value="Mapping PIMS Lab Order Status to standard Task status value set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/BwPimsLabTestLoincCM"/>
+      </reference>
+      <name value="PIMS tblkLabTest &lt;-&gt; LOINC"/>
+      <description value="Mapping PIMS Lab Test Codes to LOINC."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-birth-place"/>
+      </reference>
+      <name value="Birth Place"/>
+      <description value="Birth Place for Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/example-bw-ipms-diagnostic-report"/>
+      </reference>
+      <name value="Laboratory DiagnosticReport"/>
+      <description value="Example Laboratory DiagnosticReport"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-diagnostic-report"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-bw-ipms-obs-1"/>
+      </reference>
+      <name value="IPMS Observation #1"/>
+      <description value="Example IPMS Observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-bw-ipms-obs-2"/>
+      </reference>
+      <name value="IPMS Observation #2"/>
+      <description value="Example IPMS Observation"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/example-bw-ipms-service-request"/>
+      </reference>
+      <name value="BW PIMS ServiceRequest 2"/>
+      <description value="Example ServiceRequest resource representing a IPMS Lab Order"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/example-bw-lab-bundle"/>
+      </reference>
+      <name value="Example Lab Bundle"/>
+      <description value="Example Full PIMS Lab Bundle"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/example-bw-lab-composition"/>
+      </reference>
+      <name value="Example PIMS Lab Composition"/>
+      <description value="Example Lab Order Composition"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-composition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/example-bw-lab-results-bundle"/>
+      </reference>
+      <name value="Example IPMS Results Lab Bundle"/>
+      <description value="Example IPMS Results Lab Bundle translated from HL7 ORU message"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/example-bw-pims-practitioner"/>
+      </reference>
+      <name value="BW PIMS Practitioner"/>
+      <description value="Example PIMS Practitioner"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/example-bw-pims-service-request-1"/>
+      </reference>
+      <name value="BW PIMS ServiceRequest 1"/>
+      <description value="Example ServiceRequest resource representing a PIMS Lab Order"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/example-bw-pims-service-request-2"/>
+      </reference>
+      <name value="BW PIMS ServiceRequest 2"/>
+      <description value="Example ServiceRequest resource representing a PIMS Lab Order"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/example-bw-pims-service-request-profile"/>
+      </reference>
+      <name value="BW PIMS ServiceRequest Profile"/>
+      <description value="Example ServiceRequest resource representing a PIMS Profile"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/example-bw-task-requested"/>
+      </reference>
+      <name value="BW Requested Lab Task"/>
+      <description value="Example Task for Requested Lab Orders and Results in Botswana"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-lab-task"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-death-cert"/>
+      </reference>
+      <name value="Death Certificate"/>
+      <description value="Death Certificate Information for Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/death-certificate-observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/example-facility-order-creator"/>
+      </reference>
+      <name value="PIMS Facility"/>
+      <description value="Example PIMS Facility"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/example-facility-order-reciever"/>
+      </reference>
+      <name value="IPMS Facility"/>
+      <description value="Example IPMS Facility"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-ipms-patient"/>
+      </reference>
+      <name value="IPMS Patient"/>
+      <description value="Example IPMS Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/example-location-order-creator"/>
+      </reference>
+      <name value="PIMS Location"/>
+      <description value="Example PIMS Facility Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/example-location-order-reciever"/>
+      </reference>
+      <name value="IPMS Location"/>
+      <description value="Example IPMS Facility Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-omang-patient"/>
+      </reference>
+      <name value="Omang Patient"/>
+      <description value="Omang Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/omang-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-pims-patient"/>
+      </reference>
+      <name value="PIMS Patient"/>
+      <description value="Example PIMS Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-pims-patient-international"/>
+      </reference>
+      <name value="BW Patient"/>
+      <description value="Example International Botswana Patient"/>
+      <exampleCanonical value="http://simplifier.net/ISiK/StructureDefinition/bw-patient"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="Datenobjekte.html"/>
+        <title value="Datenobjekte"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="Einfuehrung.html"/>
+        <title value="Einfuehrung"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="Motivation.html"/>
+        <title value="Motivation"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ReleaseNotes.html"/>
+        <title value="Release Notes"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="UebergreifendeFestlegungen.html"/>
+        <title value="Uebergreifende Festlegungen"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

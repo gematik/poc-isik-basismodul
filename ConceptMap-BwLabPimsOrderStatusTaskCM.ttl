@@ -1,0 +1,93 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusTaskCM> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BwLabPimsOrderStatusTaskCM"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BwLabPimsOrderStatusTaskCM (http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusTaskCM)</h2><p>Mapping from <a href=\"ValueSet-bw-pims-lab-order-status-vs.html\">http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs</a> to <a href=\"http://hl7.org/fhir/R4/valueset-task-status.html\">http://hl7.org/fhir/ValueSet/task-status</a></p><p>DRAFT (not intended for production usage). Published on 2022-03-07 07:35:42+0000 by gematik (gematik: <a href=\"www.gematik.de\">www.gematik.de</a>, <a href=\"mailto:isik@gematik.de\">isik@gematik.de</a>). </p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td colspan=\"3\">Mapping from <a href=\"ValueSet-bw-pims-lab-order-status-vs.html\">Status Values for PIMS Lab Orders</a> to <a href=\"http://hl7.org/fhir/R4/valueset-task-status.html\">TaskStatus</a></td></tr><tr><td>ordered</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>requested</td></tr><tr><td>fully-drawn</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>in-progress</td></tr><tr><td>partially-resulted</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>in-progress</td></tr><tr><td>cancelled</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>cancelled</td></tr><tr><td>partially-drawn</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>in-progress</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusTaskCM"];
+  fhir:ConceptMap.version [ fhir:value "0.2.0"];
+  fhir:ConceptMap.name [ fhir:value "BwLabPimsOrderStatusTaskCM"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ConceptMap.date [ fhir:value "2022-03-07T07:35:42+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "gematik"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
+     ]
+  ];
+  fhir:ConceptMap.sourceCanonical [
+     fhir:value "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs";
+     fhir:link <http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs>
+  ];
+  fhir:ConceptMap.targetUri [ fhir:value "http://hl7.org/fhir/ValueSet/task-status"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://simplifier.net/ISiK/ValueSet/bw-pims-lab-order-status-vs" ];
+     fhir:ConceptMap.group.target [ fhir:value "http://hl7.org/fhir/ValueSet/task-status" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "ordered" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "requested" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "fully-drawn" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "in-progress" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "partially-resulted" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "in-progress" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "cancelled" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "cancelled" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "partially-drawn" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "in-progress" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/ConceptMap/BwLabPimsOrderStatusTaskCM.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

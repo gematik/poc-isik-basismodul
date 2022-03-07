@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bw-lab-order-code-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a></li></ul></div>"
+  },
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-lab-order-code-vs",
+  "version": "0.2.0",
+  "name": "BwLabOrderCodeVS",
+  "title": "Botswana Lab Order Code",
+  "status": "active",
+  "date": "2022-03-07T07:35:42+00:00",
+  "publisher": "gematik",
+  "contact": [
+    {
+      "name": "gematik",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.gematik.de"
+        },
+        {
+          "system": "email",
+          "value": "isik@gematik.de"
+        }
+      ]
+    }
+  ],
+  "description": "The code for the lab order.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bw-pims-lab-class-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-bw-pims-lab-class-cs.html"><code>http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://simplifier.net/ISiK/ValueSet/bw-pims-lab-class-vs"/>
+  <version value="0.2.0"/>
+  <name value="BwPimsLabClassVS"/>
+  <title value="Status Values for PIMS Lab Orders"/>
+  <status value="active"/>
+  <date value="2022-03-07T07:35:42+00:00"/>
+  <publisher value="gematik"/>
+  <contact>
+    <name value="gematik"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.gematik.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="isik@gematik.de"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs"/>
+    </include>
+  </compose>
+</ValueSet>

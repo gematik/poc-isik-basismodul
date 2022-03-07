@@ -1,0 +1,2196 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "BwLabDataDictionary",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary\" title=\"EmrLisDataDictionary\">EmrLisDataDictionary</a><a name=\"EmrLisDataDictionary\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Element\">Element</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Base for all elements</span><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient\" title=\"Logical model of EMR-LIS Patient\">Patient</a><a name=\"EmrLisDataDictionary.Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">EMR-LIS Patient Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.NationalID\" title=\"Main national-level identification number (Omang or Passport)\">NationalID</a><a name=\"EmrLisDataDictionary.Patient.NationalID\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">National Patient Identification Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.Active\" title=\"Flag for distinguishing between active and not active Patients\">Active</a><a name=\"EmrLisDataDictionary.Patient.Active\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">text</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Active Flag</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.MaritalStatus\" title=\"Marital Status\">MaritalStatus</a><a name=\"EmrLisDataDictionary.Patient.MaritalStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Marital Status<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.Address\" title=\"Patient Address\">Address</a><a name=\"EmrLisDataDictionary.Patient.Address\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Address\">Address</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Address<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.birthDate\" title=\"Patient Date of Birth\">birthDate</a><a name=\"EmrLisDataDictionary.Patient.birthDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Date of Birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.birthDateType\" title=\"Type of Birth Date\">birthDateType</a><a name=\"EmrLisDataDictionary.Patient.birthDateType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Birth Date Type</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.Contact\" title=\"Patient Contact Information\">Contact</a><a name=\"EmrLisDataDictionary.Patient.Contact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Contact Information<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.Name\" title=\"Patient Name\">Name</a><a name=\"EmrLisDataDictionary.Patient.Name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Name<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Patient.GenderID\" title=\"Gender\">GenderID</a><a name=\"EmrLisDataDictionary.Patient.GenderID\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Gender</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask\" title=\"Logical model of a EMR-LIS Lab Order Task\">LabOrderTask</a><a name=\"EmrLisDataDictionary.LabOrderTask\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">EMR-LIS Lab Order Task Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.Patient\" title=\"The Patient for whom the lab order was created\">Patient</a><a name=\"EmrLisDataDictionary.LabOrderTask.Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.Requester\" title=\"The requester of the lab order\">Requester</a><a name=\"EmrLisDataDictionary.LabOrderTask.Requester\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Requester</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.OrderDate\" title=\"Date Lab Order was authored on\">OrderDate</a><a name=\"EmrLisDataDictionary.LabOrderTask.OrderDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.RequestingFacility\" title=\"Requesting Facility\">RequestingFacility</a><a name=\"EmrLisDataDictionary.LabOrderTask.RequestingFacility\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Requesting Facility</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.OrderNumber\" title=\"National Order Identifier\">OrderNumber</a><a name=\"EmrLisDataDictionary.LabOrderTask.OrderNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">National Order Identifier</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.LabOrderGroup\" title=\"Reference to Ordered Lab Test Profile for Lab Order\">LabOrderGroup</a><a name=\"EmrLisDataDictionary.LabOrderTask.LabOrderGroup\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Ordered Lab Test Profile for Lab Order<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderTask.Result\" title=\"Lab Order Result\">Result</a><a name=\"EmrLisDataDictionary.LabOrderTask.Result\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Result<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup\" title=\"Logical model of a EMR-LIS Lab Order Group\">LabOrderGroup</a><a name=\"EmrLisDataDictionary.LabOrderGroup\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">EMR-LIS Lab Order Group Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.Patient\" title=\"The subject of the lab order\">Patient</a><a name=\"EmrLisDataDictionary.LabOrderGroup.Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.Requester\" title=\"The requester of the lab order\">Requester</a><a name=\"EmrLisDataDictionary.LabOrderGroup.Requester\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Requester</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.OrderDate\" title=\"Date Lab Order was authored on\">OrderDate</a><a name=\"EmrLisDataDictionary.LabOrderGroup.OrderDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.SampleDate\" title=\"Date sample collection is scheduled for.\">SampleDate</a><a name=\"EmrLisDataDictionary.LabOrderGroup.SampleDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Scheduled Sample Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.RequestingFacility\" title=\"Requesting Facility\">RequestingFacility</a><a name=\"EmrLisDataDictionary.LabOrderGroup.RequestingFacility\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Requesting Facility</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.Profile\" title=\"Ordering Profile for Lab Orders\">Profile</a><a name=\"EmrLisDataDictionary.LabOrderGroup.Profile\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Ordering Profile for Lab Orders</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrderGroup.LabOrder\" title=\"Reference to child lab orders\">LabOrder</a><a name=\"EmrLisDataDictionary.LabOrderGroup.LabOrder\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to child lab orders<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder\" title=\"Logical model of a EMR-LIS Lab Order\">LabOrder</a><a name=\"EmrLisDataDictionary.LabOrder\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">EMR-LIS Lab Order Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.Patient\" title=\"The subject of the lab order\">Patient</a><a name=\"EmrLisDataDictionary.LabOrder.Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.Requester\" title=\"The requester of the lab order\">Requester</a><a name=\"EmrLisDataDictionary.LabOrder.Requester\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Requester</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.OrderDate\" title=\"Date Lab Order was authored on\">OrderDate</a><a name=\"EmrLisDataDictionary.LabOrder.OrderDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Order Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.SampleDate\" title=\"Date sample collection is scheduled for.\">SampleDate</a><a name=\"EmrLisDataDictionary.LabOrder.SampleDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Scheduled Sample Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.RequestingFacility\" title=\"Requesting Facility\">RequestingFacility</a><a name=\"EmrLisDataDictionary.LabOrder.RequestingFacility\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Requesting Facility</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabOrder.LabTest\" title=\"Ordered Lab Test\">LabTest</a><a name=\"EmrLisDataDictionary.LabOrder.LabTest\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Ordered Lab Test</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.LabTest\" title=\"Reference to Lab Test\">LabTest</a><a name=\"EmrLisDataDictionary.LabTest\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Test<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Result\" title=\"Result for Lab Orders\">Result</a><a name=\"EmrLisDataDictionary.Result\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Result for Lab Orders<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Result.LabTest\" title=\"Lab Test for Result\">LabTest</a><a name=\"EmrLisDataDictionary.Result.LabTest\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lab Test for Result</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Result.Value\" title=\"Value for Result\">Value</a><a name=\"EmrLisDataDictionary.Result.Value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Value for Result</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Result.ValueType\" title=\"Type of Value for Result\">ValueType</a><a name=\"EmrLisDataDictionary.Result.ValueType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Type of Value for Result</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BwLabDataDictionary-definitions.html#EmrLisDataDictionary.Result.Unit\" title=\"Unit for Result\">Unit</a><a name=\"EmrLisDataDictionary.Result.Unit\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Unit for Result</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "http://b-techbw.github.io//StructureDefinition/BwLabDataDictionary",
+  "version": "0.2.0",
+  "name": "BwLabDataDictionary",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-03-07T07:35:42+00:00",
+  "publisher": "gematik",
+  "contact": [
+    {
+      "name": "gematik",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.gematik.de"
+        },
+        {
+          "system": "email",
+          "value": "isik@gematik.de"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "PIMS",
+      "name": "PIMS 2 V4"
+    },
+    {
+      "identity": "FHIR-R4",
+      "name": "FHIR Release 4"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "EmrLisDataDictionary",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "EmrLisDataDictionary",
+        "path": "EmrLisDataDictionary",
+        "short": "Base for all elements",
+        "definition": "EmrLisDataDictionary",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Element",
+          "min": 0,
+          "max": "*"
+        },
+        "condition": [
+          "ele-1"
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          }
+        ],
+        "isModifier": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          },
+          {
+            "identity": "PIMS"
+          },
+          {
+            "identity": "FHIR-R4"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.id",
+        "path": "EmrLisDataDictionary.id",
+        "representation": [
+          "xmlAttr"
+        ],
+        "short": "Unique id for inter-element referencing",
+        "definition": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Element.id",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+                "valueUrl": "string"
+              }
+            ],
+            "code": "http://hl7.org/fhirpath/System.String"
+          }
+        ],
+        "isModifier": false,
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.extension",
+        "path": "EmrLisDataDictionary.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "description": "Extensions are always sliced by (at least) url",
+          "rules": "open"
+        },
+        "short": "Additional content defined by implementations",
+        "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "alias": [
+          "extensions",
+          "user content"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Element.extension",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          },
+          {
+            "key": "ext-1",
+            "severity": "error",
+            "human": "Must have either extensions or value[x], not both",
+            "expression": "extension.exists() != value.exists()",
+            "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
+          }
+        ],
+        "isModifier": false,
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient",
+        "path": "EmrLisDataDictionary.Patient",
+        "short": "EMR-LIS Patient Logical Model",
+        "definition": "Logical model of EMR-LIS Patient",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.NationalID",
+        "path": "EmrLisDataDictionary.Patient.NationalID",
+        "short": "National Patient Identification Number",
+        "definition": "Main national-level identification number (Omang or Passport)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.NationalID",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.IDNo; Patient.tblPatient.IDNoType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.identifier"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Active",
+        "path": "EmrLisDataDictionary.Patient.Active",
+        "short": "Patient Active Flag",
+        "definition": "Flag for distinguishing between active and not active Patients",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.Active",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "text"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatientProgramActivity"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.active"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.MaritalStatus",
+        "path": "EmrLisDataDictionary.Patient.MaritalStatus",
+        "short": "Marital Status",
+        "definition": "Marital Status",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.MaritalStatus",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.MartitalStatusID; Patient.tblkMaritalStatus"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.maritalStatus"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Address",
+        "path": "EmrLisDataDictionary.Patient.Address",
+        "short": "Patient Address",
+        "definition": "Patient Address",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.Address",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Address"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblAddress; Patient.tblkAddressType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.address"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.birthDate",
+        "path": "EmrLisDataDictionary.Patient.birthDate",
+        "short": "Patient Date of Birth",
+        "definition": "Patient Date of Birth",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.birthDate",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.DOB"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.birthDate"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.birthDateType",
+        "path": "EmrLisDataDictionary.Patient.birthDateType",
+        "short": "Birth Date Type",
+        "definition": "Type of Birth Date",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.birthDateType",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.DOBType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "TODO"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Contact",
+        "path": "EmrLisDataDictionary.Patient.Contact",
+        "short": "Patient Contact Information",
+        "definition": "Patient Contact Information",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.Contact",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "ContactPoint"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblContactDetail"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.telecom"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Name",
+        "path": "EmrLisDataDictionary.Patient.Name",
+        "short": "Patient Name",
+        "definition": "Patient Name",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.Name",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.Surname; Patient.tblPatient.Firstname; Patient.tblPatient.Middlename"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.name"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.GenderID",
+        "path": "EmrLisDataDictionary.Patient.GenderID",
+        "short": "Gender",
+        "definition": "Gender",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Patient.GenderID",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.GenderID; Patient.tblkGender"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.gender"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask",
+        "path": "EmrLisDataDictionary.LabOrderTask",
+        "short": "EMR-LIS Lab Order Task Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order Task",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwLabTask"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Patient",
+        "path": "EmrLisDataDictionary.LabOrderTask.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The Patient for whom the lab order was created",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.Patient",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.for"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Requester",
+        "path": "EmrLisDataDictionary.LabOrderTask.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.Requester",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.owner"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrderTask.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.OrderDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrderTask.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.RequestingFacility",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.owner"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.OrderNumber",
+        "path": "EmrLisDataDictionary.LabOrderTask.OrderNumber",
+        "short": "National Order Identifier",
+        "definition": "National Order Identifier",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.OrderNumber",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderNo"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.identifier"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.LabOrderGroup",
+        "path": "EmrLisDataDictionary.LabOrderTask.LabOrderGroup",
+        "short": "Ordered Lab Test Profile for Lab Order",
+        "definition": "Reference to Ordered Lab Test Profile for Lab Order",
+        "min": 1,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.LabOrderGroup",
+          "min": 1,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.basedOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Result",
+        "path": "EmrLisDataDictionary.LabOrderTask.Result",
+        "short": "Lab Order Result",
+        "definition": "Lab Order Result",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderTask.Result",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.output"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup",
+        "path": "EmrLisDataDictionary.LabOrderGroup",
+        "short": "EMR-LIS Lab Order Group Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order Group",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwLabTask"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Patient",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The subject of the lab order",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.Patient",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.subject"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Requester",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.Requester",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrderGroup.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.OrderDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.SampleDate",
+        "path": "EmrLisDataDictionary.LabOrderGroup.SampleDate",
+        "short": "Scheduled Sample Date",
+        "definition": "Date sample collection is scheduled for.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.SampleDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.SampleDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.occurance"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrderGroup.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.RequestingFacility",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Profile",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Profile",
+        "short": "Ordering Profile for Lab Orders",
+        "definition": "Ordering Profile for Lab Orders",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.Profile",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile.labOrderProfileID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.LabOrder",
+        "path": "EmrLisDataDictionary.LabOrderGroup.LabOrder",
+        "short": "Reference to child lab orders",
+        "definition": "Reference to child lab orders",
+        "min": 1,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrderGroup.LabOrder",
+          "min": 1,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder",
+        "path": "EmrLisDataDictionary.LabOrder",
+        "short": "EMR-LIS Lab Order Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile, Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwServiceRequest"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.Patient",
+        "path": "EmrLisDataDictionary.LabOrder.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The subject of the lab order",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.Patient",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.subject"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.Requester",
+        "path": "EmrLisDataDictionary.LabOrder.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.Requester",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrder.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.OrderDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.SampleDate",
+        "path": "EmrLisDataDictionary.LabOrder.SampleDate",
+        "short": "Scheduled Sample Date",
+        "definition": "Date sample collection is scheduled for.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.SampleDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.SampleDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.occurance"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrder.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.RequestingFacility",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.LabTest",
+        "path": "EmrLisDataDictionary.LabOrder.LabTest",
+        "short": "Ordered Lab Test",
+        "definition": "Ordered Lab Test",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.LabOrder.LabTest",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.LabTestID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabTest",
+        "path": "EmrLisDataDictionary.LabTest",
+        "short": "Lab Test",
+        "definition": "Reference to Lab Test",
+        "min": 1,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.LabTest",
+          "min": 1,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile.LabTestID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result",
+        "path": "EmrLisDataDictionary.Result",
+        "short": "Result for Lab Orders",
+        "definition": "Result for Lab Orders",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "EmrLisDataDictionary.Result",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile; Laboratory.tblLabOrderProfileTest; Laboratory.tblLabOrderProfileTestParameter"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "DiagnosticReport"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.LabTest",
+        "path": "EmrLisDataDictionary.Result.LabTest",
+        "short": "Lab Test for Result",
+        "definition": "Lab Test for Result",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Result.LabTest",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "DiagnosticReport.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.Value",
+        "path": "EmrLisDataDictionary.Result.Value",
+        "short": "Value for Result",
+        "definition": "Value for Result",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Result.Value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.Result; Laboratory.tblLabOrderProfileTestParameter.Result"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.ValueType",
+        "path": "EmrLisDataDictionary.Result.ValueType",
+        "short": "Type of Value for Result",
+        "definition": "Type of Value for Result",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Result.ValueType",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "??"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value[x]"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.Unit",
+        "path": "EmrLisDataDictionary.Result.Unit",
+        "short": "Unit for Result",
+        "definition": "Unit for Result",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "EmrLisDataDictionary.Result.Unit",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.LabTestUnitID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value[Quantity]; Quantity.unit"
+          }
+        ]
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "EmrLisDataDictionary",
+        "path": "EmrLisDataDictionary",
+        "definition": "EmrLisDataDictionary",
+        "min": 0,
+        "max": "*",
+        "mapping": [
+          {
+            "identity": "PIMS"
+          },
+          {
+            "identity": "FHIR-R4"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient",
+        "path": "EmrLisDataDictionary.Patient",
+        "short": "EMR-LIS Patient Logical Model",
+        "definition": "Logical model of EMR-LIS Patient",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.NationalID",
+        "path": "EmrLisDataDictionary.Patient.NationalID",
+        "short": "National Patient Identification Number",
+        "definition": "Main national-level identification number (Omang or Passport)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.IDNo; Patient.tblPatient.IDNoType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.identifier"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Active",
+        "path": "EmrLisDataDictionary.Patient.Active",
+        "short": "Patient Active Flag",
+        "definition": "Flag for distinguishing between active and not active Patients",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "text"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatientProgramActivity"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.active"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.MaritalStatus",
+        "path": "EmrLisDataDictionary.Patient.MaritalStatus",
+        "short": "Marital Status",
+        "definition": "Marital Status",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.MartitalStatusID; Patient.tblkMaritalStatus"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.maritalStatus"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Address",
+        "path": "EmrLisDataDictionary.Patient.Address",
+        "short": "Patient Address",
+        "definition": "Patient Address",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Address"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblAddress; Patient.tblkAddressType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.address"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.birthDate",
+        "path": "EmrLisDataDictionary.Patient.birthDate",
+        "short": "Patient Date of Birth",
+        "definition": "Patient Date of Birth",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.DOB"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.birthDate"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.birthDateType",
+        "path": "EmrLisDataDictionary.Patient.birthDateType",
+        "short": "Birth Date Type",
+        "definition": "Type of Birth Date",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.DOBType"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "TODO"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Contact",
+        "path": "EmrLisDataDictionary.Patient.Contact",
+        "short": "Patient Contact Information",
+        "definition": "Patient Contact Information",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "ContactPoint"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblContactDetail"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.telecom"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.Name",
+        "path": "EmrLisDataDictionary.Patient.Name",
+        "short": "Patient Name",
+        "definition": "Patient Name",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.Surname; Patient.tblPatient.Firstname; Patient.tblPatient.Middlename"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.name"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Patient.GenderID",
+        "path": "EmrLisDataDictionary.Patient.GenderID",
+        "short": "Gender",
+        "definition": "Gender",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Patient.tblPatient.GenderID; Patient.tblkGender"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Patient.gender"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask",
+        "path": "EmrLisDataDictionary.LabOrderTask",
+        "short": "EMR-LIS Lab Order Task Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order Task",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwLabTask"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Patient",
+        "path": "EmrLisDataDictionary.LabOrderTask.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The Patient for whom the lab order was created",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.for"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Requester",
+        "path": "EmrLisDataDictionary.LabOrderTask.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.owner"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrderTask.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrderTask.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.owner"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.OrderNumber",
+        "path": "EmrLisDataDictionary.LabOrderTask.OrderNumber",
+        "short": "National Order Identifier",
+        "definition": "National Order Identifier",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderNo"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.identifier"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.LabOrderGroup",
+        "path": "EmrLisDataDictionary.LabOrderTask.LabOrderGroup",
+        "short": "Ordered Lab Test Profile for Lab Order",
+        "definition": "Reference to Ordered Lab Test Profile for Lab Order",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.basedOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderTask.Result",
+        "path": "EmrLisDataDictionary.LabOrderTask.Result",
+        "short": "Lab Order Result",
+        "definition": "Lab Order Result",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Task.output"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup",
+        "path": "EmrLisDataDictionary.LabOrderGroup",
+        "short": "EMR-LIS Lab Order Group Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order Group",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwLabTask"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Patient",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The subject of the lab order",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.subject"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Requester",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrderGroup.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.SampleDate",
+        "path": "EmrLisDataDictionary.LabOrderGroup.SampleDate",
+        "short": "Scheduled Sample Date",
+        "definition": "Date sample collection is scheduled for.",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.SampleDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.occurance"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrderGroup.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.Profile",
+        "path": "EmrLisDataDictionary.LabOrderGroup.Profile",
+        "short": "Ordering Profile for Lab Orders",
+        "definition": "Ordering Profile for Lab Orders",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile.labOrderProfileID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrderGroup.LabOrder",
+        "path": "EmrLisDataDictionary.LabOrderGroup.LabOrder",
+        "short": "Reference to child lab orders",
+        "definition": "Reference to child lab orders",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder",
+        "path": "EmrLisDataDictionary.LabOrder",
+        "short": "EMR-LIS Lab Order Logical Model",
+        "definition": "Logical model of a EMR-LIS Lab Order",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder; Laboratory.tblLabOrderProfile, Laboratory.tblLabOrderProfileTest"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "BwServiceRequest"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.Patient",
+        "path": "EmrLisDataDictionary.LabOrder.Patient",
+        "short": "Lab Order Patient",
+        "definition": "The subject of the lab order",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.PatientID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.subject"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.Requester",
+        "path": "EmrLisDataDictionary.LabOrder.Requester",
+        "short": "Lab Order Requester",
+        "definition": "The requester of the lab order",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequesterID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.OrderDate",
+        "path": "EmrLisDataDictionary.LabOrder.OrderDate",
+        "short": "Lab Order Date",
+        "definition": "Date Lab Order was authored on",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.LabOrderDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.authoredOn"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.SampleDate",
+        "path": "EmrLisDataDictionary.LabOrder.SampleDate",
+        "short": "Scheduled Sample Date",
+        "definition": "Date sample collection is scheduled for.",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.SampleDate"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.occurance"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.RequestingFacility",
+        "path": "EmrLisDataDictionary.LabOrder.RequestingFacility",
+        "short": "Requesting Facility",
+        "definition": "Requesting Facility",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrder.RequestingFacilityID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.requester"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabOrder.LabTest",
+        "path": "EmrLisDataDictionary.LabOrder.LabTest",
+        "short": "Ordered Lab Test",
+        "definition": "Ordered Lab Test",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.LabTestID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.LabTest",
+        "path": "EmrLisDataDictionary.LabTest",
+        "short": "Lab Test",
+        "definition": "Reference to Lab Test",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile.LabTestID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "ServiceRequest.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result",
+        "path": "EmrLisDataDictionary.Result",
+        "short": "Result for Lab Orders",
+        "definition": "Result for Lab Orders",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile; Laboratory.tblLabOrderProfileTest; Laboratory.tblLabOrderProfileTestParameter"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "DiagnosticReport"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.LabTest",
+        "path": "EmrLisDataDictionary.Result.LabTest",
+        "short": "Lab Test for Result",
+        "definition": "Lab Test for Result",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfile"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "DiagnosticReport.code"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.Value",
+        "path": "EmrLisDataDictionary.Result.Value",
+        "short": "Value for Result",
+        "definition": "Value for Result",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.Result; Laboratory.tblLabOrderProfileTestParameter.Result"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.ValueType",
+        "path": "EmrLisDataDictionary.Result.ValueType",
+        "short": "Type of Value for Result",
+        "definition": "Type of Value for Result",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "??"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value[x]"
+          }
+        ]
+      },
+      {
+        "id": "EmrLisDataDictionary.Result.Unit",
+        "path": "EmrLisDataDictionary.Result.Unit",
+        "short": "Unit for Result",
+        "definition": "Unit for Result",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "PIMS",
+            "map": "Laboratory.tblLabOrderProfileTest.LabTestUnitID"
+          },
+          {
+            "identity": "FHIR-R4",
+            "map": "Observation.value[Quantity]; Quantity.unit"
+          }
+        ]
+      }
+    ]
+  }
+}

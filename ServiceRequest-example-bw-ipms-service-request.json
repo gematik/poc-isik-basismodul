@@ -1,0 +1,27 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "example-bw-ipms-service-request",
+  "meta": {
+    "profile": [
+      "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-ipms-service-request\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-basic-service-request.html\">Basic Botswana Lab Service Request</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: SARS-CoV-2 PCR <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pims-lab-test-code#COVID)</span></p><p><b>subject</b>: <a href=\"Patient-example-ipms-patient.html\">Patient/example-ipms-patient</a> \" IPMSPATIENT\"</p></div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://moh.bw.org/ext/laboratory/pims-lab-test-code",
+        "code": "COVID",
+        "display": "SARS-CoV-2 PCR"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-ipms-patient"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bw-lab-task-intent-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/ValueSet/task-intent</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>task-intent-order</td><td>Order</td></tr></table></li></ul></div>"
+  },
+  "url": "http://simplifier.net/ISiK/ValueSet/bw-lab-task-intent-vs",
+  "version": "0.2.0",
+  "name": "BwLabTaskIntentVS",
+  "title": "Botswana Intent for Lab Task",
+  "status": "active",
+  "date": "2022-03-07T07:35:42+00:00",
+  "publisher": "gematik",
+  "contact": [
+    {
+      "name": "gematik",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.gematik.de"
+        },
+        {
+          "system": "email",
+          "value": "isik@gematik.de"
+        }
+      ]
+    }
+  ],
+  "description": "The intent of the task, subset from https://www.hl7.org/FHIR/valueset-task-intent.html",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/ValueSet/task-intent",
+        "concept": [
+          {
+            "code": "task-intent-order",
+            "display": "Order"
+          }
+        ]
+      }
+    ]
+  }
+}

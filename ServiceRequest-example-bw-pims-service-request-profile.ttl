@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile> a fhir:ServiceRequest;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-bw-pims-service-request-profile"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request";
+       fhir:index 0;
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-pims-service-request-profile\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-basic-service-request.html\">Basic Botswana Lab Service Request</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-profile-code <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pims-lab-profile-code#pims-profile-code)</span></p><p><b>subject</b>: <a href=\"Patient-example-pims-patient.html\">Patient/example-pims-patient</a> \" PIMSPATIENT\"</p><p><b>performer</b>: <a href=\"Organization-example-facility-order-reciever.html\">Organization/example-facility-order-reciever</a></p><p><b>locationReference</b>: <a href=\"Location-example-location-order-reciever.html\">Location/example-location-order-reciever</a></p></div>"
+  ];
+  fhir:ServiceRequest.status [ fhir:value "active"];
+  fhir:ServiceRequest.intent [ fhir:value "order"];
+  fhir:ServiceRequest.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://moh.bw.org/ext/laboratory/pims-lab-profile-code" ];
+       fhir:Coding.code [ fhir:value "pims-profile-code" ]
+     ]
+  ];
+  fhir:ServiceRequest.subject [
+     fhir:link <http://simplifier.net/ISiK/Patient/example-pims-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/example-pims-patient" ]
+  ];
+  fhir:ServiceRequest.performer [
+     fhir:index 0;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
+     fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
+  ];
+  fhir:ServiceRequest.locationReference [
+     fhir:index 0;
+     fhir:link <http://simplifier.net/ISiK/Location/example-location-order-reciever>;
+     fhir:Reference.reference [ fhir:value "Location/example-location-order-reciever" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/ServiceRequest/example-bw-pims-service-request-profile.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

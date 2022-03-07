@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="example-bw-pims-service-request-profile"/>
+  <meta>
+    <profile value="http://simplifier.net/ISiK/StructureDefinition/bw-basic-service-request"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-bw-pims-service-request-profile" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-bw-basic-service-request.html">Basic Botswana Lab Service Request</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>code</b>: pims-profile-code <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pims-lab-profile-code#pims-profile-code)</span></p><p><b>subject</b>: <a href="Patient-example-pims-patient.html">Patient/example-pims-patient</a> " PIMSPATIENT"</p><p><b>performer</b>: <a href="Organization-example-facility-order-reciever.html">Organization/example-facility-order-reciever</a></p><p><b>locationReference</b>: <a href="Location-example-location-order-reciever.html">Location/example-location-order-reciever</a></p></div>
+  </text>
+  <status value="active"/>
+  <intent value="order"/>
+  <code>
+    <coding>
+      <system value="http://moh.bw.org/ext/laboratory/pims-lab-profile-code"/>
+      <code value="pims-profile-code"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-pims-patient"/>
+  </subject>
+  <performer>
+    <reference value="Organization/example-facility-order-reciever"/>
+  </performer>
+  <locationReference>
+    <reference value="Location/example-location-order-reciever"/>
+  </locationReference>
+</ServiceRequest>

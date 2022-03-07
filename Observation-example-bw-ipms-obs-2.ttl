@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-bw-ipms-obs-2"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation";
+       fhir:index 0;
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-lab-observation>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-bw-ipms-obs-2\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-bw-lab-observation.html\">Botswana Lab Observation</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: SARS-CoV-2 PCR REVIEW <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#S-Cov-2-RVW)</span></p><p><b>subject</b>: <a href=\"Patient-example-ipms-patient.html\">Patient/example-ipms-patient</a> \" IPMSPATIENT\"</p><p><b>effective</b>: 2021-06-10 03:49:00+0000</p><p><b>performer</b>: <a href=\"Organization-example-facility-order-reciever.html\">Organization/example-facility-order-reciever</a></p><p><b>value</b>: .</p><p><b>interpretation</b>: Normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-ObservationInterpretation.html\">ObservationInterpretation</a>#N)</span></p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "laboratory" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "L" ];
+       fhir:Coding.code [ fhir:value "S-Cov-2-RVW" ];
+       fhir:Coding.display [ fhir:value "SARS-CoV-2 PCR REVIEW" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://simplifier.net/ISiK/Patient/example-ipms-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/example-ipms-patient" ];
+     fhir:Reference.type [ fhir:value "Patient" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-06-10T15:49:00.000Z"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://simplifier.net/ISiK/Organization/example-facility-order-reciever>;
+     fhir:Reference.reference [ fhir:value "Organization/example-facility-order-reciever" ]
+  ];
+  fhir:Observation.valueString [ fhir:value "."];
+  fhir:Observation.interpretation [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ];
+       fhir:Coding.code [ fhir:value "N" ];
+       fhir:Coding.display [ fhir:value "Normal" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/Observation/example-bw-ipms-obs-2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

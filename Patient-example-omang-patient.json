@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "example-omang-patient",
+  "meta": {
+    "profile": [
+      "http://simplifier.net/ISiK/StructureDefinition/omang-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>&lt;SURNME&gt; &lt;FIRST_NME&gt; (OFFICIAL)</b> (no stated gender) 2000-01-01 ( id: &lt;ID_NO&gt; (OFFICIAL))</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://moh.bw.org/ext/identifier/omang",
+      "value": "<ID_NO>"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "<FIRST_NME>",
+      "given": [
+        "<SURNME>"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2000-01-01",
+  "deceasedDateTime": "2010-01-01",
+  "address": [
+    {
+      "district": "<DISTRICT_NME>",
+      "postalCode": "<DISTRICT_CDE>"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "M"
+      }
+    ]
+  }
+}

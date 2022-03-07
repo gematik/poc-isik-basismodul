@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/Patient/example-pims-patient-international> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-pims-patient-international"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://simplifier.net/ISiK/StructureDefinition/bw-patient";
+       fhir:index 0;
+       fhir:link <http://simplifier.net/ISiK/StructureDefinition/bw-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>BwTest Patient </b> (no stated gender) 1988-03-02 ( PPN: &lt;PassportNumber&gt;)</p></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "PPN" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "<PassportNumber>" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Patient" ];
+     fhir:HumanName.given [
+       fhir:value "BwTest";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "1988-03-02"^^xsd:date] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/Patient/example-pims-patient-international.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

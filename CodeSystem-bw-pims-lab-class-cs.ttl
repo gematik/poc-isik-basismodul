@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "bw-pims-lab-class-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CHM<a name=\"bw-pims-lab-class-cs-CHM\"> </a></td><td>Routine-Chemistry</td><td/></tr><tr><td style=\"white-space:nowrap\">MCB<a name=\"bw-pims-lab-class-cs-MCB\"> </a></td><td>Microbiology</td><td>All Order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">HEM<a name=\"bw-pims-lab-class-cs-HEM\"> </a></td><td>Haematology</td><td>Partial results are available</td></tr><tr><td style=\"white-space:nowrap\">PTH<a name=\"bw-pims-lab-class-cs-PTH\"> </a></td><td>Pathology</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">IMG<a name=\"bw-pims-lab-class-cs-IMG\"> </a></td><td>Imaging</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">END<a name=\"bw-pims-lab-class-cs-END\"> </a></td><td>Endocrinology</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">IMU<a name=\"bw-pims-lab-class-cs-IMU\"> </a></td><td>Immunology</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">BBK<a name=\"bw-pims-lab-class-cs-BBK\"> </a></td><td>Blood-Bank</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">VL<a name=\"bw-pims-lab-class-cs-VL\"> </a></td><td>Immunology-Viral-Load</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">RS<a name=\"bw-pims-lab-class-cs-RS\"> </a></td><td>Research-blood-draw</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"bw-pims-lab-class-cs-TB\"> </a></td><td>TB-diagnostic</td><td>Some order specimens were drawn</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "BwPimsLabClassCS"];
+  fhir:CodeSystem.title [ fhir:value "PIMS Lab Class Code System"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2022-03-07T07:35:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "gematik"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "PIMS Lab Class Code System"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "11"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CHM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Routine-Chemistry" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "MCB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Microbiology" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "All Order specimens were drawn" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "HEM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Haematology" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Partial results are available" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "PTH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pathology" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Order was cancelled" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "IMG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Imaging" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "END" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Endocrinology" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "IMU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Immunology" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "BBK" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Blood-Bank" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Order was cancelled" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "VL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Immunology-Viral-Load" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "RS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Research-blood-draw" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "TB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "TB-diagnostic" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Some order specimens were drawn" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

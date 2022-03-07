@@ -1,0 +1,177 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "bw-pims-lab-test-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CD4<a name=\"bw-pims-lab-test-cs-CD4\"> </a></td><td>CD4 Count</td><td>tblkLabTest#1 - CD4 count</td></tr><tr><td style=\"white-space:nowrap\">CD4%<a name=\"bw-pims-lab-test-cs-CD4.37\"> </a></td><td>CD4 Percentage</td><td>tblkLabTest#2 - CD4 Percent</td></tr><tr><td style=\"white-space:nowrap\">VL<a name=\"bw-pims-lab-test-cs-VL\"> </a></td><td>Viral Load</td><td>tblkLabTest#3 - Viral Load (HIV?)</td></tr><tr><td style=\"white-space:nowrap\">PCV<a name=\"bw-pims-lab-test-cs-PCV\"> </a></td><td>Packed Cell Volume (PCV)</td><td>tblkLabTest#4 - Packed Cell Volume</td></tr><tr><td style=\"white-space:nowrap\">WBC<a name=\"bw-pims-lab-test-cs-WBC\"> </a></td><td>White Blood Cells(WBC)</td><td>tblkLabTest#5 - White Blood Cells</td></tr><tr><td style=\"white-space:nowrap\">NP%<a name=\"bw-pims-lab-test-cs-NP.37\"> </a></td><td>Neutrophils %</td><td>tblkLabTest#7 - Neutrophils %</td></tr><tr><td style=\"white-space:nowrap\">AST<a name=\"bw-pims-lab-test-cs-AST\"> </a></td><td>Aspartate Aminotrasferase</td><td>tblkLabTest#9 - Aspartate aminotrasferase</td></tr><tr><td style=\"white-space:nowrap\">GGT<a name=\"bw-pims-lab-test-cs-GGT\"> </a></td><td>Gamma Glutamyl Transferase</td><td>tblkLabTest#10 - Gamma glutamyl transferase</td></tr><tr><td style=\"white-space:nowrap\">ALPL<a name=\"bw-pims-lab-test-cs-ALPL\"> </a></td><td>Alkaline Phosphatase</td><td>tblkLabTest#11 - Alkaline Phosphatase</td></tr><tr><td style=\"white-space:nowrap\">LIP<a name=\"bw-pims-lab-test-cs-LIP\"> </a></td><td>Lipase</td><td>tblkLabTest#12 - Lipase</td></tr><tr><td style=\"white-space:nowrap\">TGS<a name=\"bw-pims-lab-test-cs-TGS\"> </a></td><td>TGS</td><td>tblkLabTest#13 - TGS</td></tr><tr><td style=\"white-space:nowrap\">Urea<a name=\"bw-pims-lab-test-cs-Urea\"> </a></td><td>Urea</td><td>tblkLabTest#14 - Urea</td></tr><tr><td style=\"white-space:nowrap\">Na<a name=\"bw-pims-lab-test-cs-Na\"> </a></td><td>Sodium</td><td>tblkLabTest#15 - Sodium</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"bw-pims-lab-test-cs-K\"> </a></td><td>Potassium</td><td>tblkLabTest#16 - Potassium</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"bw-pims-lab-test-cs-PCR\"> </a></td><td>DNA PCR</td><td>tblkLabTest#17 - DNA PCR</td></tr><tr><td style=\"white-space:nowrap\">Ag<a name=\"bw-pims-lab-test-cs-Ag\"> </a></td><td>Ag</td><td>tblkLabTest#18 - DNA PCR</td></tr><tr><td style=\"white-space:nowrap\">CST<a name=\"bw-pims-lab-test-cs-CST\"> </a></td><td>Culture Sensitive Test</td><td>tblkLabTest#19 - Culture Sensitive Test</td></tr><tr><td style=\"white-space:nowrap\">MCV<a name=\"bw-pims-lab-test-cs-MCV\"> </a></td><td>Mean Cell Volume</td><td>tblkLabTest#20 - Mean cell volume</td></tr><tr><td style=\"white-space:nowrap\">Rapid<a name=\"bw-pims-lab-test-cs-Rapid\"> </a></td><td>Rapid</td><td>tblkLabTest#21 - Rapid</td></tr><tr><td style=\"white-space:nowrap\">ELISA<a name=\"bw-pims-lab-test-cs-ELISA\"> </a></td><td>ELISA</td><td>tblkLabTest#22 - ELISA</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"bw-pims-lab-test-cs-UP\"> </a></td><td>Urine Pregnancy</td><td>tblkLabTest#23 - Urine pregnancy test</td></tr><tr><td style=\"white-space:nowrap\">CXRAY<a name=\"bw-pims-lab-test-cs-CXRAY\"> </a></td><td>Chest X-Ray</td><td>tblkLabTest#25 - Chest x-ray</td></tr><tr><td style=\"white-space:nowrap\">PT<a name=\"bw-pims-lab-test-cs-PT\"> </a></td><td>Pleural Tap</td><td>tblkLabTest#26 - Pleural tap</td></tr><tr><td style=\"white-space:nowrap\">CSF<a name=\"bw-pims-lab-test-cs-CSF\"> </a></td><td>CSF</td><td>tblkLabTest#27 - CSF</td></tr><tr><td style=\"white-space:nowrap\">LNB<a name=\"bw-pims-lab-test-cs-LNB\"> </a></td><td>Lymph Node Biopsy</td><td>tblkLabTest#28 - Lymph node biopsy</td></tr><tr><td style=\"white-space:nowrap\">SM<a name=\"bw-pims-lab-test-cs-SM\"> </a></td><td>Sputum Microscopy</td><td>tblkLabTest#130 - Sputum microscopy</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "BwPimsLabTestCS"];
+  fhir:CodeSystem.title [ fhir:value "PIMS Lab Test Code System"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2022-03-07T07:35:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "gematik"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "gematik" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "www.gematik.de" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "isik@gematik.de" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "PIMS Lab Test Code System"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "26"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CD4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "CD4 Count" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#1 - CD4 count" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "CD4%" ];
+     fhir:CodeSystem.concept.display [ fhir:value "CD4 Percentage" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#2 - CD4 Percent" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "VL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Viral Load" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#3 - Viral Load (HIV?)" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "PCV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Packed Cell Volume (PCV)" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#4 - Packed Cell Volume" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "WBC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "White Blood Cells(WBC)" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#5 - White Blood Cells" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "NP%" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Neutrophils %" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#7 - Neutrophils %" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "AST" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Aspartate Aminotrasferase" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#9 - Aspartate aminotrasferase" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "GGT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gamma Glutamyl Transferase" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#10 - Gamma glutamyl transferase" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "ALPL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Alkaline Phosphatase" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#11 - Alkaline Phosphatase" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "LIP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Lipase" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#12 - Lipase" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "TGS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "TGS" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#13 - TGS" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "Urea" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urea" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#14 - Urea" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "Na" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sodium" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#15 - Sodium" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "K" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Potassium" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#16 - Potassium" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "PCR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "DNA PCR" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#17 - DNA PCR" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "Ag" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ag" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#18 - DNA PCR" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "CST" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Culture Sensitive Test" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#19 - Culture Sensitive Test" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "MCV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mean Cell Volume" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#20 - Mean cell volume" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "Rapid" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rapid" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#21 - Rapid" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "ELISA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ELISA" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#22 - ELISA" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "UP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urine Pregnancy" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#23 - Urine pregnancy test" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "CXRAY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chest X-Ray" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#25 - Chest x-ray" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "PT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pleural Tap" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#26 - Pleural tap" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "CSF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "CSF" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#27 - CSF" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "LNB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Lymph Node Biopsy" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#28 - Lymph node biopsy" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "SM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sputum Microscopy" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "tblkLabTest#130 - Sputum microscopy" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

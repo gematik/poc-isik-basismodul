@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "example-birth-place",
+  "meta": {
+    "profile": [
+      "http://simplifier.net/ISiK/StructureDefinition/birth-place-observation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-birth-place\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-birth-place-observation.html\">Birth Place</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Birthplace <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#21842-0)</span></p><p><b>subject</b>: <a href=\"Patient-example-omang-patient.html\">Patient/example-omang-patient</a> \" &lt;FIRST_NME&gt;\"</p><h3>Components</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Birthplace <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#21842-0)</span></td><td>&lt;BIRTH_PLACE_NME&gt;</td></tr></table></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "21842-0"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-omang-patient"
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "21842-0"
+          }
+        ]
+      },
+      "valueString": "<BIRTH_PLACE_NME>"
+    }
+  ]
+}

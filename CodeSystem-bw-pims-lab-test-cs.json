@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "bw-pims-lab-test-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CD4<a name=\"bw-pims-lab-test-cs-CD4\"> </a></td><td>CD4 Count</td><td>tblkLabTest#1 - CD4 count</td></tr><tr><td style=\"white-space:nowrap\">CD4%<a name=\"bw-pims-lab-test-cs-CD4.37\"> </a></td><td>CD4 Percentage</td><td>tblkLabTest#2 - CD4 Percent</td></tr><tr><td style=\"white-space:nowrap\">VL<a name=\"bw-pims-lab-test-cs-VL\"> </a></td><td>Viral Load</td><td>tblkLabTest#3 - Viral Load (HIV?)</td></tr><tr><td style=\"white-space:nowrap\">PCV<a name=\"bw-pims-lab-test-cs-PCV\"> </a></td><td>Packed Cell Volume (PCV)</td><td>tblkLabTest#4 - Packed Cell Volume</td></tr><tr><td style=\"white-space:nowrap\">WBC<a name=\"bw-pims-lab-test-cs-WBC\"> </a></td><td>White Blood Cells(WBC)</td><td>tblkLabTest#5 - White Blood Cells</td></tr><tr><td style=\"white-space:nowrap\">NP%<a name=\"bw-pims-lab-test-cs-NP.37\"> </a></td><td>Neutrophils %</td><td>tblkLabTest#7 - Neutrophils %</td></tr><tr><td style=\"white-space:nowrap\">AST<a name=\"bw-pims-lab-test-cs-AST\"> </a></td><td>Aspartate Aminotrasferase</td><td>tblkLabTest#9 - Aspartate aminotrasferase</td></tr><tr><td style=\"white-space:nowrap\">GGT<a name=\"bw-pims-lab-test-cs-GGT\"> </a></td><td>Gamma Glutamyl Transferase</td><td>tblkLabTest#10 - Gamma glutamyl transferase</td></tr><tr><td style=\"white-space:nowrap\">ALPL<a name=\"bw-pims-lab-test-cs-ALPL\"> </a></td><td>Alkaline Phosphatase</td><td>tblkLabTest#11 - Alkaline Phosphatase</td></tr><tr><td style=\"white-space:nowrap\">LIP<a name=\"bw-pims-lab-test-cs-LIP\"> </a></td><td>Lipase</td><td>tblkLabTest#12 - Lipase</td></tr><tr><td style=\"white-space:nowrap\">TGS<a name=\"bw-pims-lab-test-cs-TGS\"> </a></td><td>TGS</td><td>tblkLabTest#13 - TGS</td></tr><tr><td style=\"white-space:nowrap\">Urea<a name=\"bw-pims-lab-test-cs-Urea\"> </a></td><td>Urea</td><td>tblkLabTest#14 - Urea</td></tr><tr><td style=\"white-space:nowrap\">Na<a name=\"bw-pims-lab-test-cs-Na\"> </a></td><td>Sodium</td><td>tblkLabTest#15 - Sodium</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"bw-pims-lab-test-cs-K\"> </a></td><td>Potassium</td><td>tblkLabTest#16 - Potassium</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"bw-pims-lab-test-cs-PCR\"> </a></td><td>DNA PCR</td><td>tblkLabTest#17 - DNA PCR</td></tr><tr><td style=\"white-space:nowrap\">Ag<a name=\"bw-pims-lab-test-cs-Ag\"> </a></td><td>Ag</td><td>tblkLabTest#18 - DNA PCR</td></tr><tr><td style=\"white-space:nowrap\">CST<a name=\"bw-pims-lab-test-cs-CST\"> </a></td><td>Culture Sensitive Test</td><td>tblkLabTest#19 - Culture Sensitive Test</td></tr><tr><td style=\"white-space:nowrap\">MCV<a name=\"bw-pims-lab-test-cs-MCV\"> </a></td><td>Mean Cell Volume</td><td>tblkLabTest#20 - Mean cell volume</td></tr><tr><td style=\"white-space:nowrap\">Rapid<a name=\"bw-pims-lab-test-cs-Rapid\"> </a></td><td>Rapid</td><td>tblkLabTest#21 - Rapid</td></tr><tr><td style=\"white-space:nowrap\">ELISA<a name=\"bw-pims-lab-test-cs-ELISA\"> </a></td><td>ELISA</td><td>tblkLabTest#22 - ELISA</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"bw-pims-lab-test-cs-UP\"> </a></td><td>Urine Pregnancy</td><td>tblkLabTest#23 - Urine pregnancy test</td></tr><tr><td style=\"white-space:nowrap\">CXRAY<a name=\"bw-pims-lab-test-cs-CXRAY\"> </a></td><td>Chest X-Ray</td><td>tblkLabTest#25 - Chest x-ray</td></tr><tr><td style=\"white-space:nowrap\">PT<a name=\"bw-pims-lab-test-cs-PT\"> </a></td><td>Pleural Tap</td><td>tblkLabTest#26 - Pleural tap</td></tr><tr><td style=\"white-space:nowrap\">CSF<a name=\"bw-pims-lab-test-cs-CSF\"> </a></td><td>CSF</td><td>tblkLabTest#27 - CSF</td></tr><tr><td style=\"white-space:nowrap\">LNB<a name=\"bw-pims-lab-test-cs-LNB\"> </a></td><td>Lymph Node Biopsy</td><td>tblkLabTest#28 - Lymph node biopsy</td></tr><tr><td style=\"white-space:nowrap\">SM<a name=\"bw-pims-lab-test-cs-SM\"> </a></td><td>Sputum Microscopy</td><td>tblkLabTest#130 - Sputum microscopy</td></tr></table></div>"
+  },
+  "url": "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-test-cs",
+  "version": "0.2.0",
+  "name": "BwPimsLabTestCS",
+  "title": "PIMS Lab Test Code System",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-03-07T07:35:42+00:00",
+  "publisher": "gematik",
+  "contact": [
+    {
+      "name": "gematik",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.gematik.de"
+        },
+        {
+          "system": "email",
+          "value": "isik@gematik.de"
+        }
+      ]
+    }
+  ],
+  "description": "PIMS Lab Test Code System",
+  "content": "complete",
+  "count": 26,
+  "concept": [
+    {
+      "code": "CD4",
+      "display": "CD4 Count",
+      "definition": "tblkLabTest#1 - CD4 count"
+    },
+    {
+      "code": "CD4%",
+      "display": "CD4 Percentage",
+      "definition": "tblkLabTest#2 - CD4 Percent"
+    },
+    {
+      "code": "VL",
+      "display": "Viral Load",
+      "definition": "tblkLabTest#3 - Viral Load (HIV?)"
+    },
+    {
+      "code": "PCV",
+      "display": "Packed Cell Volume (PCV)",
+      "definition": "tblkLabTest#4 - Packed Cell Volume"
+    },
+    {
+      "code": "WBC",
+      "display": "White Blood Cells(WBC)",
+      "definition": "tblkLabTest#5 - White Blood Cells"
+    },
+    {
+      "code": "NP%",
+      "display": "Neutrophils %",
+      "definition": "tblkLabTest#7 - Neutrophils %"
+    },
+    {
+      "code": "AST",
+      "display": "Aspartate Aminotrasferase",
+      "definition": "tblkLabTest#9 - Aspartate aminotrasferase"
+    },
+    {
+      "code": "GGT",
+      "display": "Gamma Glutamyl Transferase",
+      "definition": "tblkLabTest#10 - Gamma glutamyl transferase"
+    },
+    {
+      "code": "ALPL",
+      "display": "Alkaline Phosphatase",
+      "definition": "tblkLabTest#11 - Alkaline Phosphatase"
+    },
+    {
+      "code": "LIP",
+      "display": "Lipase",
+      "definition": "tblkLabTest#12 - Lipase"
+    },
+    {
+      "code": "TGS",
+      "display": "TGS",
+      "definition": "tblkLabTest#13 - TGS"
+    },
+    {
+      "code": "Urea",
+      "display": "Urea",
+      "definition": "tblkLabTest#14 - Urea"
+    },
+    {
+      "code": "Na",
+      "display": "Sodium",
+      "definition": "tblkLabTest#15 - Sodium"
+    },
+    {
+      "code": "K",
+      "display": "Potassium",
+      "definition": "tblkLabTest#16 - Potassium"
+    },
+    {
+      "code": "PCR",
+      "display": "DNA PCR",
+      "definition": "tblkLabTest#17 - DNA PCR"
+    },
+    {
+      "code": "Ag",
+      "display": "Ag",
+      "definition": "tblkLabTest#18 - DNA PCR"
+    },
+    {
+      "code": "CST",
+      "display": "Culture Sensitive Test",
+      "definition": "tblkLabTest#19 - Culture Sensitive Test"
+    },
+    {
+      "code": "MCV",
+      "display": "Mean Cell Volume",
+      "definition": "tblkLabTest#20 - Mean cell volume"
+    },
+    {
+      "code": "Rapid",
+      "display": "Rapid",
+      "definition": "tblkLabTest#21 - Rapid"
+    },
+    {
+      "code": "ELISA",
+      "display": "ELISA",
+      "definition": "tblkLabTest#22 - ELISA"
+    },
+    {
+      "code": "UP",
+      "display": "Urine Pregnancy",
+      "definition": "tblkLabTest#23 - Urine pregnancy test"
+    },
+    {
+      "code": "CXRAY",
+      "display": "Chest X-Ray",
+      "definition": "tblkLabTest#25 - Chest x-ray"
+    },
+    {
+      "code": "PT",
+      "display": "Pleural Tap",
+      "definition": "tblkLabTest#26 - Pleural tap"
+    },
+    {
+      "code": "CSF",
+      "display": "CSF",
+      "definition": "tblkLabTest#27 - CSF"
+    },
+    {
+      "code": "LNB",
+      "display": "Lymph Node Biopsy",
+      "definition": "tblkLabTest#28 - Lymph node biopsy"
+    },
+    {
+      "code": "SM",
+      "display": "Sputum Microscopy",
+      "definition": "tblkLabTest#130 - Sputum microscopy"
+    }
+  ]
+}

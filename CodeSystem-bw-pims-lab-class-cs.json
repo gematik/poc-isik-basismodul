@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "bw-pims-lab-class-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CHM<a name=\"bw-pims-lab-class-cs-CHM\"> </a></td><td>Routine-Chemistry</td><td/></tr><tr><td style=\"white-space:nowrap\">MCB<a name=\"bw-pims-lab-class-cs-MCB\"> </a></td><td>Microbiology</td><td>All Order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">HEM<a name=\"bw-pims-lab-class-cs-HEM\"> </a></td><td>Haematology</td><td>Partial results are available</td></tr><tr><td style=\"white-space:nowrap\">PTH<a name=\"bw-pims-lab-class-cs-PTH\"> </a></td><td>Pathology</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">IMG<a name=\"bw-pims-lab-class-cs-IMG\"> </a></td><td>Imaging</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">END<a name=\"bw-pims-lab-class-cs-END\"> </a></td><td>Endocrinology</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">IMU<a name=\"bw-pims-lab-class-cs-IMU\"> </a></td><td>Immunology</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">BBK<a name=\"bw-pims-lab-class-cs-BBK\"> </a></td><td>Blood-Bank</td><td>Order was cancelled</td></tr><tr><td style=\"white-space:nowrap\">VL<a name=\"bw-pims-lab-class-cs-VL\"> </a></td><td>Immunology-Viral-Load</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">RS<a name=\"bw-pims-lab-class-cs-RS\"> </a></td><td>Research-blood-draw</td><td>Some order specimens were drawn</td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"bw-pims-lab-class-cs-TB\"> </a></td><td>TB-diagnostic</td><td>Some order specimens were drawn</td></tr></table></div>"
+  },
+  "url": "http://simplifier.net/ISiK/CodeSystem/bw-pims-lab-class-cs",
+  "version": "0.2.0",
+  "name": "BwPimsLabClassCS",
+  "title": "PIMS Lab Class Code System",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-03-07T07:35:42+00:00",
+  "publisher": "gematik",
+  "contact": [
+    {
+      "name": "gematik",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "www.gematik.de"
+        },
+        {
+          "system": "email",
+          "value": "isik@gematik.de"
+        }
+      ]
+    }
+  ],
+  "description": "PIMS Lab Class Code System",
+  "content": "complete",
+  "count": 11,
+  "concept": [
+    {
+      "code": "CHM",
+      "display": "Routine-Chemistry"
+    },
+    {
+      "code": "MCB",
+      "display": "Microbiology",
+      "definition": "All Order specimens were drawn"
+    },
+    {
+      "code": "HEM",
+      "display": "Haematology",
+      "definition": "Partial results are available"
+    },
+    {
+      "code": "PTH",
+      "display": "Pathology",
+      "definition": "Order was cancelled"
+    },
+    {
+      "code": "IMG",
+      "display": "Imaging",
+      "definition": "Some order specimens were drawn"
+    },
+    {
+      "code": "END",
+      "display": "Endocrinology",
+      "definition": "Some order specimens were drawn"
+    },
+    {
+      "code": "IMU",
+      "display": "Immunology",
+      "definition": "Some order specimens were drawn"
+    },
+    {
+      "code": "BBK",
+      "display": "Blood-Bank",
+      "definition": "Order was cancelled"
+    },
+    {
+      "code": "VL",
+      "display": "Immunology-Viral-Load",
+      "definition": "Some order specimens were drawn"
+    },
+    {
+      "code": "RS",
+      "display": "Research-blood-draw",
+      "definition": "Some order specimens were drawn"
+    },
+    {
+      "code": "TB",
+      "display": "TB-diagnostic",
+      "definition": "Some order specimens were drawn"
+    }
+  ]
+}
