@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BwLabDataDictionary"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-07T07:35:42+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-03-07T07:44:31+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "gematik"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

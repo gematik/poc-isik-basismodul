@@ -3,7 +3,7 @@
 
 err = 101, warn = 121, info = 35
 IG Publisher Version: 1.1.111
-Generated Mon Mar 07 07:36:44 UTC 2022. FHIR version 4.0.1 for ISiK.Basismodul#0.2.0 (canonical = http://simplifier.net/ISiK)
+Generated Mon Mar 07 07:45:33 UTC 2022. FHIR version 4.0.1 for ISiK.Basismodul#0.2.0 (canonical = http://simplifier.net/ISiK)
  Build Errors : 352 / 2 / 0
  /github/workspace/fsh-generated/resources/Bundle-example-bw-lab-bundle : 57 / 4 / 27
  /github/workspace/fsh-generated/resources/Bundle-example-bw-lab-results-bundle : 20 / 3 / 20
