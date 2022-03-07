@@ -36,5 +36,5 @@ dependencies:
     #uri: https://simplifier.net/guide/basisprofil-de-r4
   #hl7.fhir.r4.core:
     #id: hl7.fhir.r4.core
-    #version: 4.0.1
+    #version: 4.0.1 
   hl7.fhir.uv.ips: 1.0.0
