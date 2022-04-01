@@ -41,6 +41,20 @@ jobs:
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cache fhir cache
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-fhir-packages
+        with:
+          path: ~/.fhir
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
+            #          restore-keys: |
+            #            ${{ runner.os }}-build-${{ env.cache-name }}-
+            #            ${{ runner.os }}-build-
+            #            ${{ runner.os }}-
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
@@ -56,8 +70,8 @@ jobs:
         with:
           args: ./_genonce.sh -no-sushi
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.SECTOKEN }}
-          publish_dir: ./output
+#      - name: Deploy
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.SECTOKEN }}
+#          publish_dir: ./output
