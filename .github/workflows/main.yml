@@ -56,15 +56,18 @@ jobs:
             #            ${{ runner.os }}-build-${{ env.cache-name }}-
             #            ${{ runner.os }}-build-
             #            ${{ runner.os }}-
-      - name: Update the image to the latest publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: ./_updatePublisher.sh --force
 
       - name: Run sushi to generate the ig.ini file
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: sushi
+
+      - name: Update the image to the latest publisher
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: ./_updatePublisher.sh --force
+
+
 
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
