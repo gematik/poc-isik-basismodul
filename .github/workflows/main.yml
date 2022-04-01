@@ -16,6 +16,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Cache fhir cache
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-fhir-packages
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.fhir
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
+#          restore-keys: |
+#            ${{ runner.os }}-build-${{ env.cache-name }}-
+#            ${{ runner.os }}-build-
+#            ${{ runner.os }}-
+
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
