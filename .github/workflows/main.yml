@@ -42,7 +42,8 @@ jobs:
           SUSHI_ENABLED: true
 
   test:
-    runs-on: ubuntu-latest
+    container: docker://hl7fhir/ig-publisher-base:latest
+#    runs-on: ubuntu-latest
     needs: gh-pages
     steps:
       - name: Cache fhir cache
@@ -58,7 +59,7 @@ jobs:
           #            ${{ runner.os }}-
 
       - name: Run sushi to generate the ig.ini file
-        uses: docker://hl7fhir/ig-publisher-base:latest
+#        uses: docker://hl7fhir/ig-publisher-base:latest
         run: |
           sushi
           chmod +x ./_updatePublisher.sh
