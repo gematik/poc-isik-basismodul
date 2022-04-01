@@ -17,12 +17,12 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Cache fhir cache
-          uses: actions/cache@v3
-          env:
-            cache-name: cache-fhir-packages
-          with:
-            path: ~/.fhir
-            key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-fhir-packages
+        with:
+          path: ~/.fhir
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
           #          restore-keys: |
           #            ${{ runner.os }}-build-${{ env.cache-name }}-
           #            ${{ runner.os }}-build-
