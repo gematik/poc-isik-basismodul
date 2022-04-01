@@ -55,24 +55,29 @@ jobs:
             #          restore-keys: |
             #            ${{ runner.os }}-build-${{ env.cache-name }}-
             #            ${{ runner.os }}-build-
-            #            ${{ runner.os }}-
+          #            ${{ runner.os }}-
 
       - name: Run sushi to generate the ig.ini file
         uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: sushi
-
-      - name: Update the image to the latest publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: ./_updatePublisher.sh --force
-
+        run: |
+          sushi
+          chmod +x ./_updatePublisher.sh
+          chmod +x ./_genonce.sh
+          ./_updatePublisher.sh --force
+          ./_genonce.sh -no-sushi
 
 
-      - name: Run the IG publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: ./_genonce.sh -no-sushi
+#      - name: Update the image to the latest publisher
+#        uses: docker://hl7fhir/ig-publisher-base:latest
+#        with:
+#          args: ./_updatePublisher.sh --force
+#
+#
+#
+#      - name: Run the IG publisher
+#        uses: docker://hl7fhir/ig-publisher-base:latest
+#        with:
+#          args: ./_genonce.sh -no-sushi
 
 #      - name: Deploy
 #        uses: peaceiris/actions-gh-pages@v3
