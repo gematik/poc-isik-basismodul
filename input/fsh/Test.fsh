@@ -1,5 +1,4 @@
-Instance: Test
-InstanceOf: ISiKPatient
-Usage: #example
-Title: "Test"
+Profile: Test
+Parent: ISiKPatient
+Id: test
 * telecom MS
